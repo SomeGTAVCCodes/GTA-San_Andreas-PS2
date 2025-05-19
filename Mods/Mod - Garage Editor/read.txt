@@ -1,0 +1,9 @@
+
+
+Unfortunately there is no known code to change the colour of vehicles
+
+i dicovered them for vice city on my own, but SA does not use static addresses and the code is completely different
+
+i have been unable to find the coloour addresses
+
+but i did find VH 1, 2 DMG proof by converting broken codes from an armax cd.
