@@ -1,0 +1,309 @@
+Current Buttons Codes Found: 91
+Total Codes in the Game: 91
+
+Party ppl :) were done
+
+Special thanks To Edisoncarter for his excellent work on Brute forcing the Button Cheats ..
+keep up the Great work
+
+Special Thanks to CMX For building a program to find all button cheats.. and to Skiller for bring up the idea of making a code.. and CMX telling him that its better do do it this way :P
+Great work to all of u .. For the ppl that want the Program
+
+Tool
+http://www.cmgsccc.com/forums/showthread.php?p=25296#post25296
+
+-=Weapons & Wanted Levels=-
+
+Weapon set 1
+R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Right, Up
+
+Weapon set 2
+R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Down, Left
+
+Weapon set 3
+R1, R2, L1, R2, Left, Down, Right, Up, Left, Down, Down, Down
+
+Raise Wanted Level
+R1, R1, Circle, R2, Right, Left, Right, Left, Right, Left
+
+Lower Wanted Level
+R1, R1, Circle, R2, Up, Down, Up, Down, Up, Down
+
+Never wanted
+CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, TRIANGLE, UP
+
+Max Wanted Lvl
+CIRCLE, RIGHT, CIRCLE, RIGHT, LEFT, SQUARE, X, DOWN
+
+
+-=Weather & Time=-
+
+Weather Night
+R2, X, L1, L1, L2, L2, L2, Triangle
+
+Weather Overcast
+R2, X, L1, L1, L2, L2, L2, Square
+
+Weather Rain
+R2, X, L1, L1, L2, L2, L2, Circle
+
+Weather Fog
+R2, X, L1, L1, L2, L2, L2, X
+
+Day Lighting
+R2, X, L1, L1, L2, L2, L2, Down
+
+Quick Time
+Circle, Circle, L1, Square, L1, Square, Square, Square, L1, Triangle, Circle, Triangle
+
+Fast Game Play
+Triangle, Up, Right, Down, L2, L1, Square
+
+Slower Game play
+Triangle, Up, Right, Down, Square, R2, R1
+
+Time 2100/Auto Sunset
+Left, Left, L2, R1, Right, Square, Square, L1, L2, X
+
+Sandstorm
+Up, Down, L1, L1, L2, L2, L1, L2, R1, R2
+
+Time 0000 (Strange sky)
+SQUARE, L1, R1, RIGHT, X, UP, L1, LEFT, LEFT
+
+Weather Cloudy
+L2, DOWN, DOWN, LEFT, SQUARE, LEFT, R2, SQUARE, X, R1, L1, L1
+
+-=Spawn=-
+
+Spawn Tank
+Circle, Circle, L1, Circle, Circle, Circle, L1, L2, R1, Triangle, Circle, Triangle
+
+Spawn Bloodring Banger
+Down, R1, Circle, L2, L2, X, R1, L1, Left, Left
+
+Spawn Rancher
+Up, Right, Right, L1, Right, Up, Square, L2
+
+Spawn Hotring Racer
+R1 Circle R2 Right L1 L2 X X Square R1
+
+Spawn Hotring Racer 2
+R2, L1, Circle, Right, L1, R1, Right, Up, Circle, R2
+
+Spawn Romero (Hearse)
+Down, R2, Down, R1, L2, Left, R1, L1, Left, Right
+
+Spawn Stretch
+R2, Up, L2, Left, Left, R1, L1, Circle, Right
+
+Spawn Trash Master
+Circle, R1, Circle, R1, Left, Left, R1, L1, Circle, Right
+
+Spawn Hydra
+Triangle, Triangle, Square, Circle, X, L1, L1, Down, Up
+
+Spawn Vortex
+Triangle, Triangle, Square, Circle, X, L1, L2, Down, Down
+
+Spawn Quad
+Left, Left, Down, Down, Up, Up, Square, Circle, Triangle, R1, R2
+
+Spawn Dozer
+R2, L1, L1, RIGHT, RIGHT, UP, UP, X, L1, LEFT
+
+Spawn Stunt Plane
+Circle, up, L1, L2, down, R1, L1, L1, left, left, X triangle
+
+Spawn Monster Truck
+right, up, R1, R1, R1, down, triangle, triangle, X circle, L1, L1
+
+Spawn A Caddy
+Circle, L1, Up, R1, L2, X, R1, L1, Circle, X
+
+Spawn Hunter
+CIRCLE, X, L1, CIRCLE, CIRCLE, L1, CIRCLE, R1, R2, L2, L1, L1
+
+Spawn Tanker
+R1, UP, LEFT, RIGHT, R2, UP, RIGHT, SQUARE, RIGHT, L2, L1, L1
+
+
+-=Vehicle codes=-
+
+Blowup All Cars
+R2, L2, R1, L1, L2, R2, Square, Triangle, Circle, Triangle, L2, L1
+
+Invisible cars (Wheels only)
+Triangle, L1, Triangle, R2, Square, L1, L1
+
+Handling (L3 to jump)
+Triangle, R1, R1, Left, R1, L1, R2, L1
+
+Aggressive Drivers
+R2, Circle, R1, L2, Left R1, L1, R2, L2
+
+Traffic Pink
+Circle, L1, Down, L2, Left, X, R1, L1, Right, Circle
+
+Traffic Black
+Circle, L2, Up, R1, Left, X, R1, L1, Left, Circle
+
+Drive on water
+Right, R2, Circle, R1, L2, Square, R1, R2
+
+Dodo Boats
+R2, Circle, Up, L1, Right, R1, Right, Up, Square, Triangle
+
+Flying Cars
+Square, Down, L2, Up, L1, Circle, Up, X, Left
+
+Super Bunny hop
+Triangle, Square, Circle, Circle, Square, Circle, Circle, L1, L2, L2, R1, R2
+
+Smash n" Boom
+L1, L2, L2, Up, Down, Down, Up, R1, R2, R2
+
+Shoot N' Drive
+Up, Up, Square, L2, Right, X, R1, Down, R2, Circle
+
+No Peds/Cars (Odd Car)
+X, Down, Up, R2, Down, Triangle, L1, Triangle, Left
+
+Hookers Pay You
+RIGHT, L2, L2, DOWN, L2, UP, UP, L2, R2
+
+Taxies Have Nitrous
+Up, X, Triangle, X, Triangle, X, Square, R2, Right
+
+Green Traffic Lights
+Right, R1, Up, L2, L2, Left, R1, L1, R1, R1
+
+All Traffic Is Sports Cars - Fast Cars
+Up, L1, R1, Up, Right, Up, X, L2, X, L1
+
+All Traffic is Shit Cars
+L2, RIGHT, L1, UP, X, L1, L2, R2, R1, L1, L1, L1
+
+Hillbilly Gear/Traffic is Country Vehicles
+LEFT, RIGHT, RIGHT, DOWN, LEFT, R1, R2, SQUARE, L1, L2, L1, L1
+
+Cars Float Up and Away When Hit
+SQUARE, R2, DOWN, DOWN, LEFT, DOWN, LEFT, LEFT, L2, X
+
+All Cars Have Nos
+LEFT, TRIANGLE, R1, L1, UP, SQUARE, TRIANGLE, DOWN, CIRCLE, L2, L1, L1
+
+-=Peds=-
+
+Peds With Weapons
+R2, R1, X, Triangle, X, Triangle, Up, Down
+
+Peds Attack
+Down, Up, Up, Up, X, R2, R1, L2, L2
+
+Pedestrian Riot
+Down, Left, Up, Left, X, R2, R1, L2, L1
+
+Gangs Rule the Streets
+L2, Up, R1, R1, Left, R1, R1, R2, Right, Down
+
+Groucho Gear/Fun House - Clowns and funny ppl on street
+TRIANGLE, TRIANGLE, L1, SQUARE, SQUARE, CIRCLE, SQUARE, DOWN, CIRCLE
+
+Elvis is alive (Peds Elvis)
+L1,O,Triangle,L1,L1,Square,L2,Up,Down,Left
+
+9mm Recruit (Anyone)
+DOWN, SQUARE, UP, R2, R2, UP, RIGHT, RIGHT, UP
+
+Rocket launchers Recruit (Anyone)
+R2, R2, R2, X, L2, L1, R2, L1, DOWN, X
+
+Gang Members Everywhere
+Left, Right, Right, Right, Left, X, Down, Up, Square, Right
+
+Traffic is Country Vehicles ( yes i know that there is one that does this .. but this one only gives u the traffic not the Hillbilly Gear as well)
+TRIANGLE, LEFT, SQUARE, R2, UP, L2, DOWN, L1, X, L1, L1, L1
+
+Peds Attack (Guns)
+X, L1, UP, SQUARE, DOWN, X, L2, TRIANGLE, DOWN, R1, L1, L1
+
+Chaos mode - True Riot mode
+L2, RIGHT, L1, TRIANGLE, RIGHT, RIGHT, R1, L1, RIGHT, L1, L1, L1
+
+-=In Game Items/Theams=-
+
+Have Parachute
+Left, Right, L1, L2, R1, R2, R2, Up, Down, Right, L1
+
+Have Jetpack
+Left, Right, L1, L2, R1, R2, Up, Down, Left, Right
+
+Have Katana
+X, X, DOWN, R2, L2, CIRCLE, R1, CIRCLE, SQUARE
+
+Have Bondage Gear  (Gimp Suit)
+SQUARE, RIGHT, SQUARE, SQUARE, L2, X, TRIANGLE, X, TRIANGLE
+
+Have Beachwear
+Up, Up, Down, Down, Square, Circle, L1, R1, Triangle, Down
+
+-=Affecting CJ=-
+
+Refill Health, Armor & Cash
+R1, R2, L1, X, Left, Down, Right, Up, Left, Down, Right, Up
+
+Commit Suicide
+Right, L2, Down, R1, Left, Left, R1, L1, L2, L1
+
+Make Cj Fat
+Triangle, Up, Up, Left, Right, Square, Circle, Down
+
+Max Muscle
+Triangle, Up, Up, Left, Right, Square, Circle, Left
+
+Super jump
+Up, Up, Triangle, Triangle, Up, Up, Left, Right, Square, R2, R2
+
+Infinite lung
+Down, Left, L1, Down, Down, R2, Down, L2, Down
+
+Min Fat + Muscle
+Triangle, Up, Up, Left, Right, Square, Circle, Right
+
+Cj Has Killer Punch (Punches send people flying.)
+Up, Left, X, Triangle, R1, Circle, Circle, Circle, L2
+
+Adrenaline Mode (Slow Mode 2)
+X, X, SQUARE, R1, L1, X, DOWN, LEFT, X
+
+Never Hungry
+SQUARE, L2, R1, TRIANGLE, UP, SQUARE, L2, UP, X
+
+Infinite Health/Against Peds/Cops only
+DOWN, X, RIGHT, LEFT, RIGHT, R1, RIGHT, DOWN, UP, TRIANGLE
+
+Max All Vehicle stats (Driving, Flying Bike, Cycling)
+SQUARE, L2, X, R1, L2, L2, LEFT, R1, RIGHT, L1, L1, L1
+
+Infinite Ammo
+L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1
+
+Hitman In all weapon
+DOWN, SQUARE, X, LEFT, R1, R2, LEFT, DOWN, DOWN, L1, L1, L1
+
+Max Respect
+L1, R1, TRIANGLE, DOWN, R2, X, L1, UP, L2, L2, L1, L1
+
+Max Sex appeal
+CIRCLE, TRIANGLE, TRIANGLE, UP, CIRCLE, R1, L2, UP, TRIANGLE, L1, L1, L1
+
+-=Do Nothing Cheats=-
+
+Does nothing
+SQUARE, SQUARE, R2, LEFT, UP, SQUARE, R2, X, X, X
+(Yep that's right Does nothing from the looks of the game code it should have been something that affected the weather or CJ but R* looks to have not put it in. also now what we have a Supposed Blank Cheat we can make this a cheat and have fun with it but only with using a Cheat Divice)
+
+Missing Cheat
+AKs launchers Recruit (Anyone)
+May have been the Do nothing Cheat but it is missing ..
