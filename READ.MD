@@ -18,6 +18,9 @@ SLES_52541
 
 1. Use PAL Version "1.03" & Patch PAL version with NTSC 60hz / FPS using "Adrenalin_Patcher.exe"
 	* Optional: Upgrade or Convert: but then the save game and cheats will not be compatible...
+	* Optional: Modify the Occlusion Files, set to All 0's if using emulator...
+** Then rebuild .iso using IMGBurn default settings.
+
 2. Setup PCSX2 Settings FOR GTA:SA
 	* Fix Game looks like crap in PCSX2 1.6 		- See Settings image 1.
 3. Cheats: 
@@ -27,6 +30,11 @@ SLES_52541
 4. Save Game
 	a) do not insert the memory card, boot game, watch 1st custscenes until you have control of the game.
 	b) Load the save state thus ensuring all cheats in the .pnach work, because addresses will now be the same.  
+	** no progress has been made, this simply ensures all addresses for the cheats are the same.
+5. Playing the game.
+	* Each time you play the game you will need to Load Save State! So after you play for a while, Save Game -> Save State -> Shutdown, reboot, -> Load Save State!
+** Did you get that ??? So to re-iterate:  To keep the addresses the same, use save states. Every time you shutdown the emulator and then reoboot and load from the memory card, the addresses will change. So to keep the addresses the same, and to keep a hard memory card of your progress, after you have saved your game normally, ALWAYS make a save state. Then when you start a new game, ALWAYS load the save state. Whilst your playing and have not shtudown the emulator obviously you can solely rely on the in-game save system but you should also be keeping regular save-states anyway, they are better, although they can corrupt from time to time when hammering many codes.
+
 
 ---- [Contents] ----
 
@@ -45,6 +53,7 @@ SLES_52541
 
 [Mods]
 1. PAL Patch
+2. Occlusion All 0's
 
 [The Game]
 [Links]
@@ -55,7 +64,7 @@ https://mega.nz/file/JgJj0AzD#PIMnljBsnIOEd2sOmwql05K0wgHDz9L1Yy3b-TAjT0s
 Diffs japan:
 https://mega.nz/file/xsQxRRQR#TvG0eR9B2FhjiwJBNEo5tjFVpy0FrPxytFMMTM7RjEg
 Cheats, Save Game:
-Github: 
+Github: https://github.com/SomeGTAVCCodes/GTA-San_Andreas-PS2
 
 
 [Notes]
@@ -136,20 +145,23 @@ Github:
 * Freeze Mission Timers is a common cheat, but freezing the countdown timer for being outside the vehicle is a new cheat. 
 //... This makes vigilante missions with truly infinite time. 45Mins. Could have been alot less with a bit of practice.
 
-The Save Files:
+[The Save Files:]
 1. Clean Starter Save State: No Progress. 
 - This allows compatiblity with the New Cheats (.pnach) never been done for PAL 2004 before.
 	- it ensures the addresses do not change and that all cheats work.
 2. Starter Save file: 
-- This is a "regular" save file, not save state; 
+- This is a "regular" save file, not a save state; 
 	- CJs garage with DMG proof vehicle, Some cash, weapons, armour etc but no progress made.
-		- This is for people who are not going to use cheats in .pnach form - console users etc.
-3. Starter Save, mem card and save state: 
-	- this is similar to the vice city perfect starter sa
-		- With ER VH's Missions Complete, and extras stuff, like cash weapons etc.
+		- This is for people who are not going to use ALL cheats in .pnach form 
+			- or for console users. - or for users who want to turn dynamic address cheat codes into static, that would be good.
 
-GTA: SA is different to VC and because of this there is no need to do all the 0% complete with all the benefits of 100% save game. Vice City benefits from them because it is so janky and frustrating.
+GTA: SA is different to VC and because of this there is no need to do "ALL the 0% complete with all the benefits of 100% save game". 
+* I have created new cheat codes that can instantly complete ambulance, firetruck missions, adn the vigilante is just kinda fun to do so instead of auto-complete cheat i added an infinite mission  timer & infinite time outside of vehicle cheat, also the No Wanted Level Stars cheat...
 
-Play Vice City for the story using a perfect pre-made starter save game, to avoid of the crap & hassle of extra side quests and low health, crap sprint etc. But in GTA:SA all the vigilante and side quests stuff is pretty cool so we don't want to remove that fromt eh player.
+Vice City benefits from them a starter save game with side quests compolete, because it is so janky, empty & frustrating.
 
-Bascially SA is a better designed layout, which means cheats are not actually required as much as they are in VC, they merely enhance SA, whilst VC practically demands them to make it playable.
+** Play Vice City for the story using a perfect pre-made starter save game to avoid of the crap & hassle of extra side quests and low health, crap sprint. 
+
+** Play GTA:SA and just enhance it with this cheats, no premade save required except the Zero Point save state.
+
+Bascially SA is a better designed layout and all round better game, which means cheats are not actually they merely enhance SA, whilst VC practically demands them to make it playable.
