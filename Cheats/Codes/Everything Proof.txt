@@ -1,0 +1,85 @@
+Everything proof garage codes
+Added: Apr 5th 2010
+Last Updated: Mar 23rd 2014
+These codes are for game shark version 3 and 4 ntsc USA
+San andreas special edition, greatest hits and trilogy.
+
+enable code: F0532C4C 00532C4F
+
+Park a car or bike in the grove st.and it will everything proof. The cars will have hydraulics
+
+Grove st. Invincible car garage code
+D080E472 00100000
+1080E470 0000FFFF
+
+Below are garage codes, The cars will be everything proof,without hydraulics.
+There are rules for these codes below
+1. Do not use the two grove st. Codes together
+2. Do not use more 4 codes at time, less is good
+3. Do not use 2 San Fierro garage codes at the same time, I'm not sure why but that will freeze game
+
+Grove st. Garage Everything proof code
+D080E472 00100000
+1080E470 0000001F
+
+Santa Maria Beach
+D080E572 00100000
+1080E570 0000001F
+
+Rockshore West Everything proof
+D080E672 00100000
+1080E670 0000001F
+
+Fort Carson Everything proof
+D080E772 00100000
+1080E770 0000001F
+
+Verdant Meadows GarageEverything proof
+D080E872 00100000
+1080E870 0000001F
+
+Verdant Meadows Hangar Everything proof
+D080F772 00100000
+1080F770 0000001F
+
+Dillimore Everything proof
+D080E972 00100000
+1080E970 0000001F
+
+Prickle Pine Everything proof
+D080EA72 00100000
+1080EA70 0000001F
+
+Whitewood Estates Everything proof
+D080EB72 00100000
+1080EB70 0000001F
+
+Palomino Everything proof
+D080EC72 00100000
+1080EC70 0000001F
+
+Redsands West Everything proof
+D080ED72 00100000
+1080ED70 0000001F
+
+El Corona Everything proof
+D080EE72 00100000
+1080EE70 0000001F
+
+Mulholland Everything proof
+D080EF72 00100000
+1080EF70 0000001F
+
+Calton Heights Car Everything proof
+D080F372 00100000
+1080F370 0000001F
+
+Paradiso Everything proof
+D080F472 00100000
+1080F470 0000001F
+
+Hasbury Everything proof
+D080F672 00100000
+1080F670 0000001F
+
+The codes were made by skiller and others

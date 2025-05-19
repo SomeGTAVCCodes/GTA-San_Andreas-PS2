@@ -1,0 +1,107 @@
+Title:		Grand Theft Auto: San Andreas Codebreaker Codes (NTSC-U)
+Author:		Document by TKBS, codes were on almars site.
+** To Convert NTSC to PAL GTA:SA Main.scm (code) is the same, you just need to account for the files size difference.
+
+** Use +100 to convert NTSC to Pal 
+...or...
+Use +A90
+...or...
+Once you applied one of the above offsets, compare memory regions above/ below until you find the same values/ instructions.
+^^ the offsets will either work, or get you very close.
+110 is diff for armour.
+other stuff jsut crashes 
+
+Links:
+https://www.almarsguides.com/retro/walkthroughs/ps2/games/GrandTheftAutoSanAndreas/Codebreaker/
+https://www.almarsguides.com/retro/walkthroughs/ps2/games/GrandTheftAutoSanAndreas/ActionReplay/
+
+---- Grand Theft Auto: San Andreas Codebreaker Codes (NTSC-U) ----
+Enable Code (Must Be On)
+
+B4336FA9 4DFEFB79
+CEB8B7F8 9BE5D1AF
+BC52FB8E A9F8AEA8
+A125F91F A955E061
+53DBF423 B909CF20
+5874A5CB C4008606
+6F312FFF 086ECB7A
+
+Unlimited Health: 283CE3F7 6413F97C
+Gameshark v3-4 or Xploder v4
+
+Unlimited Health
+283CE3F7 6413F97C
+
+Unlimited Armor: 283095B1 643AF9D6
+Gameshark v3-4 or Xploder v4
+
+Unlimited Armor:
+202A9854 E4610588
+
+Unlimited Mission Time: 283386FF 0CA57A65
+Gameshark v3-4 or Xploder v4
+
+Unlimited Oxygen: 28305174 DB137AAE
+Gameshark v3-4 or Xploder v4
+
+Unlimited Run & Swin: 086AA9A5 0CA57A56
+Gameshark v3-4 or Xploder v4
+
+All Horseshoes Collected: 289A3DA9 0CA57AE8
+Gameshark v3-4 or Xploder v4
+
+All Oysters Collected: 289A3DFB 0CA57AE8
+Gameshark v3-4 or Xploder v4
+
+All Snapshots Taken: 289A3D51 0CA57AE8
+Gameshark v3-4 or Xploder v4
+
+All Tags Sprayed: 287C8CCF 0CA57AB1
+Gameshark v3-4 or Xploder v4
+
+Never Busted: 289A5E19 0CA57A65
+Gameshark v3-4 or Xploder v4
+
+ 
+
+Cars Take No Damage
+Gameshark v3-4 or Xploder v4
+
+7603C4D0 00000000
+280ED80C F8AA7AF1
+280ED872 0CA57A65
+
+ 
+
+Weapons Aren't Lost When Busted or Wasted
+Gameshark v3-4 or Xploder v4
+
+760E6D90 00000000
+2803A976 F8AA7AF1
+2803A964 0CA57A65
+
+ 
+
+Have Max Money
+Gameshark v3-4 or Xploder v4
+
+286ABA68 B46AC23E
+286ABAD6 B46AC23E
+
+ 
+
+Unlimited Ammo
+Gameshark v3-4 or Xploder v4
+
+280948CF 0CA57A65
+28094888 0CA57A65
+28091340 0CA57A65
+280913E6 0CA57A65
+
+ 
+
+Never Be Busted
+Gameshark v3-4 or Xploder v4
+
+285C72A0 F8AA7AF1
+285C7288 0CA57A65

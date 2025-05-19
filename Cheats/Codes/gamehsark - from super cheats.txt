@@ -1,0 +1,3067 @@
+Special edition code
+No Water  in parts of the ocean
+YZ6H-NZJ1-EYMQK
+2YPB-MUH1-KYF7W
+
+PAL 100m
+7U4P-UNYQ-294QC
+XG0J-NRUW-MW2Q5
+MVR9-DG6N-KNMW6
+6TAZ-ED7B-NH8HR
+KGAF-7RKT-H6PG4
+2M0Q-UH3Y-D2EKA
+AT06-U4CX-GXHJ9
+T2Y5-1AUD-HBKRK
+15FX-ZCY0-C69Z8
+1NP9-34MZ-DC89U
+7JNA-UWQ2-1Z499
+ZM0Y-B982-5058W
+KPT3-D6V4-5T9MQ
+QGKX-MEZK-RQBQH
+G6HN-7JBP-DEWR9
+8J2X-CRN1-AQW0K
+JXAH-XEBY-XN4J0
+
+Special edition code
+Walk/Drive Thru Walls
+9994-5DKW-DPD51
+XH54-M44Q-J1XYR
+4H8C-PN0G-88ETD
+
+
+Mafia territory codes
+Added: Jul 2nd 2013
+
+These codes will assign the Mafia to the designated areas and turn that portion of the map gray. If the game is saved, the territory effects will be saved, though the map color will not be. So if you don't reactivate the code, you'll still find the Mafia in the specified areas, but the map color will be green.
+
+Commerce
+
+760CC5D0 00000000
+
+28612F01 0CA5AC65
+
+28612F65 0CA5D765
+
+28612F6F AD267A65
+
+28612FF1 3F166646
+
+08612FF2 0CA57A0E
+
+Rock Shore West
+
+760B0350 00000000
+
+18613CAD 0CA5AC65
+
+28613C82 E2A57A65
+
+28613C73 0CA57A65
+
+28613C5A ADAB662A
+
+18613CF9 0CA52C2E
+
+08613C24 0CA57A0E
+
+Financial
+
+760698D0 00000000
+
+1861B677 0CA5AC65
+
+2861B6F7 E2A57A65
+
+2861B654 0CA57A65
+
+2861B601 ADAB662A
+
+1861B665 0CA52C2E
+
+0861B671 0CA57A0E
+
+
+
+Da Nang weapons code
+Added: Nov 30th 2013
+
+This code will alter the weapons for which the Nang wields. The effects are saveable; no need to reactivate once saved.
+
+The Nang carries AK-47s, Flamethrowers & Sniper Rifles
+
+760EF5F0 00000000
+
+289B6FD4 0CA57A43
+
+289B6F62 0CA57A1C
+
+289B6F66 0CA57ABB
+
+Vagos weapons code
+Added: Nov 30th 2013
+
+This code will alter the weapons for which the Vagos wield. The effects are saveable; no need to reactivate once saved.
+
+Vagos carry Desert Eagles & Katanas
+
+760BB310 00000000
+
+289B6F88 0CA57A54
+
+289B6F2B 0CA57A54
+
+289B6FFF 0CA57AF1
+
+Ballas weapons code
+Added: Nov 30th 2013
+
+This code will alter the weapons for which the Ballas wield. The effects are saveable; no need to reactivate once saved.
+
+Ballas carry M4s & Baseball bats
+
+760E5670 00000000
+
+289B6FF9 0CA57AFC
+
+289B6FE0 0CA57AFC
+
+289B6F86 0CA57A44
+
+Unlimited jetpack height
+Added: Jan 12th 2013
+
+QEV6-PTCF-814EG
+
+V8YR-XBTR-XHH34
+
+HW3F-ZP82-3YGR0
+
+B6BF-0NBM-N5X3T
+
+
+
+San Andreas Gameshark Code
+Added: Nov 3rd 2004
+
+warrdrobe - all clothes?
+76066370 00000000
+489FDBFB 0C4D7A56
+1476EBC2 0CA57A65
+189FDBA0 0CA5AC56
+089FDB3B 0CA57A56
+487163D4 0C387A56
+5963E5C2 0CA57A65
+
+Rifas carry miniguns
+760F6420 00000000
+289B6F68 0CA57A9D
+289B6FD6 0CA57A9D
+289B6F6D 0CA57A9D
+200C0400 8E430014
+
+UNKNWON
+200C0404 10600001
+200C0408 24630001
+200C040C 3C02000C
+200C0410 90410440
+200C0414 A0610000
+200C0418 24420001
+200C041C 1420FFFC
+200C0420 24630001
+200C0424 0807DC80
+200C0428 00000000
+2030CCFC 0C030100
+206B32FC 00000000
+
+San Andreas Gameshark v 3 and 4 codes
+Added: Oct 29th 2004
+
+[M] Must Be On
+
+98495ACF 789CFB15
+
+2816ED40 01E23EE5
+
+2816EDD8 B1C36965
+
+2816EDED A126AD1F
+
+2816EDD0 643AF9D6
+
+2816ED03 0115F935
+
+2816EDF7 F7D9A03E
+
+2816ED54 A1A762B6
+
+2816ED01 841B7A8B
+
+Infinite:
+
+Health
+
+28300165 643AF97C
+
+2830016F 0CA57A65
+
+283001F1 0CA57A65
+
+Money
+
+283C92F2 A14269F1
+
+Armor
+
+283095B1 A1426965
+
+Ammo (All Weapons)
+
+28094837 6FD97A56
+
+2809482B 0CA57A65
+
+(Don't use with other Ammo code!!!)
+
+Mission Time
+
+283386FF 0CA57A65
+
+Gain:
+
+Ammo As You Fire
+
+280948CF 6FD97A56
+
+28094888 6FD97A56
+
+(Don't use with other Ammo code!!!)
+
+Have:
+
+Godfather Status
+
+289A85A9 1CD1A03E
+
+Game Speed:
+
+Sluggish
+
+283D88A0 B1C36965
+
+283D8888 D7B9E7ED
+
+Ultra Fast
+
+283D88A0 01E28F2E
+
+283D8888 B1C36965
+
+283D882B D7B9E7ED
+
+283D88FF 46967A71
+
+Stat Codes:
+
+Player:
+
+Max:
+
+Stamina
+
+289A06D6 B1277A65
+
+Total Respect
+
+289A5EE6 B1277A65
+
+Lung Capacity
+
+289A3DB1 B1277A65
+
+Sex Appeal
+
+289A06D4 B1277A65
+
+Muscle
+
+289A066D B1277A65
+
+Driving Skill
+
+289A85AF B1277A65
+
+Flying Skill
+
+289A3D3A B1277A65
+
+Bike Skill
+
+289A3D93 0CA5E485
+
+Cycling Skill
+
+289A3DE9 0CA5E485
+
+Current Girlfriends
+
+289A857C 0CA5E485
+
+Girls Dated
+
+289A85D6 0CA5E485
+
+Successful Dates
+
+289A851E 0CA5E485
+
+Times Scored With a Girl
+
+289A856D 0CA5E485
+
+Girls Dumped
+
+289A8568 0CA5E485
+
+Prostitutes Visited
+
+289A85D6 0CA5E485
+
+Meals Eaten
+
+289A8576 0CA5E485
+
+Luck
+
+289A3DAE 0CA5E485
+
+No:
+
+Fat
+
+289A0668 0CA57A65
+
+NEVER
+
+Drowned
+
+289A8582 0CA57A65
+
+Any Hospital Visits
+
+289A5E15 0CA57A65
+
+Any Disastrous Dates
+
+289A8568 0CA57A65
+
+Money:
+
+Max:
+
+Wage Ball
+
+289A5E6F 46850465
+
+Weapon Budget
+
+289A06A9 46850465
+
+Fashion Budget
+
+289A0655 46850465
+
+Auto Repair and Painting Budget
+
+289A06A0 46850465
+
+Property Budget
+
+289A06FB 46850465
+
+Tattoo Budget
+
+289A06F6 46850465
+
+Hairdressing Budget
+
+289A0615 46850465
+
+Prostitute Budget
+
+289A0619 46850465
+
+Strip Club Budget
+
+289A5EF1 46850465
+
+Car Modification Budget
+
+289A5EF2 46850465
+
+Food Budget
+
+289A067C 46850465
+
+Total Shopping Budget
+
+289A5EDE 46850465
+
+Money Spent Gambling
+
+289A060A 46850465
+
+Money Won Gambling
+
+289A0664 46850465
+
+Biggest Gambling in
+
+289A06E5 46850465
+
+Money Mad From Burglary
+
+289A5ED8 46850465
+
+Largest Burglary Swag
+
+289A5E40 46850465
+
+No:
+
+Gambling Loss
+
+289A06E5 0CA57A65
+
+Weapons:
+
+Max:
+
+Bullets Fired
+
+289A5E62 0C363E9B
+
+KGS of Explosives Used
+
+289A5E66 0C363E9B
+
+Bullets That Hit
+
+289A5E74 0C363E9B
+
+Crimes:
+
+Max:
+
+Houses Burgled
+
+289A8566 0C363E9B
+
+Safes Cracked
+
+289A8574 0C363E9B
+
+Police Bribes
+
+289A852B 0C363E9B
+
+Cars Stolen
+
+289A85FF 0C363E9B
+
+Stolen Items Sold
+
+289A85F6 0C363E9B
+
+Wanted Stars Attained
+
+289A5E15 0C363E9B
+
+Wanted Stars Evaded
+
+289A5EB6 0C363E9B
+
+Assassinations
+
+289A85F2 0C363E9B
+
+People Wasted by Others
+
+289A5E7C 0C363E9B
+
+People You've Wasted
+
+289A5E68 0C363E9B
+
+Road Vehicles Destroyed
+
+289A5ED6 0C363E9B
+
+Boats Destroyed
+
+289A5E6D 0C363E9B
+
+Planes & Helicoptes Destroyed
+
+289A5E1E 0C363E9B
+
+Cost of Property Damaged
+
+289A5ED4 0C363E9B
+
+Tires Popped With Gun Fire
+
+289A5E8B 0C363E9B
+
+Headshots
+
+289A5EF6 0C363E9B
+
+Kills Since Last Checkpoint
+
+289A852E 0C363E9B
+
+Total Legitimate Kills
+
+289A85A9 1CD1A03E
+
+Never:
+
+Busted
+
+289A5E19 0CA57A65
+
+Gangs:
+
+Max:
+
+Territories Held
+
+289A3D5A 0C363E9B
+
+Highest Number of Territories Held
+
+289A3DF9 0C363E9B
+
+
+
+This also works for Xploder V5
+
+Mastercode:
+
+7605F870 00000000
+
+98492865 789C3C78
+
+Infinite Health:
+
+760E6380 00000000
+
+283CEF72 6413F97C
+
+Infinite Armour:
+
+760F1940 00000000
+
+28305137 643AF9D6
+
+Infinite Ammo:
+
+76043BC0 00000000
+
+280948CF 0CA57A65
+
+28094888 0CA57A65
+
+28091340 0CA57A65
+
+280913E6 0CA57A65
+
+Infinite Run/Swim:
+
+7601EE70 00000000
+
+086A95A5 0CA57A56
+
+Infinite Oxygen:
+
+760AB110 00000000
+
+2830961E DB137AAE
+
+Infinite Mission Time:
+
+760F37A0 00000000
+
+283304FB 0CA57A65
+
+Have Max Money:
+
+760C7E50 00000000
+
+286AA968 B46AC23E
+
+286AA9D6 B46AC23E
+
+Cars Take No Damage:
+
+7603C4D0 00000000
+
+280ED80C F8AA7AF1
+
+280ED872 0CA57A65
+
+Never Be Busted:
+
+760EDD20 00000000
+
+285C2F2E F8AA7AF1
+
+285C2FA9 0CA57A65
+
+Don't Lose Weapons When Busted/Wasted:
+
+760E6D90 00000000
+
+2803A976 F8AA7AF1
+
+2803A964 0CA57A65
+
+All Snapshots Taken:
+
+760C1610 00000000
+
+289A5A51 0CA57AE8
+
+All Tags Sprayed:
+
+760F8340 00000000
+
+287C6CCF 0CA57AB1
+
+All Horseshoes Collected:
+
+760FC1A0 00000000
+
+289A5AA9 0CA57AE8
+
+All Oysters Collected:
+
+760ADAB0 00000000
+
+289A5AFB 0CA57AE8
+
+Wanted Level Always Zero:
+
+760FC7A0 00000000
+
+283D3168 65D07A65
+
+Wanted Level Always One:
+
+760BC5F0 00000000
+
+283D3168 65D07AE8
+
+
+The police version horse/half to feed it or it will try to kill
+Added: Jun 7th 2012
+
+X x x down triangle up square down right left L1 L1 R2 L2 L2 L1 down up up left right circle circle square times 2 [color=black] but if you walk it up to a pay n spray or a custom car shop you can change his/her coler
+
+Da Nang territory codes
+Added: Jul 1st 2013
+
+Camels Toe Hotel
+
+76098E50 00000000
+
+28611FB6 0CA5AC65
+
+28611F19 0CA57A4F
+
+28611F22 15267A65
+
+28611F0A 3F167A46
+
+08611F76 0CA57A0E
+
+Marina
+
+760F0100 00000000
+
+08617267 0CA57A65
+
+286172AF E2A57A56
+
+286172B1 0CA57A65
+
+286172DE ADE0FA65
+
+28617257 9FCB4A65
+
+Triads carry brass knuckles, knives & chainsaws
+76051830 00000000
+289B6F19 0CA57A56
+289B6F22 0CA57A6F
+289B6F0A 0CA57AD3
+
+Mafia carries teargas & golf clubs
+7604CC60 00000000
+289B6F8B 0CA57A49
+289B6FF6 0CA57A49
+289B6F15 0CA57A71
+
+-----------Rifas territory codes;- -----------
+These codes will assign the Rifas to the designated areas and turn that portion of the map blue. If the game is saved, the territory effects will be saved, though the map color will not be. So if you don't reactivate the code, you'll still find the Rifas in the specified areas, but the map color will be green. 
+Come A Lot
+
+760B6240 00000000
+
+08611F3E 0CA57A65
+
+28611F74 0C497A56
+
+28611F8B 0CA57A65
+
+28611FF6 0CA5FA65
+
+28611F15 9FCB4A9C
+
+Market
+
+760A05F0 00000000
+
+086197C9 0CA57A65
+
+186197C7 0CA57A56
+
+28619715 0CA57A4F
+
+286197B6 99A57A65
+
+28619719 7CE07A65
+
+18619722 0CA50FC1
+
+Pilgrim
+
+7608C970 00000000
+
+28617EF7 E2A5AC65
+
+28617E54 0CA57A65
+
+28617E01 0C267A65
+
+28617E65 3F167365
+
+08617E6F 0CA57A0E
+
+Last Dime Motel
+
+760C9D10 00000000
+
+08613C1D 0CA57A65
+
+18613CCE 0CA57A56
+
+28613CE9 0CA57A4F
+
+28613C51 99A57A65
+
+28613C2D 7CE07A65
+
+18613CAE 0CA50FC1
+-----------^^^^^^^^Rifas territory codes ^^^^^^^^^ -----------
+
+
+GameShark Game Codes with Media Player
+
+[M] Must Be On
+
+760CF590 00000000
+
+98495ACF 789CFB15
+
+Infinite Ammo:
+
+76043BC0 00000000
+
+280948CF 0CA57A65
+
+28094888 0CA57A65
+
+28091340 0CA57A65
+
+280913E6 0CA57A65
+
+Don't Lose Weapons When Busted/Wasted:
+
+760E6D90 00000000
+
+2803A976 F8AA7AF1
+
+2803A964 0CA57A65
+
+Never Be Busted:
+
+760C0960 00000000
+
+285C72A0 F8AA7AF1
+
+285C7288 0CA57A65
+
+Infinite Health:
+
+760EC5C0 00000000
+
+283CE3F7 6413F97C
+
+Armor:
+
+760A6500 00000000
+
+283095B1 643AF9D6
+
+Run/Swim:
+
+7603A880 00000000
+
+086AA9A5 0CA57A56
+
+Oxygen:
+
+76082120 00000000
+
+28305174 DB137AAE
+
+Mission Time
+
+760251C0 00000000
+
+283386FF 0CA57A65
+
+Max Money:
+
+76058D50 00000000
+
+286ABA68 B46AC23E
+
+286ABAD6 B46AC23E
+
+Cars Take No Damage:
+
+7603C4D0 00000000
+
+280ED80C F8AA7AF1
+
+280ED872 0CA57A65
+
+Godfather Status:
+
+760D3950 00000000
+
+289A85A9 1CD1A03E
+
+(View Player Stats)
+
+Bike Skill:
+
+760A7EC0 00000000
+
+289A3D93 0CA5E485
+
+Cycling Skill:
+
+760FCC40 00000000
+
+289A3DE9 0CA5E485
+
+Times Scored With a Girl:
+
+760A1FC0 00000000
+
+289A856D 0CA5E485
+
+Girls Dated:
+
+760633D0 00000000
+
+289A85D6 0CA5E485
+
+Successful Dates:
+
+76052A80 00000000
+
+289A851E 0CA5E485
+
+Current Girlfriends:
+
+7600FF70 00000000
+
+289A857C 0CA5E485
+
+Girls Dumped:
+
+76082AB0 00000000
+
+289A8568 0CA5E485
+
+Prostitutes Visited:
+
+760633D0 00000000
+
+289A85D6 0CA5E485
+
+Meals Eaten:
+
+76049590 00000000
+
+289A8576 0CA5E485
+
+No Fat:
+
+7605EA10 00000000
+
+289A0668 0CA57A65
+
+Never Drowned:
+
+76039C30 00000000
+
+289A8582 0CA57A65
+
+Wanted Level Always:
+
+0
+
+76035A60 00000000
+
+283D97D4 65D07A65
+
+1
+
+76075830 00000000
+
+283D97D4 65D07AE8
+
+2
+
+76077930 00000000
+
+283D97D4 65D07AF9
+
+3
+
+760584E0 00000000
+
+283D97D4 65D0859D
+
+4
+
+7607D550 00000000
+
+283D97D4 65D0525A
+
+5
+
+76023170 00000000
+
+283D97D4 65D0E7AF
+
+6
+
+760FA4C0 00000000
+
+283D97D4 65D04362
+
+Luck
+
+7608A780 00000000
+
+289A3DAE 0CA5E485
+
+
+
+
+
+
+-----------------------------------------------------------------------------
+All of part 2 !!!
+Added: Jun 24th 2006
+
+76032830 00000000.
+
+770001B3 472C1955.
+
+98495ACF 789CFB15.
+
+Drop Vehicle: --.
+
+Enabler .
+
+76051BF0 00000000.
+
+A816ED40 3FA28874.
+
+A816EDD8 949A7A65.
+
+A816EDED 7C6D7A65.
+
+A816EDD0 F9560BAF.
+
+A816ED0C 6FFBBDE8.
+
+A816ED72 D8057A0F.
+
+A816EDA1 6FD0AC4B.
+
+A816ED78 78C4D40C.
+
+A816ED03 0CA57A65.
+
+A816EDF7 3E9A7A65.
+
+A816ED54 F8AA7AF1.
+
+A816ED01 3FA27A0C.
+
+2843F3AF 78426965.
+
+(NOTE: Must Be On for Vehicle Drop Codes) .
+
+(NOTE: Press [L1] then [L2] to Drop Vehicle) .
+
+Landstalker .
+
+760B3F30 00000000.
+
+2816EDA1 6FD0ACA0.
+
+Bravura .
+
+7609F700 00000000.
+
+2816EDA1 6FD0AC4D.
+
+Buffalo .
+
+76004A80 00000000.
+
+2816EDA1 6FD0AC98.
+
+Linerunner .
+
+76081210 00000000.
+
+2816EDA1 6FD0AC3B.
+
+Perennial .
+
+76016990 00000000.
+
+2816EDA1 6FD0AC88.
+
+Sentinel .
+
+760604E0 00000000.
+
+2816EDA1 6FD0ACBC.
+
+Dumper .
+
+76070CE0 00000000.
+
+2816EDA1 6FD0AC34.
+
+Fire Truck 1 .
+
+760AD030 00000000.
+
+2816EDA1 6FD0AC5F.
+
+Trashmaster .
+
+76093100 00000000.
+
+2816EDA1 6FD0AC2B.
+
+Stretch .
+
+760ED870 00000000.
+
+2816EDA1 6FD0AC5B.
+
+Manana .
+
+7603ABB0 00000000.
+
+2816EDA1 6FD0ACEC.
+
+Infernus .
+
+760BBB30 00000000.
+
+2816EDA1 6FD0ACE4.
+
+Voodoo .
+
+76018E90 00000000.
+
+2816EDA1 6FD0ACFF.
+
+Pony .
+
+760788E0 00000000.
+
+2816EDA1 6FD0AC70.
+
+Mule .
+
+760AF130 00000000.
+
+2816EDA1 6FD0AC4E.
+
+Cheetah .
+
+76042BD0 00000000.
+
+2816EDA1 6FD0AC26.
+
+Ambulance .
+
+760C3B50 00000000.
+
+2816EDA1 6FD0AC2E.
+
+Leviathan .
+
+760FFB60 00000000.
+
+2816EDA1 6FD0AC4B.
+
+Moonbeam .
+
+760E7760 00000000.
+
+2816EDA1 6FD0AC87.
+
+Esperanto .
+
+7607CAE0 00000000.
+
+2816EDA1 6FD0AC52.
+
+Taxi .
+
+76022DA0 00000000.
+
+2816EDA1 6FD0ACA9.
+
+Washington .
+
+760F3770 00000000.
+
+2816EDA1 6FD0ACA4.
+
+Bobcat .
+
+760F1670 00000000.
+
+2816EDA1 6FD0ACB5.
+
+Mr.Whoopee .
+
+7607E1F0 00000000.
+
+2816EDA1 6FD0ACCA.
+
+BF Injection .
+
+7600C490 00000000.
+
+2816EDA1 6FD0AC55.
+
+Hunter .
+
+760206B0 00000000.
+
+2816EDA1 6FD0AC31.
+
+Premier .
+
+760A9230 00000000.
+
+2816EDA1 6FD0AC7D.
+
+Enforcer .
+
+76012180 00000000.
+
+2816EDA1 6FD0AC23.
+
+Securicar .
+
+760586D0 00000000.
+
+2816EDA1 6FD0ACFB.
+
+Banshee .
+
+760325A0 00000000.
+
+2816EDA1 6FD0AC21.
+
+Police Boat .
+
+760A7F20 00000000.
+
+2816EDA1 6FD0AC83.
+
+City Bus .
+
+760ED260 00000000.
+
+2816EDA1 6FD0ACD2.
+
+Rhino Tank .
+
+760FDA60 00000000.
+
+2816EDA1 6FD0AC5A.
+
+BarraCks .
+
+7606E9F0 00000000.
+
+2816EDA1 6FD0AC42.
+
+Hotknife .
+
+76091A10 00000000.
+
+2816EDA1 6FD0ACB3.
+
+Truck Trailor 1 .
+
+7601AF90 00000000.
+
+2816EDA1 6FD0ACEE.
+
+Previon .
+
+760782F0 00000000.
+
+2816EDA1 6FD0ACF9.
+
+Coach .
+
+7605CEC0 00000000.
+
+2816EDA1 6FD0AC50.
+
+Cabbie .
+
+76062FF0 00000000.
+
+2816EDA1 6FD0AC24.
+
+Stallion .
+
+760DBD40 00000000.
+
+2816EDA1 6FD0AC6B.
+
+Rumpo .
+
+760FB370 00000000.
+
+2816EDA1 6FD0ACE0.
+
+Mini RC Car .
+
+760304A0 00000000.
+
+2816EDA1 6FD0AC30.
+
+Romero .
+
+76074EE0 00000000.
+
+2816EDA1 6FD0AC16.
+
+Packer .
+
+760DDE40 00000000.
+
+2816EDA1 6FD0AC58.
+
+Monster .
+
+760F7570 00000000.
+
+2816EDA1 6FD0AC86.
+
+Admiral .
+
+7600AD80 00000000.
+
+2816EDA1 6FD0ACEF.
+
+Speedboat .
+
+760227B0 00000000.
+
+2816EDA1 6FD0AC20.
+
+Seasparrow .
+
+760C3140 00000000.
+
+2816EDA1 6FD0ACA7.
+
+Pizzaboy .
+
+76018480 00000000.
+
+2816EDA1 6FD0AC76.
+
+Truck Trailor 2 .
+
+760DD450 00000000.
+
+2816EDA1 6FD0ACD1.
+
+Turismo .
+
+76083900 00000000.
+
+2816EDA1 6FD0ACA3.
+
+Speedboat .
+
+7602A3B0 00000000.
+
+2816EDA1 6FD0AC64.
+
+Fishing Boat 1 .
+
+760EF360 00000000.
+
+2816EDA1 6FD0ACC3.
+
+Fishing Boat 2 .
+
+7607C0F0 00000000.
+
+2816EDA1 6FD0ACDB.
+
+Flatbed .
+
+760BD830 00000000.
+
+2816EDA1 6FD0ACD7.
+
+Yankee .
+
+760AB920 00000000.
+
+2816EDA1 6FD0ACE5.
+
+Caddy .
+
+76012B90 00000000.
+
+2816EDA1 6FD0ACAA.
+
+Solair .
+
+760D7B40 00000000.
+
+2816EDA1 6FD0AC0D.
+
+Berkley's RC Van .
+
+76002980 00000000.
+
+2816EDA1 6FD0ACAB.
+
+Skimmer .
+
+760442C0 00000000.
+
+2816EDA1 6FD0AC9C.
+
+PCJ-600 .
+
+76000290 00000000.
+
+2816EDA1 6FD0AC33.
+
+Faggio .
+
+760D9C40 00000000.
+
+2816EDA1 6FD0AC7A.
+
+Freeway .
+
+76085A00 00000000.
+
+2816EDA1 6FD0AC90.
+
+RC Bi-Plane .
+
+760C1040 00000000.
+
+2816EDA1 6FD0ACB6.
+
+RC Helicoptor .
+
+7608BD00 00000000.
+
+2816EDA1 6FD0ACE7.
+
+Glendale .
+
+760D1250 00000000.
+
+2816EDA1 6FD0ACB7.
+
+Oceanic .
+
+76089610 00000000.
+
+2816EDA1 6FD0AC7F.
+
+Sanchez .
+
+76085010 00000000.
+
+2816EDA1 6FD0AC19.
+
+Sparrow 2 .
+
+760F5470 00000000.
+
+2816EDA1 6FD0AC97.
+
+Patriot .
+
+76036DB0 00000000.
+
+2816EDA1 6FD0AC8A.
+
+Quadbike .
+
+760A5E20 00000000.
+
+2816EDA1 6FD0AC92.
+
+Coastguard .
+
+76002390 00000000.
+
+2816EDA1 6FD0AC22.
+
+Dinghy .
+
+76006B80 00000000.
+
+2816EDA1 6FD0AC89.
+
+Hermes .
+
+7604A5C0 00000000.
+
+2816EDA1 6FD0ACEB.
+
+Sabre .
+
+7605C4D0 00000000.
+
+2816EDA1 6FD0ACD9.
+
+Rustler .
+
+760A7530 00000000.
+
+2816EDA1 6FD0AC0A.
+
+ZR-350 .
+
+7600CE80 00000000.
+
+2816EDA1 6FD0ACDC.
+
+Walton .
+
+760B9A30 00000000.
+
+2816EDA1 6FD0ACF5.
+
+Regina .
+
+760C5240 00000000.
+
+2816EDA1 6FD0AC94.
+
+Comet .
+
+760380A0 00000000.
+
+2816EDA1 6FD0AC74.
+
+BMX .
+
+7601ED90 00000000.
+
+2816EDA1 6FD0ACCC.
+
+Burrito .
+
+760FF170 00000000.
+
+2816EDA1 6FD0ACC2.
+
+Camper .
+
+7606C2E0 00000000.
+
+2816EDA1 6FD0ACDA.
+
+Marquis .
+
+76026FA0 00000000.
+
+2816EDA1 6FD0AC8B.
+
+Baggage .
+
+7608F510 00000000.
+
+2816EDA1 6FD0AC4C.
+
+Dozer .
+
+760B7720 00000000.
+
+2816EDA1 6FD0AC0B.
+
+Maverick .
+
+760C7340 00000000.
+
+2816EDA1 6FD0AC85.
+
+News Chopper .
+
+76089C00 00000000.
+
+2816EDA1 6FD0ACF6.
+
+Rancher .
+
+7604E7C0 00000000.
+
+2816EDA1 6FD0ACC9.
+
+FBI Rancher .
+
+760AFB20 00000000.
+
+2816EDA1 6FD0ACC7.
+
+Virgo .
+
+76000880 00000000.
+
+2816EDA1 6FD0ACBA.
+
+Greenwood .
+
+760448D0 00000000.
+
+2816EDA1 6FD0AC15.
+
+Hotring Racer .
+
+760667E0 00000000.
+
+2816EDA1 6FD0AC8F.
+
+Sandking .
+
+7603C8B0 00000000.
+
+2816EDA1 6FD0ACDF.
+
+Blista Compact .
+
+760F5E60 00000000.
+
+2816EDA1 6FD0AC1E.
+
+Police Maverick .
+
+76087B00 00000000.
+
+2816EDA1 6FD0AC81.
+
+Boxville .
+
+760400C0 00000000.
+
+2816EDA1 6FD0ACBE.
+
+Benson .
+
+760F1C60 00000000.
+
+2816EDA1 6FD0AC3C.
+
+Mesa .
+
+7608DE00 00000000.
+
+2816EDA1 6FD0ACD4.
+
+RC Helicopter 2 .
+
+76060EF0 00000000.
+
+2816EDA1 6FD0AC35.
+
+Hotring Racer 2 .
+
+7605E5D0 00000000.
+
+2816EDA1 6FD0ACC8.
+
+Hotring Racer 3 .
+
+76093B10 00000000.
+
+2816EDA1 6FD0ACA2.
+
+Bloodring Banger .
+
+7604AFD0 00000000.
+
+2816EDA1 6FD0AC62.
+
+Rancher .
+
+76014280 00000000.
+
+2816EDA1 6FD0AC10.
+
+Super GT .
+
+76056BC0 00000000.
+
+2816EDA1 6FD0AC05.
+
+Elegant .
+
+7609D600 00000000.
+
+2816EDA1 6FD0AC5C.
+
+Journey .
+
+7600A790 00000000.
+
+2816EDA1 6FD0AC66.
+
+Bike .
+
+760706F0 00000000.
+
+2816EDA1 6FD0ACBD.
+
+Mountain Bike .
+
+7609DC10 00000000.
+
+2816EDA1 6FD0ACD5.
+
+Beagle .
+
+760D1840 00000000.
+
+2816EDA1 6FD0AC3E.
+
+Cropduster .
+
+76086640 00000000.
+
+2816EDA1 6FD08565.
+
+Stunt Plane .
+
+76080540 00000000.
+
+2816EDA1 6FD08556.
+
+Tanker .
+
+760D4D10 00000000.
+
+2816EDA1 6FD08571.
+
+Roadtrain .
+
+7604B880 00000000.
+
+2816EDA1 6FD0850F.
+
+Nebula .
+
+760272E0 00000000.
+
+2816EDA1 6FD0856F.
+
+Majestic .
+
+760B2270 00000000.
+
+2816EDA1 6FD08544.
+
+Buccaneer.
+
+760778B0 00000000.
+
+2816EDA1 6FD0856A.
+
+Shamal .
+
+7607DDB0 00000000.
+
+2816EDA1 6FD0853F.
+
+Hydra .
+
+76045590 00000000.
+
+2816EDA1 6FD085F1.
+
+FCR-900 .
+
+76041790 00000000.
+
+2816EDA1 6FD085D3.
+
+NRG-500 .
+
+7603F4F0 00000000.
+
+2816EDA1 6FD0852A.
+
+HPV1000 .
+
+760759B0 00000000.
+
+2816EDA1 6FD0857B.
+
+Cement Truck .
+
+760753A0 00000000.
+
+2816EDA1 6FD085F2.
+
+Towtruck .
+
+760D2400 00000000.
+
+2816EDA1 6FD085CB.
+
+Fortune .
+
+760174D0 00000000.
+
+2816EDA1 6FD0856C.
+
+Cadrona .
+
+7605BA90 00000000.
+
+2816EDA1 6FD0850E.
+
+FBI Truck .
+
+7608A040 00000000.
+
+2816EDA1 6FD08503.
+
+Willard .
+
+760638A0 00000000.
+
+2816EDA1 6FD08549.
+
+Forklift .
+
+760B4170 00000000.
+
+2816EDA1 6FD08577.
+
+Tractor .
+
+760015C0 00000000.
+
+2816EDA1 6FD0855E.
+
+Combine Harvester .
+
+760259F0 00000000.
+
+2816EDA1 6FD085F7.
+
+Feltzer .
+
+7603DFE0 00000000.
+
+2816EDA1 6FD085B2.
+
+Remington .
+
+76059B90 00000000.
+
+2816EDA1 6FD0851F.
+
+Slamvan .
+
+76098940 00000000.
+
+2816EDA1 6FD0859A.
+
+Blade .
+
+760A0160 00000000.
+
+2816EDA1 6FD08554.
+
+Vortex .
+
+7605D380 00000000.
+
+2816EDA1 6FD085B4.
+
+Vincent .
+
+760AA460 00000000.
+
+2816EDA1 6FD08501.
+
+Bullet .
+
+760193D0 00000000.
+
+2816EDA1 6FD0851B.
+
+Clover .
+
+760C2C00 00000000.
+
+2816EDA1 6FD08543.
+
+Sadler .
+
+76094F40 00000000.
+
+2816EDA1 6FD085FC.
+
+Firetruck 2 .
+
+7607BEB0 00000000.
+
+2816EDA1 6FD0850C.
+
+Hustler .
+
+7609A250 00000000.
+
+2816EDA1 6FD08502.
+
+Intruder .
+
+760ACD70 00000000.
+
+2816EDA1 6FD085BB.
+
+Primo .
+
+760D4700 00000000.
+
+2816EDA1 6FD085F8.
+
+CargoBob .
+
+760E4B20 00000000.
+
+2816EDA1 6FD08572.
+
+Tampa .
+
+76069DA0 00000000.
+
+2816EDA1 6FD0851C.
+
+Sunrise .
+
+760E8730 00000000.
+
+2816EDA1 6FD0859D.
+
+Merit .
+
+760730A0 00000000.
+
+2816EDA1 6FD085C1.
+
+Utility Van .
+
+7601FAC0 00000000.
+
+2816EDA1 6FD085A1.
+
+Nevada .
+
+760651B0 00000000.
+
+2816EDA1 6FD085F3.
+
+Yosemite .
+
+760A8F70 00000000.
+
+2816EDA1 6FD08599.
+
+Windsor .
+
+760E6030 00000000.
+
+2816EDA1 6FD085EA.
+
+Monster 2 .
+
+76045F80 00000000.
+
+2816EDA1 6FD08578.
+
+Monster 3 .
+
+7606FEA0 00000000.
+
+2816EDA1 6FD0852F.
+
+Uranus .
+
+760CE010 00000000.
+
+2816EDA1 6FD085AC.
+
+Jester .
+
+760C8310 00000000.
+
+2816EDA1 6FD0859F.
+
+Sultan .
+
+760F2A30 00000000.
+
+2816EDA1 6FD08540.
+
+Stratum .
+
+7605D990 00000000.
+
+2816EDA1 6FD0853D.
+
+Elegy .
+
+760C6410 00000000.
+
+2816EDA1 6FD085E8.
+
+Raindance .
+
+760EC530 00000000.
+
+2816EDA1 6FD085BF.
+
+RC Tank .
+
+760F0120 00000000.
+
+2816EDA1 6FD085D8.
+
+Flash .
+
+76082440 00000000.
+
+2816EDA1 6FD08547.
+
+Tahoma .
+
+760632B0 00000000.
+
+2816EDA1 6FD085C0.
+
+Savanna .
+
+76023AF0 00000000.
+
+2816EDA1 6FD085C4.
+
+Bandito .
+
+76096E40 00000000.
+
+2816EDA1 6FD085ED.
+
+Kart .
+
+760EA630 00000000.
+
+2816EDA1 6FD0858C.
+
+Mower .
+
+760711A0 00000000.
+
+2816EDA1 6FD085D0.
+
+Dune .
+
+7608E850 00000000.
+
+2816EDA1 6FD085A8.
+
+Sweeper .
+
+760295E0 00000000.
+
+2816EDA1 6FD08518.
+
+Broadway .
+
+76088B50 00000000.
+
+2816EDA1 6FD0859B.
+
+Tornado .
+
+7604FA80 00000000.
+
+2816EDA1 6FD0852D.
+
+Airliner 1 .
+
+760C6E00 00000000.
+
+2816EDA1 6FD08561.
+
+DFT-30 .
+
+7601F0D0 00000000.
+
+2816EDA1 6FD08528.
+
+Huntley .
+
+760670B0 00000000.
+
+2816EDA1 6FD085E2.
+
+Stafford .
+
+760EE430 00000000.
+
+2816EDA1 6FD085AE.
+
+BF-400 .
+
+7601D1D0 00000000.
+
+2816EDA1 6FD08539.
+
+News Van .
+
+760DE200 00000000.
+
+2816EDA1 6FD085AD.
+
+Tug .
+
+76047E80 00000000.
+
+2816EDA1 6FD08569.
+
+Tanker Trailer .
+
+7600BAD0 00000000.
+
+2816EDA1 6FD08582.
+
+Emperor .
+
+76029FF0 00000000.
+
+2816EDA1 6FD08591.
+
+Wayfarer .
+
+7603B6F0 00000000.
+
+2816EDA1 6FD08508.
+
+Euros .
+
+76055780 00000000.
+
+2816EDA1 6FD085F0.
+
+Hotdog .
+
+760F4930 00000000.
+
+2816EDA1 6FD08573.
+
+Club .
+
+76059180 00000000.
+
+2816EDA1 6FD08596.
+
+Truck Trailer 3 .
+
+760B8770 00000000.
+
+2816EDA1 6FD08511.
+
+Airliner 2 .
+
+760278F0 00000000.
+
+2816EDA1 6FD085E6.
+
+Dodo .
+
+760E2820 00000000.
+
+2816EDA1 6FD08541.
+
+Launch .
+
+76094550 00000000.
+
+2816EDA1 6FD08575.
+
+Police Car (LSPD) .
+
+76009BD0 00000000.
+
+2816EDA1 6FD08593.
+
+Police Car (SFPD) .
+
+76079FB0 00000000.
+
+2816EDA1 6FD0851D.
+
+Police Car (LVPD) .
+
+76082E50 00000000.
+
+2816EDA1 6FD085CE.
+
+Ranger .
+
+760CA800 00000000.
+
+2816EDA1 6FD08507.
+
+Picador .
+
+760D6600 00000000.
+
+2816EDA1 6FD085E9.
+
+SWAT .
+
+76088140 00000000.
+
+2816EDA1 6FD08512.
+
+Alpha .
+
+760CEA00 00000000.
+
+2816EDA1 6FD08525.
+
+Phoenix .
+
+760ECF20 00000000.
+
+2816EDA1 6FD08536.
+
+Glendale 2 .
+
+760F0B30 00000000.
+
+2816EDA1 6FD08551.
+
+Sadler .
+
+760370F0 00000000.
+
+2816EDA1 6FD0856E.
+
+Baggage Cart Trailer 1 .
+
+760E8D20 00000000.
+
+2816EDA1 6FD08514.
+
+Baggage Cart Trailer 2 .
+
+76071BB0 00000000.
+
+2816EDA1 6FD08559.
+
+Aeroplane Boarding Steps .
+
+760FE620 00000000.
+
+2816EDA1 6FD085AF.
+
+Boxville 2 .
+
+7602B4E0 00000000.
+
+2816EDA1 6FD08509.
+
+Combine Part .
+
+76057680 00000000.
+
+2816EDA1 6FD085E1.
+
+Water Tank .
+
+760034C0 00000000.
+
+2816EDA1 6FD0854F.
+-----------------------------------------------------------------------------
+Gang wars
+Added: Oct 29th 2012
+
+First put in the pedestrians have weapons cheat(r2,r1,x,triangle,x,triangle,up,down) then enter the gangs only cheat(l2,up,r1,r1,left,r1,r1,r2,right,down) then enter the gangs everywhere cheat (left,right,right,right,left,x,down,up,square,right,down) then enter the pedestrians attack cheat(down,up,up,up,x,r2,r1,l2,l2) and you'll have a gang war
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------
+Note: These code are NOT for GAMESHARK these codes are for XPOLDER v4 only for EU and UK
+Mastercode:
+
+98492865 789C3C78
+
+Infinite:
+
+Health:
+
+283CEF72 6413F97C
+
+Ammo:
+
+280948CF 0CA57A65
+
+28094888 0CA57A65
+
+28091340 0CA57A65
+
+280913E6 0CA57A65
+
+Misson Time: 283304FB OCA57A65
+
+Have:
+
+Max Money:
+
+286AA968 B46AC23E
+
+286AA9D6 B46AC23E
+
+Don't Lose Weapons When Busted/Wasted
+
+2803A976 F8AA7AF1
+
+2803A964 OCA57AB1
+
+Note: These code are NOT for GAMESHARK these codes are for XPOLDER v4 only for EU and UK
+-----------------------------------------------------------------------------
+gameshark 2.version3, 4, and 4.1
+Added: Apr 14th 2005
+
+[M] Must Be On.
+
+98495ACF 789CFB15.
+
+Infinite:.
+
+Health.
+
+283CE3F7 6413F97C.
+
+Armor.
+
+283095B1 643AF9D6.
+
+Ammo.
+
+280948CF 0CA57A65.
+
+28094888 0CA57A65.
+
+28091340 0CA57A65.
+
+280913E6 0CA57A65.
+
+Run/Swim.
+
+086AA9A5 0CA57A56.
+
+Oxygen.
+
+28305174 DB137AAE.
+
+Mission Time.
+
+283386FF 0CA57A65.
+
+Have:.
+
+Max Money.
+
+286ABA68 B46AC23E.
+
+286ABAD6 B46AC23E.
+
+Cars Take No Damage.
+
+280ED80C F8AA7AF1.
+
+280ED872 0CA57A65.
+
+Never Be Busted.
+
+285C72A0 F8AA7AF1.
+
+285C7288 0CA57A65.
+
+Don't Lose Weapons When Busted/Wasted.
+
+2803A976 F8AA7AF1.
+
+2803A964 0CA57A65.
+
+All Snapshots Taken.
+
+289A3D51 0CA57AE8.
+
+All Tags Sprayed.
+
+287C8CCF 0CA57AB1.
+
+All Horseshoes Collected.
+
+289A3DA9 0CA57AE8.
+
+All Oysters Collected.
+
+289A3DFB 0CA57AE8.
+
+Wanted Level Always:.
+
+Zero.
+
+283D97D4 65D07A65.
+
+One.
+
+283D97D4 65D07AE8.
+
+Two.
+
+283D97D4 65D07AF9.
+
+Three.
+
+283D97D4 65D0859D.
+
+Four.
+
+283D97D4 65D0525A.
+
+Five.
+
+283D97D4 65D0E7AF.
+
+Six.
+
+283D97D4 65D04362.
+
+(NOTE: Only Choose One Wanted Level Code).
+
+Weather:.
+
+Foggy.
+
+187C77F7 0CA57A5E.
+
+187C7754 0CA57A5E.
+
+Sunny (Heathaze).
+
+187C77F7 0CA57A65.
+
+187C7754 0CA57A65.
+
+Sunny (No Heathaze).
+
+187C77F7 0CA57A56.
+
+187C7754 0CA57A56.
+
+Rainy.
+
+187C77F7 0CA57AF1.
+
+187C7754 0CA57AF1.
+
+Time of Day:.
+
+Midnight.
+
+E8183A00 0C63E728.
+
+287C1FFF 0CA57A65.
+
+287C1F7C 0CA57A65.
+
+(Press [SELECT]+[LEFT]).
+
+6am.
+
+E8183AF5 0C63E728.
+
+287C1FFF 0CA57A6A.
+
+287C1F7C 0CA57A65.
+
+(Press [SELECT]+[UP]).
+
+Midday.
+
+E8183A8F 0C63E728.
+
+287C1FFF 0CA57AF2.
+
+287C1F7C 0CA57A65.
+
+(Press [SELECT]+[RIGHT]).
+
+6pm.
+
+E8183A84 0C63E728.
+
+287C1FFF 0CA57A77.
+
+287C1F7C 0CA57A65.
+
+(Press [SELECT]+[DOWN]).
+
+Game Speed:.
+
+1/4 Speed.
+
+287C8954 43E87A65.
+
+1/2 Speed.
+
+287C8954 FCA57A65.
+
+Double Speed.
+
+287C8954 AFA57A65.
+
+Quad Speed.
+
+287C8954 AFE87A65.
+
+(NOTE: Only Select One Speed Code).
+
+Jump Codes:.
+
+Double Height.
+
+283E8CB6 01428F65.
+
+Triple Height.
+
+283E8CB6 01428F2D.
+
+(NOTE: Only Select One Jump Code).
+
+Inbuilt Cheats:.
+
+Enabler.
+
+28160640 01FB7A32.
+
+281606D8 50FB0BAF.
+
+28160674 F8AA7AF1.
+
+2843F3E9 0CA57A65.
+
+2843F35A 0CA57A65.
+
+2843F388 7842692D.
+
+(NOTE: Must Be On For Inbuilt Cheats).
+
+Have Weapon Set 1.
+
+A81606ED 6596BD73.
+
+A81606D0 4A967A40.
+
+A816060C FB1B7A65.
+
+(Press [L1] then [LEFT] to Activate).
+
+Have Weapon Set 2.
+
+A8160672 6596BD1D.
+
+A81606A1 4A967A2F.
+
+A8160678 FB1B7A6F.
+
+(Press [L1] then [UP] to Activate).
+
+Have Weapon Set 3.
+
+A8160603 6596BDFA.
+
+A81606F7 4A967A99.
+
+A8160654 FB1B7AF1.
+
+(Press [L1] then [RIGHT] to Activate).
+
+Refill Health, Armor & Cash.
+
+A8160601 6596BDAE.
+
+A8160665 4A967AC1.
+
+A816066F FB1B7AF2.
+
+(Press [L1] then [DOWN] to Activate).
+
+Raise Wanted Level.
+
+A81606F1 6596AF1D.
+
+A81606F2 4A967A72.
+
+A81606CF FB1B7A03.
+
+(Press [R1] then [UP] to Activate).
+
+Lower Wanted Level.
+
+A8160637 6596AFAE.
+
+A81606A5 4A967A02.
+
+A816063A FB1B7AF7.
+
+(Press [R1] then [DOWN] to Activate).
+
+Blowup All Cars.
+
+A81606AF 6596AF73.
+
+A81606B1 4A967A43.
+
+A81606DE FB1B7ADE.
+
+(Press [R1] then [LEFT] to Activate).
+
+Commit Suicide.
+
+A8160657 6596AFFA.
+
+A81606E6 4A967AB4.
+
+A8160693 FB1B7A37.
+
+(Press [R1] then [RIGHT] to Activate).
+
+Have Groucho Gear.
+
+A81606E9 6596FF1D.
+
+A8160651 4A967A54.
+
+A816062D FB1BAC54.
+
+(Press [L2] then [UP] to Activate).
+
+Have Beachwear.
+
+A81606AE 6596FFAE.
+
+A8160682 4A967AB2.
+
+A8160673 FB1B7AA9.
+
+(Press [L2] then [DOWN] to Activate).
+
+Have Bondage Gear.
+
+A816065A 6596FF73.
+
+A81606F9 4A967A77.
+
+A81606E0 FB1B7AF9.
+
+(Press [L2] then [LEFT] to Activate).
+
+Have Hillbilly Gear.
+
+A8160686 6596FFFA.
+
+A816062E 4A967A0E.
+
+A81606A9 FB1BACD8.
+
+(Press [L2] then [RIGHT] to Activate).
+
+CJ is Fat!.
+
+A8160655 6596861D.
+
+A81606FB 4A967AF2.
+
+A81606A0 FB1B7AA0.
+
+(Press [R2] then [UP] to Activate).
+
+Have Jetpak.
+
+A8160688 659686AE.
+
+A816062B 4A967AD3.
+
+A81606FF FB1BAC65.
+
+(Press [R2] then [DOWN] to Activate).
+
+Have Parachute.
+
+A816067C 65968673.
+
+A8160668 4A967A6A.
+
+A81606D6 FB1B7A66.
+
+(Press [R2] then [LEFT] to Activate).
+
+Have Katana.
+
+A816066D 659686FA.
+
+A816061E 4A967A0F.
+
+A81606D4 FB1B7A5A.
+
+(Press [R2] then [RIGHT] to Activate).
+
+Quick Time.
+
+0892EB8C 0CA57A56.
+
+Rioting Pedestrians.
+
+0892EB18 0CA57A56.
+
+Have a Bounty On Your Head.
+
+0892EB9B 0CA57A56.
+
+Everyone is Armed.
+
+0892EB0C 0CA57A56.
+
+Invisible Cars.
+
+0892EBEA 0CA57A56.
+
+Better Car Handling Cars ([L3] to Jump).
+
+0892EB78 0CA57A56.
+
+Traffic Lights Always Green.
+
+0892EBAC 0CA57A56.
+
+Aggressive Drivers.
+
+0892EB9F 0CA57A56.
+
+All Cars Are Pink.
+
+0892EB03 0CA57A56.
+
+All Cars Are Black.
+
+0892EB49 0CA57A56.
+
+Cars Can Drive On Water.
+
+0892EB77 0CA57A56.
+
+Flying Boats.
+
+0892EB5E 0CA57A56.
+
+Flying Cars.
+
+0892EB65 0CA57A56.
+
+Cars Explode When Hit.
+
+0892EB6F 0CA57A56.
+
+Super Jump.
+
+0892EBF2 0CA57A56.
+
+Shoot 'n Drive.
+
+0892EBF4 0CA57A56.
+
+Reduced Traffic.
+
+0892EBDD 0CA57A56.
+
+Player Rank:.
+
+Crackhead (Lowest).
+
+289A5E1E 948C883E.
+
+289A5E64 0CA57A56.
+
+King of San Andreas (Highest).
+
+289A5E1E 9F8C883E.
+
+289A5E64 0CA57A56.
+
+(NOTE: Choose Only One Rank Code).
+
+Stat Codes:.
+
+Player:.
+
+Max:.
+
+Stamina.
+
+289A06D6 B1277A65.
+
+Total Respect.
+
+289A5EE6 B1277A65.
+
+Lung Capacity.
+
+289A3DB1 B1277A65.
+
+Sex Appeal.
+
+289A06D4 B1277A65.
+
+Muscle.
+
+289A066D B1277A65.
+
+Driving Skill.
+
+289A85AF B1277A65.
+
+Flying Skill.
+
+289A3D3A B1277A65.
+
+Bike Skill.
+
+289A3D93 0CA5E485.
+
+Cycling Skill.
+
+289A3DE9 0CA5E485.
+
+Current Girlfriends.
+
+289A857C 0CA5E485.
+
+Girls Dated.
+
+289A85D6 0CA5E485.
+
+Successful Dates.
+
+289A851E 0CA5E485.
+
+Times Scored With a Girl.
+
+289A856D 0CA5E485.
+
+Girls Dumped.
+
+289A8568 0CA5E485.
+
+Prostitutes Visited.
+
+289A85D6 0CA5E485.
+
+Meals Eaten.
+
+289A8576 0CA5E485.
+
+Luck.
+
+289A3DAE 0CA5E485.
+
+No:.
+
+Fat.
+
+289A0668 0CA57A65.
+
+Never:.
+
+Drowned.
+
+289A8582 0CA57A65.
+
+Any Hospital Visits.
+
+289A5E15 0CA57A65.
+
+Any Disastrous Dates.
+
+289A8568 0CA57A65.
+
+Money:.
+
+Max:.
+
+Wage Ball.
+
+289A5E6F 46850465.
+
+Weapon Budget.
+
+289A06A9 46850465.
+
+Fashion Budget.
+
+289A0655 46850465.
+
+Auto Repair and Painting Budget.
+
+289A06A0 46850465.
+
+Property Budget.
+
+289A06FB 46850465.
+
+Tattoo Budget.
+
+289A06F6 46850465.
+
+Hairdressing Budget.
+
+289A0615 46850465.
+
+Prostitute Budget.
+
+289A0619 46850465.
+
+Strip Club Budget.
+
+289A5EF1 46850465.
+
+Car Modification Budget.
+
+289A5EF2 46850465.
+
+Food Budget.
+
+289A067C 46850465.
+
+Total Shopping Budget.
+
+289A5EDE 46850465.
+
+Money Spent Gambling.
+
+289A060A 46850465.
+
+Money Won Gambling.
+
+289A0664 46850465.
+
+Biggest Gambling in.
+
+289A06E5 46850465.
+
+Money Mad From Burglary.
+
+289A5ED8 46850465.
+
+Largest Burglary Swag.
+
+289A5E40 46850465.
+
+No:.
+
+Gambling Loss.
+
+289A06E5 0CA57A65.
+
+Weapons:.
+
+Max:.
+
+Bullets Fired.
+
+289A5E62 0C363E9B.
+
+KGS of Explosives Used.
+
+289A5E66 0C363E9B.
+
+Bullets That Hit.
+
+289A5E74 0C363E9B.
+
+Crimes:.
+
+Max:.
+
+Houses Burgled.
+
+289A8566 0C363E9B.
+
+Safes Cracked.
+
+289A8574 0C363E9B.
+
+Police Bribes.
+
+289A852B 0C363E9B.
+
+Cars Stolen.
+
+289A85FF 0C363E9B.
+
+Stolen Items Sold.
+
+289A85F6 0C363E9B.
+
+Wanted Stars Attained.
+
+289A5E15 0C363E9B.
+
+Wanted Stars Evaded.
+
+289A5EB6 0C363E9B.
+
+Assassinations.
+
+289A85F2 0C363E9B.
+
+People Wasted by Others.
+
+289A5E7C 0C363E9B.
+
+People You've Wasted.
+
+289A5E68 0C363E9B.
+
+Road Vehicles Destroyed.
+
+289A5ED6 0C363E9B.
+
+Boats Destroyed.
+
+289A5E6D 0C363E9B.
+
+Planes & Helicoptes Destroyed.
+
+289A5E1E 0C363E9B.
+
+Cost of Property Damaged.
+
+289A5ED4 0C363E9B.
+
+Tires Popped With Gun Fire.
+
+289A5E8B 0C363E9B.
+
+Headshots.
+
+289A5EF6 0C363E9B.
+
+Kills Since Last Checkpoint.
+
+289A852E 0C363E9B.
+
+Total Legitimate Kills.
+
+289A85A9 1CD1A03E.
+
+Never:.
+
+Busted.
+
+289A5E19 0CA57A65.
+
+Gangs:.
+
+Max:.
+
+Territories Held.
+
+289A3D5A 0C363E9B.
+
+Highest Number of Territories Held.
+
+289A3DF9 0C363E9B.
+--------------------------------------------------------------------------------------------------------

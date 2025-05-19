@@ -1,0 +1,158 @@
+https://www.supercheats.com/playstation2/grand-theft-auto-san-andreas/4916/ar-codes/original-nrg-500-usa/
+Special edition code no water in parts of the ocean
+YZ6H-NZJ1-EYMQK
+2YPB-MUH1-KYF7W
+
+Instant Skydive,Press L3+R1 (ARMax NTSC) v1 original
+J3YH-N4FQ-4NF95
+ZF1V-HBRM-4AYZE
+2C8R-AN0P-HF7EJ
+NH5G-A7C0-HF2U7
+
+Special edition (ntsc v2)Instant skydive press L3+R1
+CTZW-Z2HP-B3JJP
+4NX9-J0VX-6ZE0A
+38ZD-FE6K-B0HFQ
+E7G0-Y2ND-TBBFB
+
+L3: Lock Your Door/R3: Unlock it
+"NOTE ALL CODES I HAVE MENTIONED ARE UK ONLY CODES"
+QYBZ-7XF5-A4W20
+1E2J-42VA-JRETZ
+4WNK-PRXM-V9G9M
+M3V6-6983-VHFX2
+A2PJ-Q3ND-DYFQ2
+
+Car Damage
+Only your car or any Car/Truck ect you jack is immune to Collisions Damage
+"Better than Turn of Car Damage to all cars code"
+Region: Unspecified
+G0Y9-FJKZ-QHFMU
+J0K3-A8DB-QFEUV
+BFNB-ZKZV-1RUCA
+
+Only your Car or any Car/Truck ect you jack is immune to Weapons Damage
+"Not including Bombs or rockets"
+WBCC-QQJB-WRRV9
+6Q5V-8522-Z7N9F
+H3TH-PP5Q-D629K
+
+
+Grove st. Garage Everything Proof 
+D080E472 00100000
+1080E470 0000FFFF
+
+
+grove st. are hot girls 3.0
+M65G-AE8W-QYTCB
+MMUN-CTDE-UYE85
+W89Z-DGDB-TT957
+AXJZ-AWJ2-BVH7U
+
+grove st. are hookers
+U3X6-YB6P-RZ5ZK
+4FTV-QZWU-WX6XV
+ZKJP-7NR2-0F885
+F883-T2NE-WVJF8
+
+grove st. are Black girls
+FZCK-TY12-A673J
+9M6K-YXE6-J1TB8
+RY9Z-P4RQ-ZNGJ5
+PTRW-CQEC-CUE5F
+
+grove st. are denise michelle katie
+T8C2-P9F1-51YZN
+1VVN-618A-94326
+Y2G3-WU5M-3RYV6
+T72D-FU3P-KZJXQ
+
+grove st. are barbara millie Helena
+V5EV-ZDPN-QEPCG
+WKB4-38ZU-TTHVE
+JH3A-UAAH-QMWWK
+5BQ8-0999-FUQQP
+
+Infinite Armor
+RPKR-B6FZ-QKD88
+VJFU-518V-D54FB
+T1AY-DGHY-EUW0Z
+Infinite Armor
+202A9948 3C0142C8
+202A994C AC610588
+
+
+Nitro Boost (motorcycles)
+AE01-9H6K-T6TNY
+9MJK-PX3P-6QN4B
+//Note: the motorcycles don't shoot out nitro, they just are much faster.
+Nitro Boost (motorcycles)
+20326E74 00000000
+//Note: the motorcycles don't shoot out nitro, they just are much faster.
+
+Disable Water for Cars drive under water in a car or on a motorcycle.
+2G1Y-3K1E-XKUM5
+GQNZ-8V5Q-RVJ09
+D9NQ-X38W-QGUMX
+
+Disable Water for Cars drive under water in a car or on a motorcycle.
+201497B0 03E00008
+201497B4 00000000
+
+Disable Water for Motorcycles drive under water in a car or on a motorcycle.
+6ZPP-2G1K-H9G9F
+5Q3R-TYR8-9A9VR
+MYBE-H2VJ-8BA6B
+
+Disable Water for Motorcycles drive under water in a car or on a motorcycle.
+20324C10 03E00008
+20324C14 00000000
+
+Disable Water for Pedestrians  (Pedestrians can walk under water.)
+GHR2-G6GJ-UHB1G
+MUHX-HZUU-2F1YF
+MFYE-ZGY6-R5Y4A
+
+Disable Water for Pedestrians (Pedestrians can walk under water.)
+201942F0 03E00008
+201942F4 00000000
+
+
+Nrg 500:
+* Park a car in the grove st. and it will turn into the NRG 500. Get a car with 2 colors,customize both colors then take it to the Grove st. Garage. There are a lot of color combos to try.
+Nrg 500 - Original san andreas
+Y431-7U0V-MXG34
+9WP0-GRBB-EBZ18
+X74A-Z364-N7W54
+F0EB-NX3J-AF0T0
+JW9Q-CXQ6-5PB32
+QP5F-8068-VC7D4
+
+Nrg 500 - Original san andreas
+D080D8E2 00100000
+1080D8E2 0000020A
+E002020A 0080D8E2
+0080D907 00000002
+0080D908 00000004
+//patch=1,EE,D080D8E2,extended,00100000
+//patch=1,EE,1080D8E2,extended,0000020A
+//patch=1,EE,E002020A,extended,0080D8E2
+//patch=1,EE,0080D907,extended,00000002
+//patch=1,EE,0080D908,extended,00000004
+
+Nrg 500  - greatest hits version
+Y01H-KFPW-RXV0Q
+0DXF-9UZX-FWDT6
+7UN9-7NBU-2KEAV
+TP0H-EURZ-JWXP4
+W0RK-2JY9-PYUF1
+0FGP-51YY-1HPR8
+
+Nrg 500  - greatest hits version
+D080E472 00100000
+1080E472 0000020A
+E002020A 0080E472
+0080E497 00000002
+0080E498 00000004
+
+

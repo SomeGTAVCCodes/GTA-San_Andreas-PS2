@@ -1,0 +1,37 @@
+Triad territory code
+Added: Nov 30th 2013
+
+This code will assign the Triads to the specified area and turn that portion of the map Red. If the game is saved, the territory effects will be saved, though the map color will not be. So if you don't reactivate the code, you'll still find Triad members in the specified area, but the map color will be green.
+
+Market
+
+76090A80 00000000
+28619762 0CA5AC65
+28619766 0C497A65
+28619774 15267A65
+2861978B 3F167A65
+086197F6 0CA57A0E
+
+Aztecas territory codes
+Added: Nov 30th 2013
+
+These codes will assign the Aztecas to the specified areas and turn that portion of the map cyan. If the game is saved, the territory effects will be saved, though the map color will not be. So if you don't reactivate the code, you'll still find the Aztecas in the specified areas, but the map color will be green.
+
+Redsands West
+
+76011E60 00000000
+08618902 0CA57A65
+186189BB 0CA57A56
+28618972 0CA57A65
+286189A1 99A57A4F
+28618978 7C8C8865
+18618903 0CA50FC1
+
+Starfish Casino
+
+7603D450 00000000
+08617B52 0CA57A65
+28617BA9 0CA57A56
+28617B55 0C497A65
+28617BFB 94A5FA65
+28617BA0 9FCB4A3E

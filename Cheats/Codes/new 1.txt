@@ -1,0 +1,49 @@
+ntsc sprint
+00709748 00000001
+
++100 pal test me 
+00709848 00000001
+
+no dmg cars
+20146610 03E00008
+20146614 00000000
+
+Instant Skydive, Press L3+R1 (ARMax NTSC) v1 original
+J3YH-N4FQ-4NF95
+ZF1V-HBRM-4AYZE
+2C8R-AN0P-HF7EJ
+NH5G-A7C0-HF2U7
+
+Instant Skydive, Press L3+R1 (ARMax NTSC) v1 original
+2024D9E4 46010000
+D0700942 0000F7FD
+2024D9E4 C7809AC0
+
+Special edition (ntsc v2) Instant skydive press L3+R1
+CTZW-Z2HP-B3JJP
+4NX9-J0VX-6ZE0A
+38ZD-FE6K-B0HFQ
+E7G0-Y2ND-TBBFB
+
+Special edition (ntsc v2) Instant skydive press L3+R1
+2024DA44 46010000
+D07014C2 0000F7FD
+2024DA44 C7809AC0
+
+//test me: 100m water. submerged city. pal ver 2?
+//patch=1,EE,2017F3FC,extended,3C0542C8
+//patch=1,EE,2017F418,extended,44850800
+//patch=1,EE,2017F458,extended,E7A10190
+//patch=1,EE,2017F4A4,extended,00000000
+//patch=1,EE,2017F4FC,extended,00000000
+//patch=1,EE,2017F424,extended,E6400004
+//patch=1,EE,2017F1DC,extended,6011F348
+//patch=1,EE,2017F5B4,extended,62250000
+//patch=1,EE,2017F5BC,extended,62280000
+//patch=1,EE,2017F590,extended,62230100
+//patch=1,EE,2017F5C4,extended,622B0100
+//patch=1,EE,2017F554,extended,62310100
+//patch=1,EE,2017F5B0,extended,60040BB6
+//patch=1,EE,2017F5C0,extended,600A0BB6
+//patch=1,EE,2017F5B8,extended,6007F44A
+//patch=1,EE,2017F584,extended,600CF44A
