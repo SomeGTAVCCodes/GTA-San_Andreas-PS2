@@ -1,0 +1,536 @@
+gametitle=GTA SAN ANDREAS.
+comment=PAL-Black.
+//TITLE:	GTA:SA ".pnach" Cheats & In-Game Cheats
+//Author: 	TKBS
+//DATE: 	2025
+//GAME: 	GTA:SA PAL 2004 (BLACK) - Hybrid (60hz Y POS patch)
+//INFO:		Cheats & Codes for PAL. New + organising existing ones + original values data for finding in other versions, regions.
+//Credits:	".pnach" & ".ct" cheats, Documentation, scans, Modkit, everything else: TKBS.
+//Credits:	AR Max CD
+//[Notes: Important]
+//** Addresses Change.
+//** Use the Clean Starter "Save State" provided that these cheats were made with, so the game keeps the same addresses & all the cheats work.
+
+// ---- PATCH PAL 60hz ----
+//* Use hex edit on the elf file: "SLES_525.41" 		- Patches PAL -> hz (60hz, fps). This will also change the "CRC: A1B3F232" to "CRC: 85A76633"
+//	[00447D40]		03 94 06 00		-> 	02 00 12 24
+
+//------------------------ ".pnach" Cheats -----------------------------------
+
+//FireFighter: Level 12 = B | Level 13 Complete = C  || (toggle) this to "0|1" - and it will level up.
+//patch=1,EE,206F3D24,extended,0000000C
+
+//Ambulance: Set to 0 For ppl left to save - to auto level up.
+//patch=1,EE,206F3C54,extended,00000000
+
+//---- Game: Renderer ----
+
+//Render: Sky 
+//patch=1,EE,202EDD30,extended,03E00008
+//patch=1,EE,202EDD34,extended,00000000
+
+//---- Player ----
+
+//Cash Money £££ $$$ (3B9AC9FF = 999,999,999) || 00002710 = 10,000
+//patch=1,EE,207097B4,extended,00002710
+//patch=1,EE,207097B8,extended,00002710
+//patch=1,EE,2066BD70,extended,00002710
+
+//Jump - Super Jump
+//patch=1,EE,0088D83C,extended,00000001
+
+//Infinite: Sprint: 						- ntsc +100 = pal - test me
+//patch=1,EE,00709848,extended,00000001
+
+//Infinite: Armour: || Default = C4610588 (damaged)
+//patch=1,EE,202A9944,extended,E4610588
+
+//Infinite: Health: || Default = 00000000
+//patch=1,EE,20261914,extended,E4400580
+
+//MAX Health || Default = 440E4000			- Converted from NTSC using "-A90" by TKBS
+//patch=1,EE,208022C0,extended,44B00000
+
+//Infinite: o2 (under water)	|| Default Value = 448FC000
+//patch=1,EE,20709718,extended,44900321
+
+//Weapons: Infinite AMMO					- ARMAX CD || Default Value = 2442FFFF
+//* Does not work inside vehicles
+//patch=1,EE,20134340,extended,00000000
+//Weapons: Infinite CLIP AMMO				- ARMAX CD || Default Value = 2442FFFF
+//patch=1,EE,201343A4,extended,24420000
+
+//Weapons: Machine Pistol Ammo
+//patch=1,EE,210B2308,extended,00000032
+//patch=1,EE,210B230C,extended,0000012C
+
+//Weapons: Keep When Busted or Killed.		|| Default Value = 27BDFFD0 | 2405FFFF
+//patch=1,EE,201997F0,extended,03E00008
+//patch=1,EE,201997F4,extended,00000000
+
+//60hz - (Probably only works on PS2 Hardware)	- AR Max Converted to PAL 2004
+//patch=1,EE,20547BC0,extended,24120002
+
+//---- Missions: Side Quests ----
+
+//Tags Sprayed (You Tagged the city!)		- Also works -> //patch=1,EE,0066C640,extended,00000064
+//patch=1,EE,2066C640,extended,00000064
+
+// ---- Weapons, Hitman Level, Skills, Ammo ---------------------------------------------------------------
+
+//Weapons: Pistol Skill - Hitman Level
+//patch=1,EE,20802374,extended,447A0000
+
+//Weapons: Pistol (Silenced) Skill - Hitman Level
+//patch=1,EE,20802378,extended,447A0000
+
+//Weapons: Desert.Eagle Skill - Hitman Level
+//patch=1,EE,2080237C,extended,447A0000
+
+//Weapons: Shotgun 1 (Long) Skill - Hitman Level
+//patch=1,EE,20802380,extended,447A0000
+
+//Weapons: Shotgun 2 (Sawn-Off) Skill - Hitman Level
+//patch=1,EE,20802384,extended,447A0000
+
+//Weapons: Shotgun 3 (Combat) Skill - Hitman Level
+//patch=1,EE,20802388,extended,447A0000
+
+//Weapons: Machine Pistol Skill - Hitman Level
+//patch=1,EE,2080238C,extended,447A0000
+
+//Weapons: SMG Skill - Hitman Level
+//patch=1,EE,20802390,extended,447A0000
+
+//Weapons: AK47 Skill - Hitman Level
+//patch=1,EE,20802394,extended,447A0000
+
+//Weapons: M4 Skill - Hitman Level
+//patch=1,EE,20802398,extended,447A0000
+
+// ---- Wanted Level ----
+
+//Never Wanted Level ||Default Values =  27BDFFD0 || FFBF0020
+//patch=1,EE,2027BF90,extended,03E00008
+//patch=1,EE,2027BF94,extended,00000000
+
+// ---- Clock ----
+
+//Infinite: Mission Time: ||  Default Value = AD230000
+//patch=1,EE,20292D9C,extended,00000000
+
+//Vigilante: Time Outside of vehicle:		- Toggle (01|00)
+//patch=1,EE,206F3CA4,extended,00000000
+
+//Clock Fast
+//patch=1,EE,0088D80B,extended,00000001
+
+// ---- Game: Speed ----
+
+//Run/Drive/Fly Faster || 2066BB28 3F800000		-  This has no explanation, i think line 1 & 2 are not needed.
+//patch=1,EE,2066BB28,extended,3F800000
+//patch=1,EE,D0700A42,extended,0000BFFF
+//patch=1,EE,2066BB28,extended,40400000
+
+//Normal Motion - Default Value
+//patch=1,EE,2066BB28,extended,3F800000
+
+//Super Slow Motion
+//patch=1,EE,2066BB28,extended,3E800000
+
+//Slow Motion
+//patch=1,EE,2066BB28,extended,3F000000
+
+//Quick Motion
+//patch=1,EE,2066BB28,extended,3FC00000
+
+//Quicker Motion
+//patch=1,EE,2066BB28,extended,40000000
+
+//Quickest Motion
+//patch=1,EE,2066BB28,extended,40800000
+
+// ---- GAME: Gravity: effects gravity & speed ----
+//TODO: This is useless unless it can be returned to normal
+
+//Address "1024E3D4": Default Value = 00000F77
+//* But this Does not return gravity to normal
+
+//GRAVITY: Never stop ascending
+//patch=1,EE,1024E3D4,extended,00000F88
+
+//GRAVITY: Upper - Crushed (Jupiter)
+//patch=1,EE,1024E3D4,extended,00003F00
+
+//GRAVITY: Upper - eyes pop.
+//patch=1,EE,1024E3D4,extended,00003E00
+
+//GRAVITY: Upper
+//patch=1,EE,1024E3D4,extended,00003D00
+
+//GRAVITY: Up
+//patch=1,EE,1024E3D4,extended,00003C00
+
+//GRAVITY: LOW
+//patch=1,EE,1024E3D4,extended,00003B00
+
+//GRAVITY: LOWer
+//patch=1,EE,1024E3D4,extended,00003A00
+
+//GRAVITY: LOWWer 	- Almost Ethereal
+//patch=1,EE,1024E3D4,extended,00003900
+
+//--------------------------------------------------------------------
+//--------------------------STATS-------------------------------------
+//--------------------------------------------------------------------
+//* (mostly +4 Bytes from each other, some i cannot find)
+
+//---- STATS: Player ----
+//Number of Hospital Visits:				208023EC
+
+//---- STATS: Money ----
+
+//---- STATS: Weapons ----
+
+//Max Bullets Fired (05F5E0FF) || 0000029A = 666
+//patch=1,EE,208023C8,extended,0000029A
+
+//KGs of Explosves Used: 					208023CC
+//Bullets that Hit: 						208023D0
+//Total Number of Wanted Stars Attained: 	208023DC
+//Total Number of Wanted Stars Evaded: 		208023E0
+//Times Busted: 							208023E4
+
+//---- STATS: Crimes ----
+
+//Assassinations:							2080243C
+//Tyres popped with gunfire (tires):		208023D4
+
+//Number of Headshots
+//patch=1,EE,208023D8,extended,0000029A
+
+//Amount of Drugs Sold:						20802534
+//Amount of Drugs Bought:					20802538
+//Fires Started:							20802530
+
+//---- STATS: Gangs ----
+
+//Territories taken over:					20802578
+//Territories lost:							2080257C
+//Territories held:							20802580
+//Highest Number of Territories held:		20802584
+//Gang Members recruited:					20802588
+//Enemy Gang Members Killed:				2080258C
+//Friendly Gang Members Killed:				20802590
+
+//---- STATS: Achievements ----
+
+//Tags Sprayed = ???
+
+//### Dancing Points (999,999)
+//patch=1,EE,206B73AC,extended,000F423F
+
+//### SNAPSHOTS (50)
+//patch=1,EE,2080256C,extended,00000032
+
+//### oysters (50)
+//patch=1,EE,2080259C,extended,00000032
+
+//### Horse-shoes (50)
+//patch=1,EE,20802594,extended,00000032
+
+//Maximum Insane Jump Distance:				208023FC
+//Maximum Insane Jump Height:				20802400
+//Maximum Insane Jump Flips:				20802404
+//Maximum Insane Jump Rotation:				20802408
+
+//Unique Jumps Found:						20802410
+//Unique Jumps Done:						20802414
+//Last Dance Score:							20802440
+
+//Progress with Denise:						208025C0
+//Progress with Michelle:					208025C4
+//Progress with Helena:						208025C8
+//Progress with Barbara:					208025CC
+//Progress with Katie:						208025D0
+//Progress with Millie:						208025D4
+
+//---- STATS: Mission ----
+
+//Missions Attempts:						20802418
+//Missions Passed:							2080241C
+//Criminals Killed On Vigilante Mission:	20802430
+//Total Fire Extinguished:					20802434
+//People Saved In Amublance:				2080242C
+//Cash Made In Taxi:						20802424
+//Passengers Dropped off:					20802428
+//Packages Delivered:						20802438
+
+//Best Position In lowrider Race:			208025D8
+//Best Time In lowrider Race:				208025DC
+
+//Best Position In Little Loop:				208025E0
+//Best Time In Little Loop:					208025E4
+
+//Best Position In Backward Wanderer:		208025E8
+//Best Time In Backward Wanderer:			208025EC
+
+//Best Position In City Circuit:			208025F0
+//Best Time In City Circuit:				208025F4
+
+//Best Position In Vinewood:				208025F8
+//Best Time In Vinewood:					208025FC
+
+//Best Position In Freeway:					20802600
+//Best Time In Freeway:						20802604
+
+//Best Position In Into The Country:		20802608
+//Best Time In Into The Country:			2080260C
+
+//Best Position In Badlands A:				20802610
+//Best Time In Badlands A:					20802614
+
+//Best Position In Badlands A:				20802618
+//Best Time In Badlands A:					2080261C
+
+//Best Position In DirtBike Dancer:			20802620
+//Best Time In DirtBike Dancer:				20802624
+
+//Best Position In Bandito Country:			20802628
+//Best Time In Bandito Country:				2080262C
+
+//Best Position In Bandito Country:			20802628
+//Best Time In Bandito Country:				2080262C
+
+//Best Position In Go-Go-Kart:				20802630
+//Best Time In Go-Go-Kart:					20802634
+
+//Best Position In San Fierro FastLane:		20802638
+//Best Time In San Fierro FastLane:			2080263C
+
+//Best Position In San Fierro Hills:		20802640
+//Best Time In San Fierro Hills:			20802644
+
+//Best Position In Country Endurance:		20802648
+//Best Time In Country Endurance:			2080264C
+
+//Best Position In SF TO LV:				20802650
+//Best Time In SF TO LV:					20802654
+
+//Best Position In Dam Rider:				20802658
+//Best Time In Dam Rider:					2080265C
+
+//Best Position In Desert Tricks:			20802660
+//Best Time In Desert Tricks:				20802664
+
+//Best Position In LV Ringroad:				20802668
+//Best Time In LV Ringroad:					2080266C
+
+//Best Time In World War Aces:				20802670
+
+//Best Time In Barnstorming:				20802674
+
+//Best Time In Military Service:			20802678
+
+//Best Time In Chopper Checkpoint:			2080267C
+
+//Best Time In Whirly Bird Waypoint:		20802680
+
+//Best Time In HELI HELL:					20802684
+
+//Best Position In Dirt Track:				20802544
+//Best Time In Dirt Track:					20802540
+//Best Lap Time In Dirt Track:				2080253C
+
+//NRG-500 									20802548
+
+
+//---- STATS: Misc ----
+
+//Days Passed In Game:						208023E8
+//SafeHouse Vists:							208023F0
+//Times Cheated:							208023F4
+//Vehicle Resprays:							208023F8
+
+//LUCK:									- "+A90" from ntsc || Same Offset as cj garage.
+//patch=1,EE,20802574,extended,00000000
+
+//LUCK NTSC: 20803004					- "-A90" from pal || Same Offset as cj garage.
+
+//DEFAULT DRIVING SKILL					*** DOES NOT WORK ??? ***
+//patch=1,EE,20802450,extended,00000000
+
+//MAX DRIVING SKILL						*** DOES NOT WORK ??? ***
+//patch=1,EE,20802450,extended,000003E8
+
+//DEFAULT CYCLING SKILL
+//patch=1,EE,20802568,extended,00000000
+
+//MAX CYCLING SKILL
+//patch=1,EE,20802568,extended,000003E8
+
+//DEFAULT BIKE SKILL
+//patch=1,EE,20802564,extended,00000000
+
+//MAX BIKE SKILL
+//patch=1,EE,20802564,extended,000003E8
+
+//DEFAULT LUNG CAPACITY
+//patch=1,EE,20802554,extended,00000000
+
+//MAX LUNG CAPACITY
+//patch=1,EE,20802554,extended,000003E8
+
+//DEFAULT FLYING SKILL
+//patch=1,EE,2080254C,extended,00000000
+
+//MAX FLYING SKILL
+//patch=1,EE,2080254C,extended,000003E8
+
+//DEFAULT MUSCLE
+//patch=1,EE,208022BC,extended,42480000
+
+//MAX MUSCLE
+//patch=1,EE,208022BC,extended,44700000
+
+//DEFAULT STAMINA
+//patch=1,EE,208022B8,extended,42C80000
+
+//MAX STAMINA
+//patch=1,EE,208022B8,extended,44700000
+
+//DEFAULT TOTAL RESPECT
+//patch=1,EE,208022B4,extended,3FBFFFFF
+
+//MAX TOTAL RESPECT
+//patch=1,EE,20802360,extended,44700000
+
+//DEFAULT BODY FAT
+//patch=1,EE,208022B4,extended,43480000
+
+//MIN BODY FAT
+//patch=1,EE,208022B4,extended,3F800000
+
+//MAX BODY FAT
+//patch=1,EE,208022B4,extended,44700000
+
+// ---- Vehicles: Garages ------------------------------------------------------------
+//* I have No idea how or why this works, what the color address is, or why i cannot find garages like vice city.
+//* Vehicle must exist in garage, maing it a bit pointless, other than dmg proof.
+
+// [KEY] ---- Vehicles ---- Vehicles List: (use vehicles.ide)
+//IDs: 400-611 || Hex: 190 - 263
+//Mr Whoopee 	= 423	|| 000001A7
+//BRAVURA 		= 401	|| 00000191
+//Cop Car LA	= 596   || 00000254
+//Fire-Truck	= 407   || 00000197
+//Rhino-Tank	= 432   || 000001B0
+
+//CJ's Garage:
+//Line 1 default = ???????? || - literally all ?'s  -Also - the first line doesn't even do anything (?).
+//Line 2 default = 0D88D0DD || - My guess at damage proof, based on VC - this line does not exist on ARMax CD.
+//Line 3 default = DDDD0D88 || - Vehicle ID 2?
+//Line 4 default = DDDD0D88 || - My guess at Vehicle ID 1?
+//Line 5 ?????????????????? || - My guess at colour ? - In vice city, Colour is +20 from VH id line.
+//* i noticed the car change and not bike, the 4 bytes up crashed game, bytes before line 3 worked for VH 2
+
+//[NTSC(2?) D080E472] - [PAL(black) D080D9E2] = A90 | (2,704)
+//Possibly Add "1" or "2C" or "4 bytes" to one of the digits (the 8 or D?) for the next garage.
+//TODO: TEST: 0000FFFF
+
+//CJ's Garage: Vehicle: DMG Proof.			- AR Max Converted to PAL 2004 || "+A90" from ntsc
+//patch=1,EE,D080D9E2,extended,00100000
+//patch=1,EE,1080D9E0,extended,0000001F
+//patch=1,EE,1080D9E2,extended,000001A0
+//patch=1,EE,1080D9DE,extended,000001A0
+//patch=1,EE,Colour?,extended,FF000102
+
+//CJ's Garage: NTSC ?						- "-A90" from pal
+//D080E472 00100000
+//1080E472 00000190
+
+//---- Vehicles: ----
+
+//Vehicles DMG Proof - No Collision DMG	|| Default Value = 27BDFEE0 | 3C033EAA
+//patch=1,EE,20146610,extended,03E00008
+//patch=1,EE,20146614,extended,00000000
+
+//Vehicles: Cars Jump (Like Taxis) 						- (NTSC 0088D71C) + 100 = 0088D81C (PAL)
+//patch=1,EE,0088D81C,extended,00000001
+
+//Vehicles: Cars Nitro Boost 							- NTSC 0088D735 + 100 = 0088D835 PAL
+//patch=1,EE,0088D835,extended,00000001
+
+//Vehicles: Cars on water
+//patch=1,EE,0088D822,extended,00000001
+
+//Vehicles: Cars Black
+//patch=1,EE,0088D821,extended,00000001
+
+//Vehicles: Cars pink 1
+//patch=1,EE,1088D820,extended,00000001
+//Vehicles: Cars pink 2:
+//patch=1,EE,0088D820,extended,00000001
+
+//Vehicles: Cars Rage
+//patch=1,EE,0088D81F,extended,00000001
+
+//Vehicles: Cars Invisible
+//patch=1,EE,0088D81B,extended,00000001
+
+//Vehicles: Cars fly || Default Value = 00000000
+//patch=1,EE,0088D830,extended,00000001
+
+//Vehicles: Aim Whilst Driving || Default Value = 00000000
+//* Cannot undo!
+//patch=1,EE,0088D849,extended,00000001
+//Vehicles: Aim Whilst Driving || Default Value = 00000000	|| Toggle 0,1.
+//patch=1,EE,2088D849,extended,00000001
+
+// ---- GAME: STATIC MESH Placements ----
+//*  City Streets, Country Roads + Downtown SF + LV Strip.
+//Line 1 = City Streets = 00706057,00000007	||	Country Roads = 00706063,00000007
+//Line 2 = MESH	- Put Mesh Line here
+//Line 3 = City Streets = 00000000,00000000	||	Country Roads = 00000001,00000000
+
+//Static Mesh List;-
+//Green Bushes:		40865D08 00090012
+//Trees: 			40866380 00070012
+//Joshua Trees: 	408654E0 00040012
+//Tall Grass:  		40865840 00050012
+//Flowers:			40866578 00050012
+//Stumps:			40866020 00070012
+//Sea-plants: 		40866A40 00020012
+//Rocks:			40866800 00050012
+//Huge Boulders:	40866AD0 000B0012
+//Cacti: 			40865378 00030012
+//Desert Bushes: 	40865690 00050012
+
+// ---- City Streets ----
+//Green Bushes on City Streets
+//patch=1,EE,00706057,extended,00000007
+//patch=1,EE,40865D08,extended,00090012
+//patch=1,EE,00000000,extended,00000000
+
+//Desert Bushes on City Streets
+//patch=1,EE,00706057,extended,00000007
+//patch=1,EE,40865690,extended,00050012
+//patch=1,EE,00000000,extended,00000000
+
+---- Country Roads + Downtown SF + LV Strip ----
+//Trees on Country Roads
+//patch=1,EE,00706063,extended,00000007
+//patch=1,EE,40866380,extended,00070012
+//patch=1,EE,00000001,extended,00000000
+
+//Green Bushes on Country Roads
+//patch=1,EE,00706063,extended,00000007
+//patch=1,EE,40865D08,extended,00090012
+//patch=1,EE,00000001,extended,00000000
+
+//--------------------------------------------------------------------
+//-------------- TESTS Junk, Fails, Unknown, Not tested --------------
+//--------------------------------------------------------------------
+
+//BLANK
+//patch=1,EE,00000000,extended,00000000
