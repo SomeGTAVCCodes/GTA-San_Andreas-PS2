@@ -13,6 +13,12 @@
 
 Unfortunately there is no list + releavt fixces posted online, and those that are are often incorrect, unneccasry or cannto be replicated.
 
+TO DATE: 
+* not 1 single post has ever been made showing someone playing SAN ANDREAS with a PS2 keyboard, 
+* there is no list of the keys used --> the functions for quick easy reference
+* afaik, no-one has ever played PCSX, any version, with san andreas and a keyboard, the 1.60 plugins do not work, and i didn;t even think of it myself until 2026, having already completed my san andreas stuff last year
+*... 
+
 [quick instructions]
 * Replace original files with modded files, rebuild iso, enjoy!
 * if you want to modify yourself or maybe learn something new just go through the full read me, docs, files, examples & information provided.
