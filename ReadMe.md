@@ -4,15 +4,16 @@
 * users can replicate the changes and create their own.
 * Full readme in help folder
 
-[The Aim]
-* i wanted a perfect main.scm.
-* Including; Fixes, a simple cheat menu users can replciate and modify & all PS2_kb removed except for mission skip + required skip fixes etc.
-* For PCSX2 2.0+ I wanted to have all code intact just fixed and improved as needed, with all PS2_KB and a complete .pnach cheat file  
-* For pcsx2 1.6.0 i wanted all the ps2_kb removed, becuase users cannot use it, and a prefect cleaned, fixed scm
-* Basially a perfect .scm with as much space as possible including templates for thigns liek cheat menus, all the commonly requetsed fixes and features and have it so that users cna simply copy paste examples into ti .
+[The Aim] = i wanted a perfect main.scm.
+* Including; Fixes, simple cheat menus users can replicate and modify provide commonly wanted stuff, all unused code stripped etc.
+* For PCSX2 2.0+ I wanted to have all code intact just fixed and improved as needed, with all PS2_KB working and listed and a complete ".pnach cheat" file for the new non "20######" style 64bit addresses. 
+* For PCSX2 1.6.0 i wanted all the ps2_kb removed (users cannot use it), and a perfect cleaned, fixed scm + cheat menus
+* a perfect .scm with as much space as possible including templates for cheat menus, all commonly requested fixes & features
+* importantly: have it so that users can simply copy paste examples into their own, so they can replicate, easily, fast & efficiently the whole process.
 
-Unfortunately there is no list + releavt fixces posted online, and those that are are often incorrect, unneccasry or cannto be replicated.
-
+** Unfortunately there is no list + relevant fixces posted online, and those that are are often incorrect, unneccasary or cannot be replicated.
+* mass focus on CLEO bullshit/ PC mods - neglecting PS2, whilst failing to provide the basic fundamentals correctly like a standardised perfect .scm comptible for all versions has caused a massive diference between PS2 & PC. Which has led to teh most basic expectations of users not being met, not met by rockstar to begin with, nor on any subsequent 1 of the 30+ re-releases, and variants, and not by any of the 20+ years of modding either.... if it had, i wouldn't be here.
+ 
 TO DATE: 
 * not 1 single post has ever been made showing someone playing SAN ANDREAS with a PS2 keyboard, 
 * there is no list of the keys used --> the functions for quick easy reference
