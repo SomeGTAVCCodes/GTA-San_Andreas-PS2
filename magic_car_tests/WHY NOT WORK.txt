@@ -1,0 +1,163 @@
+//------------ MAGIC CAR --------------
+//launch_mission @MAGICAR // TKBS "MAGIC CAR" from "main.sc" - debug.
+
+ :MAGICAR
+script_name 'MAGICAR'
+$MAGIC_CAR_ALLLOWED = 0
+$MAGIC_CAR_ID = 0
+$BTN_PRESSED = 0
+$BTN_COUNTER = 0
+$TEMP_INITIAL_MAGIC_CAR = 422 // bobcat 
+
+:MAGICAR_00
+if
+    Player.Defined($PLAYER_CHAR)
+goto_if_false @MAGICAR_16
+goto @MAGICAR_01
+
+:MAGICAR_01 // SET EXCLUSIONS
+if or
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 417 // Helis
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 425 // Helis
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 441 // Helis
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 446 // Boats
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 447 // Helis
+goto_if_false @MAGICAR_02
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10
+
+:MAGICAR_02
+if or
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 449 // Trains
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR >= 452 // Boats
+  //$TEMP_INITIAL_MAGIC_CAR == 453 // Boats
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR <= 454 // Boats
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 460 // planes
+goto_if_false @MAGICAR_03
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10
+
+:MAGICAR_03
+if or
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 464 // Helis
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 465 // Helis
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 469 // Helis
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 472 // Boats 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 473 // Boats
+goto_if_false @MAGICAR_04
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10
+
+:MAGICAR_04
+if or
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 484 // Boats 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 493 // Boats 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 476 // planes 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 487 // Helis
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 488 // Helis 
+goto_if_false @MAGICAR_05
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10
+
+:MAGICAR_05
+if or
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 497 // Helis
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 501 // Helis
+  is_int_var_equal_to_constant  $TEMP_INITIAL_MAGIC_CAR >= 511 // planes
+  //$TEMP_INITIAL_MAGIC_CAR == 512 // planes 
+  $TEMP_INITIAL_MAGIC_CAR <= 513 // planes 
+goto_if_false @MAGICAR_06
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10
+
+:MAGICAR_06
+if or
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 515 // Trains
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 519 // planes
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 520 // planes
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 539 // planes 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 537 // Trains
+goto_if_false @MAGICAR_07
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10
+
+:MAGICAR_07
+if or
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 538 // Trains 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 548 // Helis 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 553 // planes 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 563 // Helis 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 569 // Trains
+goto_if_false @MAGICAR_08
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10
+
+:MAGICAR_08
+if or
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 570 // Trains 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 577 // planes 
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 590 // Trains  
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 592 // planes
+  is_int_var_equal_to_constant $TEMP_INITIAL_MAGIC_CAR == 593 // planes  
+goto_if_false @MAGICAR_09
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10
+
+:MAGICAR_09
+if
+  $TEMP_INITIAL_MAGIC_CAR == 595 // Boats
+goto_if_false @MAGICAR_11
+$MAGIC_CAR_ALLLOWED = 0
+goto @MAGICAR_10 
+ 
+:MAGICAR_10
+// NOT ALLOWED
+$TEMP_INITIAL_MAGIC_CAR += 1
+goto @MAGICAR_01
+
+:MAGICAR_11
+// ALLOWED
+//wait 0
+//print_with_number_big 'BB_15' number $TEMP_INITIAL_MAGIC_CAR time 1000 style 1
+//wait 1000
+if
+is_button_pressed 1 button 12 // PAD 2 START
+goto_if_false @MAGICAR_12
+$TEMP_INITIAL_MAGIC_CAR += 1
+goto @MAGICAR_13
+
+:MAGICAR_12
+if
+is_button_pressed 1 button 13 // PAD 2 SELECT
+goto_if_false @MAGICAR_13
+$TEMP_INITIAL_MAGIC_CAR -= 1
+goto @MAGICAR_13
+
+:MAGICAR_13
+set_var_int_to_constant $MAGIC_CAR_ID = $TEMP_INITIAL_MAGIC_CAR
+set_var_int_to_constant 4@ = $MAGIC_CAR_ID
+goto @MAGICAR_14
+
+:MAGICAR_14
+//SPAWN VEHICLE
+if 
+  not Model.Available(4@)
+goto_if_false @MAGICAR_15
+Model.Load(4@)
+goto @MAGICAR_15 //not needed?
+
+:MAGICAR_15
+if
+    is_button_pressed 1 button 14 // PAD 2 SQUARE
+goto_if_false @MAGICAR_16
+get_offset_from_char_in_world_coords 0@ 1@ 2@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 2.0
+clear_area 1 at 0@ 1@ 2@ radius 3.0
+3@ = Car.Create(4@, 0@, 1@, 2@)
+//print_now 'LOADCAR' time 80 1 // LOADING VEHICLE... (PRESS L1 TO CANCEL)
+Car.RemoveReferences(3@)
+Model.Destroy(4@)
+//goto @MAGICAR_15
+
+:MAGICAR_16
+wait 0
+goto @MAGICAR_01

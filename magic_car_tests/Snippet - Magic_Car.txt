@@ -1,0 +1,127 @@
+// ------------ this just spawns a vehicle ---------------------------
+:CHEATS_530 // Unlock Stuff
+if
+    $10957 == 3
+goto_if_false @CHEATS_531
+// -- Unlock Vehicles --
+//switch_car_generator $VH_CARGEN_RHINO cars_to_generate_to 101          //tank (100% Bonus)
+//switch_car_generator $VH_CARGEN_HYDRA cars_to_generate_to 101  //jet (100% Bonus)
+// -- MAGIC CAR --
+//wait 250
+if 
+  not Model.Available(422)
+goto_if_false @CHEATS_568
+Model.Load(422)
+
+:CHEATS_568
+get_offset_from_char_in_world_coords 0@ 1@ 2@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 2.0
+clear_area 1 at 0@ 1@ 2@ radius 3.0
+3@ = Car.Create(422, 0@, 1@, 2@)
+Car.RemoveReferences(3@)
+Model.Destroy(422)
+goto @CHEATS_1289
+// ----------------------------------------------------------
+
+
+
+//  ---------------------------
+Below is the menu- some code has been removed // the spawn car is the same
+it is just to show the jumps and loop.
+//  ---------------------------
+
+launch_mission @CHEATS
+
+:CHEATS
+script_name 'CHEATS'
+
+:CHEATS_11
+wait 0 //todo swap to 0 ?
+if
+    Player.Defined($PLAYER_CHAR)
+goto_if_false @CHEATS_11
+if
+    Player.Controllable($PLAYER_CHAR)
+goto_if_false @CHEATS_11
+if and
+    is_button_pressed 0 pressed_key 13 // PAD 1 - SELECT && || Open Menu
+    is_button_pressed 0 pressed_key 16 // PAD 1 - X
+    //not is_button_pressed 0 pressed_key 4  // PAD 1 - L1 
+    //not is_button_pressed 0 pressed_key 5  // PAD 1 - L2     
+    //not is_button_pressed 0 pressed_key 6  // PAD 1 - R1
+    //not is_button_pressed 0 pressed_key 7  // PAD 1 - R2    
+goto_if_false @CHEATS_11
+//wait 250
+set_everyone_ignore_player $PLAYER_CHAR ignored_by_everyone 1
+set_player_control $PLAYER_CHAR can_move False
+display_hud 0
+use_text_commands 1
+CHEATS_1348() //gosub @TPCJ_984
+display_text 20.0 20.0 GXT 'TATTA'
+create_menu $10956 = create_panel_with_title 'CHEAT1' position 250.0 25.0 width 200.0 columns 1 interactive 1 background 1 alignment 0 //old position 340.0 120.0
+set_menu_column $10956 column 0 header 'PLA_19' data 'CHEAT3' 'RIOT_1' 'BJ_WIN' 'TRASHM' 'CHEAT5' 'FES_MON' 'FEC_RUN' 'FEC_INC' 'CARSOFF' 'FLSAS' 'GIMP' 'CHEAT2'
+set_active_menu_item $10956 active_row 0
+
+:CHEATS_303
+wait 0
+if
+    Player.Defined($PLAYER_CHAR)
+goto_if_false @CHEATS_1289
+if and
+    is_button_pressed 0 pressed_key 13  // PAD 1 - SELECT && || Close Menu
+    is_button_pressed 0 pressed_key 14  // PAD 1 - SQUARE
+goto_if_false @CHEATS_353
+goto @CHEATS_1289
+
+:CHEATS_353 // Player Health - could be merged with money & health
+if
+    is_button_pressed 0 pressed_key 16 // X
+goto_if_false @CHEATS_303
+clear_help
+get_menu_item_selected $10957 = panel $10956
+$10957 += 1
+if
+    $10957 == 1
+goto_if_false @CHEATS_530
+Actor.Health($PLAYER_ACTOR) = +150 // TKBS - Max Health
+Actor.Armour($PLAYER_ACTOR) = +100 // TKBS - Max Armour
+goto @CHEATS_303
+
+
+:CHEATS_530
+if
+    $10957 == 3
+goto_if_false @CHEATS_531
+// -- MAGIC CAR --
+if 
+  not Model.Available(422)
+goto_if_false @CHEATS_568
+Model.Load(422)
+
+:CHEATS_568
+get_offset_from_char_in_world_coords 0@ 1@ 2@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 2.0
+clear_area 1 at 0@ 1@ 2@ radius 3.0
+3@ = Car.Create(422, 0@, 1@, 2@)
+Car.RemoveReferences(3@)
+Model.Destroy(422)
+goto @CHEATS_1289 // Cheat menu close.
+
+:CHEATS_1289 // cheat menu close
+delete_menu $10956
+display_hud 1
+set_player_control $PLAYER_CHAR can_move True
+set_everyone_ignore_player $PLAYER_CHAR ignored_by_everyone 0
+use_text_commands 0
+goto @CHEATS_11
+return 
+
+:CHEATS_1348 // set cheat menu attributes
+set_text_colour 240 200 220 255
+set_text_scale 0.25 1.0
+set_text_right_justify 0
+set_text_justify 0
+set_text_centre 0
+set_text_wrapx 200.0
+set_text_proportional 1
+set_text_background 0
+set_text_font 0
+return

@@ -1,0 +1,97 @@
+
+launch_mission @MAGICVH     // TKBS - Cheat Menu 2 - "MAGIC CAR" from "main.sc" - debug.
+
+//-------- TKBS: MAGIC CAR ------------
+// * TODO - See VICE_CITY-Hybrid Version, port it ot here...
+
+:MAGICVH //MAGIC_CAR
+script_name 'MAGICVH'
+$TEMP_INITIAL_MAGIC_CAR = 399 //CAR_CHEETAH
+$TEMP_UNKNOWN = 0
+
+:MAGICVH_101
+wait 0
+if
+    Player.Defined($PLAYER_CHAR)
+goto_if_false @MAGICVH_103
+if
+    Player.Controllable($PLAYER_CHAR)
+goto_if_false @MAGICVH_103
+goto @MAGICVH_102
+
+:MAGICVH_102
+if
+    is_button_pressed 1 pressed_key 12  // PAD 1 - START
+goto_if_false @MAGICVH_103
+goto @MAGICVH_104
+
+:MAGICVH_103
+goto @MAGICVH_101
+
+:MAGICVH_104
+$TEMP_INITIAL_MAGIC_CAR += 1
+goto @MAGICVH_106
+
+:MAGICVH_106
+if
+  $TEMP_INITIAL_MAGIC_CAR > 611 //max 
+goto_if_false @MAGICVH_107
+$TEMP_INITIAL_MAGIC_CAR = 400
+goto @MAGICVH_108
+
+:MAGICVH_107
+if
+  $TEMP_INITIAL_MAGIC_CAR < 400 //max 
+goto_if_false @MAGICVH_108 
+$TEMP_INITIAL_MAGIC_CAR = 400
+goto @MAGICVH_108 
+/*
+if or
+  $TEMP_INITIAL_MAGIC_CAR == 417 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 425 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 441 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 446 // Boats
+  $TEMP_INITIAL_MAGIC_CAR == 447 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 449 // Trains
+  $TEMP_INITIAL_MAGIC_CAR == 452 // Boats
+  $TEMP_INITIAL_MAGIC_CAR == 453 // Boats
+  $TEMP_INITIAL_MAGIC_CAR == 454 // Boats
+  $TEMP_INITIAL_MAGIC_CAR == 460 // planes
+  $TEMP_INITIAL_MAGIC_CAR == 464 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 465 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 469 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 472 // Boats 
+  $TEMP_INITIAL_MAGIC_CAR == 473 // Boats
+  $TEMP_INITIAL_MAGIC_CAR == 484 // Boats 
+  $TEMP_INITIAL_MAGIC_CAR == 493 // Boats 
+  $TEMP_INITIAL_MAGIC_CAR == 476 // planes 
+  $TEMP_INITIAL_MAGIC_CAR == 487 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 488 // Helis 
+  $TEMP_INITIAL_MAGIC_CAR == 497 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 501 // Helis
+  $TEMP_INITIAL_MAGIC_CAR == 511 // planes
+  $TEMP_INITIAL_MAGIC_CAR == 512 // planes 
+  $TEMP_INITIAL_MAGIC_CAR == 513 // planes 
+  $TEMP_INITIAL_MAGIC_CAR == 515 // Trains
+  $TEMP_INITIAL_MAGIC_CAR == 519 // planes
+  $TEMP_INITIAL_MAGIC_CAR == 520 // planes
+  $TEMP_INITIAL_MAGIC_CAR == 539 // planes 
+  $TEMP_INITIAL_MAGIC_CAR == 537 // Trains
+  $TEMP_INITIAL_MAGIC_CAR == 538 // Trains 
+  $TEMP_INITIAL_MAGIC_CAR == 548 // Helis 
+  $TEMP_INITIAL_MAGIC_CAR == 553 // planes 
+  $TEMP_INITIAL_MAGIC_CAR == 563 // Helis 
+  $TEMP_INITIAL_MAGIC_CAR == 569 // Trains
+  $TEMP_INITIAL_MAGIC_CAR == 570 // Trains 
+  $TEMP_INITIAL_MAGIC_CAR == 577 // planes 
+  $TEMP_INITIAL_MAGIC_CAR == 590 // Trains  
+  $TEMP_INITIAL_MAGIC_CAR == 595 // Boats
+  $TEMP_INITIAL_MAGIC_CAR == 592 // planes 
+  $TEMP_INITIAL_MAGIC_CAR == 593 // planes
+goto_if_false @MAGICVH_108
+*/
+
+:MAGICVH_108
+$TEMP_INITIAL_MAGIC_CAR += 1
+print_with_number_big 'BB_15' number $TEMP_INITIAL_MAGIC_CAR time 1000 style 1
+goto @MAGICVH_101

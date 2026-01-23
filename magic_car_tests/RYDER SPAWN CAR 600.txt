@@ -1,0 +1,31 @@
+:RYDER3_18877
+if 
+is_ps2_keyboard_key_just_pressed 4 // NOT TESTED
+goto_if_false @RYDER3_18993
+request_model 600 //Model.Load(600)
+
+:RYDER3_18897
+if 
+  not has_model_loaded 600
+goto_if_false @RYDER3_18924
+wait 0
+goto @RYDER3_18897
+
+:RYDER3_18924
+create_car 182@ = create_car 600 at 2298.3899 -1149.0121 25.7656
+set_car_heading 182@ Z_angle_to 45.766
+if 
+  not is_char_dead $PLAYER_ACTOR
+goto_if_false @RYDER3_18981
+warp_char_into_car $PLAYER_ACTOR in_car 182@
+
+:RYDER3_18981
+mark_model_as_no_longer_needed 600
+89@ = 50
+
+:RYDER3_18993
+if 
+is_ps2_keyboard_key_just_pressed 5 // NOT TESTED
+goto_if_false @RYDER3_19081
+request_car_recording 486
+request_car_recording 490

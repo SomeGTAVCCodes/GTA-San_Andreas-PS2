@@ -1,0 +1,192 @@
+:RNDEBUG
+script_name 'RNDEBUG'
+set_deatharrest_state 0
+start_new_script @Noname_22 
+terminate_this_script
+
+:Noname_22
+$2928 = 1
+$2929 = 1
+$2930 = 0
+$2931 = 0
+$2932 = 0
+$2933 = 0
+$2934 = 0
+$2935 = 0
+$2936 = 130
+$2937 = 0
+$2939 = 1
+$2950 = 0
+
+:Noname_22_65
+wait 0
+get_game_timer $556
+is_player_playing $PLAYER_CHAR
+goto_if_false @Noname_22_1372
+is_button_pressed 0 button 4
+goto_if_false @Noname_22_191
+is_button_pressed 0 button 17
+goto_if_false @Noname_22_184
+$2929 == 0
+goto_if_false @Noname_22_184
+get_player_coordinates $PLAYER_CHAR store_to $543 $544 $545
+get_ground_z_for_3d_coord $543 $544 $545 store_to $545
+get_player_heading $PLAYER_CHAR store_to $549
+print_now 'TEXTXYZ' time 800 flag 1 // Writing coordinates to file...
+$2929 = 1
+
+:Noname_22_597
+$2936 += 1
+if $2936 > 600
+goto_if_false @Noname_22_624
+$2936 = 400
+
+:Noname_22_624
+if or
+$2936 == 201
+$2936 == 200
+$2936 == 199
+$2936 == 198
+$2936 == 197
+goto_if_false @Noname_22_677
+goto @Noname_22_597
+
+:Noname_22_677
+if or
+$2936 == 162
+$2936 == 194
+$2936 == 195
+$2936 == 192
+goto_if_false @Noname_22_723
+goto @Noname_22_597
+
+:Noname_22_723
+$2930 = $556  // (int)
+$2930 += 150
+$2937 = 1
+
+:Noname_22_742
+goto @Noname_22_762
+
+:Noname_22_749
+$2930 = $556  // (int)
+$2930 -= 500
+
+:Noname_22_762
+is_button_pressed 0 button 10
+goto_if_false @Noname_22_939
+$556 > $2931
+goto_if_false @Noname_22_932
+
+:Noname_22_787
+$2936 -= 1
+130 > $2936
+goto_if_false @Noname_22_814
+$2936 = 214
+
+:Noname_22_814
+if or
+$2936 == 201
+$2936 == 200
+$2936 == 199
+$2936 == 198
+$2936 == 197
+goto_if_false @Noname_22_867
+goto @Noname_22_787
+
+:Noname_22_867
+if or
+$2936 == 162
+$2936 == 194
+$2936 == 195
+$2936 == 192
+goto_if_false @Noname_22_913
+goto @Noname_22_787
+
+:Noname_22_913
+$2931 = $556  // (int)
+$2931 += 150
+$2937 = 1
+
+:Noname_22_932
+goto @Noname_22_952
+
+:Noname_22_939
+$2931 = $556  // (int)
+$2931 -= 500
+
+:Noname_22_952
+$2937 == 1
+goto_if_false @Noname_22_1017
+clear_this_big_print 'NUMBER' // ~1~
+print_with_number_big 'NUMBER' number $2936 time 2000 style 4 // ~1~
+request_model $2936
+load_all_models_now
+$2938 = $556  // (int)
+$2938 += 2000
+$2937 += 1
+
+:Noname_22_1017
+$2937 == 2
+goto_if_false @Noname_22_1372
+request_model $2936
+has_model_loaded $2936
+goto_if_false @Noname_22_1304
+get_player_coordinates $PLAYER_CHAR store_to $543 $544 $545
+get_player_heading $PLAYER_CHAR store_to $549
+45.0 > $549
+goto_if_false @Noname_22_1096
+$544 += 5.0
+$549 = 90.0
+goto @Noname_22_1214
+
+:Noname_22_1096
+135.0 > $549
+goto_if_false @Noname_22_1131
+$543 -= 5.0
+$549 = 180.0
+goto @Noname_22_1214
+
+:Noname_22_1131
+225.0 > $549
+goto_if_false @Noname_22_1166
+$544 -= 5.0
+$549 = 270.0
+goto @Noname_22_1214
+
+:Noname_22_1166
+315.0 > $549
+goto_if_false @Noname_22_1200
+$543 += 5.0
+$549 = 0
+goto @Noname_22_1214
+
+:Noname_22_1200
+$544 += 5.0
+$549 = 90.0
+
+:Noname_22_1214
+$545 += 0.6
+get_ground_z_for_3d_coord $543 $544 $545 store_to $545
+create_car $2936 at $543 $544 $545 store_to $2951
+set_car_heading $2951 to $549
+lock_car_doors $2951 mode 1
+mark_model_as_no_longer_needed $2936
+mark_car_as_no_longer_needed $2951
+clear_this_big_print 'NUMBER' // ~1~
+print_with_number_big 'NUMBER' number $2936 time 500 style 4 // ~1~
+$2937 = 0
+goto @Noname_22_1372
+
+:Noname_22_1304
+$556 > $2938
+goto_if_false @Noname_22_1372
+mark_model_as_no_longer_needed $2936
+mark_car_as_no_longer_needed $2951
+print_now 'MISSING' time 500 flag 1
+clear_this_big_print 'NUMBER' // ~1~
+print_with_number_big 'NUMBER' number $2936 time 500 style 4 // ~1~
+$2937 = 0
+
+:Noname_22_1372
+goto @Noname_22_65
