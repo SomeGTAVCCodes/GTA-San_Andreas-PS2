@@ -1,0 +1,827 @@
+gametitle=GTA SAN ANDREAS.
+comment=NTSC-Black.
+
+//Teleport To Red Marker  	Press L3+R3
+//Link: https://cbx.proboards.com/thread/3793/ps2-grand-theft-auto-andreas
+//									  // ORIGINAL	// PAL ORIG
+patch=1,EE,2019CBAC,extended,C7A00028 // C7A00028	//
+patch=1,EE,2019CBB4,extended,E4420030 // 8E020014
+patch=1,EE,2024D9E4,extended,46010000 // 46010000   // 44830800
+patch=1,EE,E002FFF9,extended,00700942 // n/a
+patch=1,EE,2019CBAC,extended,0C030CC0 // C7A00028
+patch=1,EE,2024D9E4,extended,C78084E0 // 46010000   // 44830800
+patch=1,EE,200C3300,extended,3C040070 // 00000000
+patch=1,EE,200C3304,extended,24840028 // 00000000
+patch=1,EE,200C3308,extended,8C851F10 // 00000000
+patch=1,EE,200C330C,extended,14A0FFFD // 00000000
+patch=1,EE,200C3310,extended,C4821F08 // 00000000
+patch=1,EE,200C3314,extended,C4811F0C // 00000000
+patch=1,EE,200C3318,extended,C78084E0 // 00000000
+patch=1,EE,200C331C,extended,03E00008 // 00000000
+
+// ---- Player ----
+
+//MAX Health NTSC 1
+//patch=1,EE,208021C0,extended,44B00000
+
+//MAX Health NTSC 2: 20802D50 44B00000
+
+//Infinite Health NTSC 1: 					- Default Values = C4600580 | 44030000 | 00000000
+//patch=1,EE,202A9B30,extended,3C0142C8
+//patch=1,EE,202A9B38,extended,AC610580
+//patch=1,EE,202A9B3C,extended,24030064
+
+//Infinite Health NTSC 2: 
+//patch=1,EE,20261824,extended,E4400580
+
+//Instant Skydive Everyone	- Press L3+R1 NTSC v1		|| Default Values = 46010000 , ?? 
+//patch=1,EE,2024D9E4,extended,46010000
+//patch=1,EE,D0700942,extended,0000F7FD
+//patch=1,EE,2024D9E4,extended,C7809AC0
+
+// ---- MISC ----
+
+//Rendering: Remove radiosity			-	Default Value = 00C70BB8
+//patch=1,EE,20667964,extended,00000000
+
+//More Car Colors (In Particular Cop Cars):  		- Not sure if this works.
+//patch=1,EE,2014165C,extended,00000000
+
+//Shadow Vehicles: 
+//patch=1,EE,10392016,extended,00000000
+
+//No Pedestrians: 							-	Default Value = 3F800000
+//patch=1,EE,206650AC,extended,00000000
+
+//More Pedestrians: 
+//patch=1,EE,206650AC,extended,42800000
+
+//No Traffic: 								-	Default Value = 3F800000 
+//patch=1,EE,20665134,extended,00000000
+
+//More Traffic: 
+//patch=1,EE,20665134,extended,42800000
+
+//---- NOT TESTED (NTSC 2 ? )---------------------------------------------------
+
+//Infinite Sprint
+//patch=1,EE,00709748,extended,00000001
+
+//taxi fares
+//patch=1,EE,20802328,extended,3B9AC9FF
+//patch=1,EE,206BA004,extended,3B9AC9FF
+
+//All Tags Sprayed
+//patch=1,EE,2066C540,extended,00000064
+
+//All Tags Sprayed
+//patch=1,EE,2080249C,extended,00000032
+
+//All Photos Taken
+//patch=1,EE,2080246C,extended,00000032
+
+//Infinite Ammo
+//patch=1,EE,20134340,extended,24420000
+
+//Extra Ammo
+//patch=1,EE,20134340,extended,24420001
+
+//Infinite Clip Ammo
+//patch=1,EE,201343A4,extended,24420000
+
+//Extra Clip Ammo
+//patch=1,EE,201343A4,extended,24420001
+
+//Never Lose Weapons When Busted/Wasted
+//patch=1,EE,201997F0,extended,03E00008
+//patch=1,EE,201997F4,extended,00000000
+
+//Infinite Health (Cars blowing up will kill you)
+//patch=1,EE,202A9B38,extended,AC610580
+//patch=1,EE,202A9B30,extended,3C0142C8
+//patch=1,EE,202A9B3C,extended,24030064
+
+//Infinite Cash
+//patch=1,EE,207096B4,extended,05F5E0FF
+//patch=1,EE,207096B8,extended,05F5E0FF
+
+//Disable Car Damage
+//patch=1,EE,20146610,extended,03E00008
+//patch=1,EE,20146614,extended,00000000
+
+//Disable Cop AI (This Code Doesnt disable Army AI)
+//patch=1,EE,2027C118,extended,00000000
+
+// ----  STATS ----
+
+//STATS: godfather
+//patch=1,EE,20802160,extended,48000000
+
+// ----  Set Weather ----
+
+//Weather is Always xxx 				Hot = 00 | Nice = 01 | Overcast = 04 | Foggy = 09 | Stormy = 10 | Hazy (Grey) = 20 | Hazy (Orange) = 30 
+//patch=1,EE,2066BD24,extended,00000000
+//patch=1,EE,2066BD28,extended,00000000
+//patch=1,EE,2066BD2C,extended,00000000
+
+// ----  Set Time Of Day ---- (.pnach RAW)
+//Midnight = 00 | 1am = 01 .... | 10 PM: 00000016 ||  9 PM: 00000015 ...
+
+//11 PM
+//patch=1,EE,2066B7AC,extended,00000017
+
+//Select+L1 for Midnight
+//patch=1,EE,D1700942,extended,0000FBFE
+//patch=1,EE,2066B7AC,extended,00000000
+
+//Select+L2 for 6 AM
+//patch=1,EE,D1700942,extended,0000FEFE
+//patch=1,EE,2066B7AC,extended,00000006
+
+//Select+R1 for Noon
+//patch=1,EE,D1700942,extended,0000F7FE
+//patch=1,EE,2066B7AC,extended,0000000C
+
+//Select+R2 for 6 PM
+//patch=1,EE,D1700942,extended,0000FDFE
+//patch=1,EE,2066B7AC,extended,00000012
+
+// ----  Set Time Of Day ---- (Action Replay Max)
+
+//Select+L1 for Midnight
+//F8X3-9961-G3W82
+//YK0W-RQ4N-7UG08
+//ADK6-XPJM-D027X
+
+//Select+L2 for 6 AM
+//2P48-CXBA-B9M4N
+//TY2A-H33T-ZY0DG
+//DCMA-022H-1BMBX
+
+//Select+R1 for Noon
+//9TNU-DEGA-MYY0F
+//VX7A-QDP0-HBA2U
+//QJ2N-GXM4-RX4AZ
+
+//Select+R2 for 6 PM
+//E7QE-FWRW-D2BM3
+//M96E-FNUR-2AX84
+//9XHT-NRDP-RDWV9
+
+//---- Links: ----
+//Grand Theft Auto: San Andreas (PS2) - Action Replay MAX Codes
+//https://etherealgames.com/ps2/g/grand-theft-auto-san-andreas/action-r
+
+//------------------------------------------------Fixes------------------------------------------------//
+//Cars Have Perfect Handling
+patch=1,EE,0088D71C,extended,00000001
+
+//Floaters (Hit Cars Float)
+patch=1,EE,0088D736,extended,00000001
+
+//No Wanted LVL (Free Roaming)
+patch=1,EE,0088D741,extended,00000001
+
+//Super Jump
+patch=1,EE,0088D73C,extended,00000001
+
+//Infinite Health
+patch=1,EE,0088D73D,extended,00000001
+
+//CJ Has Killer Punch
+//patch=1,EE,0088D743,extended,00000001
+
+//Never Hungry
+patch=1,EE,0088D744,extended,00000001
+
+//Fun House
+//patch=1,EE,0088D746,extended,00000001
+
+//Infinite Ammo
+patch=1,EE,0088D748,extended,00000001
+
+//Can Shoot Out Front Window
+//patch=1,EE,0088D749,extended,00000001
+
+//Max Total Respect
+patch=1,EE,0088D74F,extended,00000001
+
+//Max Sex Appeal
+patch=1,EE,0088D750,extended,00000001
+
+//Infinite Armor
+patch=1,EE,202A9858,extended,3C0142C8
+patch=1,EE,202A985C,extended,AC610588
+
+//Have All Girlfriends
+//patch=1,EE,206B2648,extended,FFFFFFFF
+
+//No Damage From Collisions
+patch=1,EE,20146A2C,extended,00000000
+patch=1,EE,20146A40,extended,00000000
+
+//Nitro Boost (Cars)
+//patch=1,EE,2014BC00,extended,00000000
+
+//Idiot AI-Cars
+patch=1,EE,2014E6D0,extended,00000000
+
+//Car Is Immune To Weapons
+patch=1,EE,2016A504,extended,00000000
+patch=1,EE,1016A568,extended,00000202
+
+//No Damage From Falling 
+patch=1,EE,20196694,extended,00000000
+
+//Never Lose Your Weapons
+patch=1,EE,201997F0,extended,03E00008
+patch=1,EE,201997F4,extended,00000000
+
+//Disable Cop Road Blocks
+//patch=1,EE,201C5B1C,extended,00000000
+//patch=1,EE,201C5B38,extended,00000000
+
+//Disable Roadblocks
+//patch=1,EE,201F1F30,extended,03E00008
+//patch=1,EE,201F1F34,extended,00000000
+
+//Infinite Fuel (RC Plane)
+//patch=1,EE,201FB268,extended,00000000
+
+//Doesnt Increase Time By 6 Hours
+patch=1,EE,202A2210,extended,03E00008
+patch=1,EE,202A2214,extended,00000000
+
+//Infinite Time
+patch=1,EE,20292C00,extended,03E00008
+patch=1,EE,20292C04,extended,00000000
+
+//Location When Busted/Wasted
+patch=1,EE,202A207C,extended,00000000
+
+//RC Plane Takes No Damage
+//patch=1,EE,2031D4F8,extended,00000000
+
+//Never Lose Health From Hunger
+patch=1,EE,203E2080,extended,00000000
+
+//The Rocketeer
+patch=1,EE,20668128,extended,40C00000
+patch=1,EE,2066812C,extended,40800000
+patch=1,EE,20668134,extended,40000000
+
+//Have All Tags Sprayed
+patch=1,EE,2066C540,extended,00000064
+
+//Import/Export Garage Complete
+//patch=1,EE,1080D8C0,extended,0000FFFF
+//patch=1,EE,1080D8C4,extended,0000FFFF
+//patch=1,EE,1080D8C8,extended,0000FFFF
+//patch=1,EE,1080D8CC,extended,0000FFFF
+
+//Enable Sex Mini-Game
+//patch=1,EE,206B32FC,extended,00000000
+//patch=1,EE,200C0400,extended,8E430014
+//patch=1,EE,200C0404,extended,10600001
+//patch=1,EE,200C0408,extended,24630001
+//patch=1,EE,200C040C,extended,3C02000C
+//patch=1,EE,200C0410,extended,90410440
+//patch=1,EE,200C0414,extended,A0610000
+//patch=1,EE,200C0418,extended,24420001
+//patch=1,EE,200C041C,extended,1420FFFC
+//patch=1,EE,200C0420,extended,24630001
+//patch=1,EE,200C0424,extended,0807DC80
+//patch=1,EE,200C0428,extended,00000000
+//patch=1,EE,2030CCFC,extended,0C030100
+//patch=1,EE,E0020000,extended,000C0440
+//patch=1,EE,200C0440,extended,474E4147
+//patch=1,EE,200C0444,extended,00314C52
+
+//Denise-Naked
+//patch=1,EE,200C0440,extended,474E4147
+//patch=1,EE,200C0444,extended,00314C52
+
+//Michelle-Naked
+//patch=1,EE,200C0440,extended,4743454D
+//patch=1,EE,200C0444,extended,00314C52
+
+//Helena-Naked
+//patch=1,EE,200C0440,extended,474E5547
+//patch=1,EE,200C0444,extended,00314C52
+
+//Barbara-Naked
+//patch=1,EE,200C0440,extended,47504F43
+//patch=1,EE,200C0444,extended,00314C52
+
+//Natie-Naked
+//patch=1,EE,200C0440,extended,4752554E
+//patch=1,EE,200C0444,extended,00314C52
+
+//Millie-Naked
+//patch=1,EE,200C0440,extended,474F5243
+//patch=1,EE,200C0444,extended,00314C52
+
+//Catalina
+//patch=1,EE,200C0440,extended,00746163
+//patch=1,EE,200C0444,extended,00000000
+
+//No Body Fat
+patch=1,EE,208021B4,extended,00000000
+
+//Max Stamina
+patch=1,EE,208021B8,extended,447A0000
+
+//Max Muscle
+patch=1,EE,208021BC,extended,447A0000
+
+//Max Gambling
+patch=1,EE,208022A4,extended,447A0000
+
+//Max Driving Skill
+patch=1,EE,20802350,extended,000003E8
+
+//Max Pilot Ranking
+patch=1,EE,20802374,extended,447A0000
+
+//Max Current Number Of Girlfriends
+//patch=1,EE,208023B0,extended,05F5E0FF
+
+//Max Number Of Girls Dated
+//patch=1,EE,208023B8,extended,05F5E0FF
+
+//Scored With A Girl
+//patch=1,EE,208023BC,extended,05F5E0FF
+
+//Successful Dates
+//patch=1,EE,208023C0,extended,05F5E0FF
+
+//Max Lung Capacity
+patch=1,EE,20802454,extended,000003E8
+
+//Max Luck
+patch=1,EE,20802474,extended,05F5E0FF
+
+//Faster Skill Gain
+patch=1,EE,408026B4,extended,00090001
+patch=1,EE,3F000000,extended,00000000
+patch=1,EE,208026E0,extended,3F000000
+patch=1,EE,208026E4,extended,3F000000
+
+//Stats Don't Decrease
+//patch=1,EE,4080268C,extended,00030001
+//patch=1,EE,00000000,extended,00000000
+//patch=1,EE,208026D8,extended,47C34F80
+//patch=1,EE,208026DC,extended,47C34F80
+
+//Max Snapshots Taken
+//patch=1,EE,2080246C,extended,00000032
+
+//Max Horseshoes Collected
+//patch=1,EE,20802494,extended,00000032
+
+//Max Oysters Collected
+//patch=1,EE,2080249C,extended,00000032
+
+//Max Progress With Denise
+//patch=1,EE,206B258C,extended,00000064
+//patch=1,EE,208024C0,extended,00000064
+
+//Max Progress With Michelle
+//patch=1,EE,206B2590,extended,00000064
+//patch=1,EE,208024C4,extended,00000064
+
+//Max Progress With Helena
+//patch=1,EE,206B2594,extended,00000064
+//patch=1,EE,208024C8,extended,00000064
+
+//Max Progress With Barbara
+//patch=1,EE,206B2598,extended,00000064
+//patch=1,EE,208024CC,extended,00000064
+
+//Max Progress With Katie
+//patch=1,EE,206B259C,extended,00000064
+//patch=1,EE,208024D0,extended,00000064
+
+//Max Progress With Millie
+//patch=1,EE,206B25A0,extended,00000064
+//patch=1,EE,208024D4,extended,00000064
+
+//Max Highest Firefighter Mission
+//patch=1,EE,2080233C,extended,05F5E0FF
+
+//Highest Vigilante Mission
+//patch=1,EE,20802344,extended,05F5E0FF
+
+//Highest Paramedic Mission
+//patch=1,EE,20802348,extended,05F5E0FF
+
+//Truck Missions Passed
+//patch=1,EE,20802354,extended,05F5E0FF
+
+//Max Photographs Taken
+//patch=1,EE,20802368,extended,05F5E0FF
+
+//Max Shooting Range
+patch=1,EE,20802388,extended,0000000C
+
+//Max Most Cars Parked
+//patch=1,EE,20802388,extended,00000019
+
+//No Times Cheated
+//patch=1,EE,208022F4,extended,00000000
+
+//Max Number Of Eight Balls
+//patch=1,EE,208023DC,extended,05F5E0FF
+
+//Wins Playing Pool
+//patch=1,EE,208023E0,extended,05F5E0FF
+
+//Max Maximum Insane Jump
+//patch=1,EE,208022FC,extended,11E1A300
+
+//Insane Jump Distance
+//patch=1,EE,208022FC,extended,11E1A300
+
+//Insane Jump Flips
+//patch=1,EE,20802304,extended,05F5E0FF
+
+//Insane Jump Rotation
+//patch=1,EE,20802308,extended,00000000
+
+//Max Last Dance Score
+//patch=1,EE,20802340,extended,05F5E0FF
+
+//Max Missions Passed
+//patch=1,EE,2080231C,extended,05F5E0FF
+
+//Max Mission Attempts
+//patch=1,EE,20802318,extended,05F5E0FF
+
+//Max Money
+patch=1,EE,207096B4,extended,3B9AC9FF
+patch=1,EE,207096B8,extended,3B9AC9FF
+
+//Hit Cars To Blow Them Up!
+//patch=1,EE,0088D734,extended,00000001
+
+//Ghost Town
+//patch=1,EE,20282340,extended,03E00008
+//patch=1,EE,20282344,extended,00000000
+
+//No Traffic
+//patch=1,EE,20665134,extended,00000000
+
+//Traffic Drives In Mid-Air
+//patch=1,EE,200C0240,extended,3C024248
+//patch=1,EE,200C0244,extended,8E230014
+//patch=1,EE,200C0248,extended,10600006
+//patch=1,EE,200C024C,extended,00000000
+//patch=1,EE,200C0250,extended,C4610038
+//patch=1,EE,200C0254,extended,3C014000
+//patch=1,EE,200C0258,extended,44810000
+//patch=1,EE,200C025C,extended,46010040
+//patch=1,EE,200C0260,extended,E4610038
+//patch=1,EE,200C0264,extended,03E00008
+//patch=1,EE,200C0268,extended,00000000
+//patch=1,EE,2014E6E8,extended,0C030090
+
+gametitle= Grand Theft Auto San Andreas
+//Cars Never Blow Up
+patch=1,EE,20155AA0,extended,03E00008
+patch=1,EE,20155AA4,extended,00000000
+
+//Max Pistol Skills
+patch=1,EE,20802274,extended,447A0000
+
+//Max Silenced Pistol Skills
+patch=1,EE,20802278,extended,447A0000
+
+//Max Desert Eagle Skills
+patch=1,EE,2080227C,extended,447A0000
+
+//Max Shotgun Skills
+patch=1,EE,20802280,extended,447A0000
+
+//Max Sawn-Off Shotgun Skills
+patch=1,EE,20802284,extended,447A0000
+
+//Max Combat Shotgun Skills
+patch=1,EE,20802288,extended,447A0000
+
+//Max Machine Pistol Skills
+patch=1,EE,2080228C,extended,447A0000
+
+//Max SMG Skills
+patch=1,EE,20802290,extended,447A0000
+
+//Max AK47 Skills
+patch=1,EE,20802294,extended,447A0000
+
+//Max M4 Skills
+patch=1,EE,20802298,extended,447A0000
+
+//Max Bullets Fired
+patch=1,EE,208022C8,extended,05F5E0FF
+
+//Max KG's Of Explosives Used
+patch=1,EE,208022CC,extended,05F5E0FF
+
+//Max Bullets That Hit
+patch=1,EE,208022D0,extended,05F5E0FF
+
+//Max Number Of Headshots
+patch=1,EE,208022D8,extended,05F5E0FF
+
+//Max Assassinations
+patch=1,EE,2080233C,extended,05F5E0FF
+
+//Max Total Legitimate Kills
+patch=1,EE,20802394,extended,05F5E0FF
+
+//Max Last Dance Score
+patch=1,EE,20802340,extended,05F5E0FF
+
+//--------------------------------------------------------------------
+
+gametitle = Grand Theft Auto San Andreas - NTSC UC - SLUS-20946
+
+Infinite Health
+patch=1,EE,0088D73D,extended,00000001
+
+Infinite Ammo
+patch=1,EE,0088D748,extended,00000001
+
+Infinite Money
+patch=1,EE,207096B4,extended,05F5E0FF
+patch=1,EE,207096B8,extended,05F5E0FF
+
+Infinite Lung
+patch=1,EE,0088D73E,extended,00000001
+
+Max Sex Appeal
+patch=1,EE,0088D750,extended,00000001
+
+Max Total Respect
+patch=1,EE,0088D74F,extended,00000001
+
+Never Hungry
+patch=1,EE,0088D744,extended,00000001
+
+Hot coffee 2
+patch=1,EE,206B32FC,extended,00000000
+patch=1,EE,E003F0FF,extended,00700942
+patch=1,EE,2088D760,extended,4C333132
+patch=1,EE,2088D764,extended,3244334C
+patch=1,EE,2088D768,extended,32000052 
+
+//Linear Filtering for License Plates
+patch=0,EE,204A48A4,extended,34630002 ori $v1, 2 //RWLINEARFILTER
+
+//Fixed ammo for melee weapons in cheats
+patch=0,EE,2059D88C,extended,24060001 li $s2 1 //knife
+patch=0,EE,2059D998,extended,24060001 li $s2 1 //knife
+patch=0,EE,2059DB60,extended,24060001 li $s2 1 //chainsaw
+patch=0,EE,2059DC34,extended,24060001 li $s2 1 //chainsaw
+patch=0,EE,2059F67C,extended,24060001 li $s2 1 //parachute
+patch=0,EE,2059F3BC,extended,24060001 li $s2 1 //katana
+
+//014C cargen counter fix (by spaceeinstein)
+patch=0,EE,20295AF0,extended,2C61FFFF //slti => sltiu
+patch=0,EE,20295AF4,extended,10000004 //beqz => b
+
+// Don't clean the car BEFORE Pay 'n Spray doors close, as it gets cleaned later again anyway!
+patch=0,EE,202E41CC,extended,00000000 nop
+
+// Fixed muzzleflash not showing from last bullet
+patch=0,EE,204071F4,extended,00000000 nop
+
+// Help boxes showing with big message
+// Game seems to assume they can show together
+patch=0,EE,202AE3A0,extended,00000000 nop
+
+// Impound garages working correctly
+patch=0,EE,201C6088,extended,0C0BAA58 jal CGarages::IsPointWithinAnyGarage(CVector &)
+patch=0,EE,201C63C0,extended,0C0BAA58 jal CGarages::IsPointWithinAnyGarage(CVector &)
+patch=0,EE,201C6510,extended,0C0BAA58 jal CGarages::IsPointWithinAnyGarage(CVector &)
+
+// Impounding after busted works
+patch=0,EE,202A09A4,extended,00000000 nop
+
+// Weapon icon fix (crosshairs mess up rwRENDERSTATEZWRITEENABLE)
+patch=0,EE,202AAB44,extended,00000000 nop
+patch=0,EE,202AB284,extended,00000000 nop
+patch=0,EE,202AB2B4,extended,00000000 nop
+
+//Fix 4th texture memory leak on effects
+patch=0,EE,203D4D50,extended,8E240018
+patch=0,EE,203D4D64,extended,AE200018
+
+//-------------------------------------------------HUD-------------------------------------------------//
+
+//patch=0,EE,20663C00,extended,3f666666 //Wanted Height
+patch=0,EE,20663C04,extended,3ecccccd //Wanted Width
+//patch=0,EE,20663C0C,extended,3f8a3d71 //Wanted Shadow Height
+patch=0,EE,20663C10,extended,3ef5c28f //Wanted Shadow Width
+//patch=0,EE,202AA78C,extended,3c023fc0 //Wanted Vertical Padding
+
+patch=0,EE,2026E03C,extended,3c084270 //Radar Width
+patch=0,EE,2026ED00,extended,3c024270 //Radar Mask Width
+patch=0,EE,2026EE30,extended,3c034270 //Radar Mask Width
+patch=0,EE,2026EF18,extended,3c034270 //Radar Mask Width
+patch=0,EE,20269528,extended,3c024270 //Radar Width unknown
+patch=0,EE,2026E658,extended,3c024270 //Radar Width plane green overlay
+patch=0,EE,202AC8F8,extended,3c024248 //Radar Width plane overlay
+patch=0,EE,202AC964,extended,3c024270 //Radar Heigth plane overlay
+
+patch=0,EE,202ACC4C,extended,3c0341eb //Radar Disc Width left up - a esquerda dessa porra aqui
+patch=0,EE,202ACC50,extended,3c0243aa //Radar Disc Width left up - a parte de cima dessa porra aqui
+patch=0,EE,202ACC60,extended,3c034278 //Radar Disc Width left up - a direita dessa porra aqui
+patch=0,EE,202ACC64,extended,3c0243bf //Radar Disc Width left up - a parte de baixo dessa porra aqui
+
+patch=0,EE,202ACC98,extended,3c0342be //Radar Disc Width right up - a esquerda dessa porra aqui
+patch=0,EE,202ACC9c,extended,3c0243aa //Radar Disc Width right up - a parte de cima dessa porra
+patch=0,EE,202ACCac,extended,3c034278 //Radar Disc Width right up - a direita dessa porra aqui
+patch=0,EE,202ACCb0,extended,3c0243bf //Radar Disc Width right up - a parte de baixo dessa porra
+
+patch=0,EE,202ACCE4,extended,3c0341eb //Radar Disc Width left down - a esquerda dessa porra aqui
+patch=0,EE,202ACCE8,extended,3c0243d4 //Radar Disc Width left down - a parte de cima dessa porra
+patch=0,EE,202ACCF8,extended,3c034278 //Radar Disc Width left down - a direita dessa porra aqui
+patch=0,EE,202ACCFC,extended,3c0243bf //Radar Disc Width left down - a parte de baixo dessa porra
+
+patch=0,EE,202ACD30,extended,3c0342be //Radar Disc Width right down - a esquerda dessa porra aqui
+patch=0,EE,202ACD34,extended,3c0243d4 //Radar Disc Width right down - a parte de cima dessa porra
+patch=0,EE,202ACD44,extended,3c034278 //Radar Disc Width right down - a direita dessa porra aqui
+patch=0,EE,202ACD48,extended,3c0243bf //Radar Disc Width right down - a parte de baixo dessa porra
+
+patch=0,EE,2026AE54,extended,3c034270 //Radar Blip disc Width
+
+patch=0,EE,2026E04C,extended,3c064278 //Radar X Pos
+//patch=0,EE,2026E0A0,extended,3c0443BF //Radar Y Pos
+patch=0,EE,2026ED10,extended,3c024278 //Radar Mask X Pos
+patch=0,EE,2026EE3C,extended,3c044278 //Radar Mask X Pos
+patch=0,EE,2026EF34,extended,3c044278 //Radar Mask X Pos
+patch=0,EE,2026AE6C,extended,3c034278 //Radar Blip disc X Pos
+patch=0,EE,2026E674,extended,3c024278 //Radar X Pos plane green overlay
+patch=0,EE,202AC900,extended,3c034278 //Radar X Pos plane overlay
+
+patch=0,EE,202A9EF4,extended,3C024210 //Fist Icon Width
+patch=0,EE,202A9E34,extended,3c024190 //Weapon Icon Width
+patch=0,EE,202ABA40,extended,2405020D //Weapon Icon Pos X
+patch=0,EE,202ABA7C,extended,2405020D //Weapon Icon Pos X - Player 2
+
+patch=0,EE,20663748,extended,3e800000 //Ammo Width
+patch=0,EE,202ABA90,extended,2405021F //Ammo X Pos
+patch=0,EE,202ABACC,extended,2405021F //Ammo X Pos - Player 2
+
+patch=0,EE,202A9B84,extended,3c0242A8 //Health bar width
+patch=0,EE,202A9904,extended,2404002F //Armour bar width
+patch=0,EE,202A9A04,extended,2404002F //Breath bar width
+
+patch=0,EE,202AB51C,extended,24050231 //Armour bar pos x
+patch=0,EE,202AB560,extended,24050231 //Armour bar pos x
+patch=0,EE,202AB6B0,extended,24050231 //Breath bar pos x
+patch=0,EE,202AB6F8,extended,24050231 //Breath bar pos x
+
+//CHud::DrawBustedWastedMessage width 
+patch=0,EE,202AF568,extended,3C033F90	//lui     $v1, 0x3f90
+patch=0,EE,202AF56C,extended,0C0AA200  //jal     _ZN5CFont8SetScaleEf  # Jump And Link
+patch=0,EE,202AF570,extended,44836000	//mtc1    $v1, $f12
+patch=0,EE,202AF574,extended,0C0AA2F4  //jal     _ZN5CFont15SetProportionalEh  # Jump And Link
+patch=0,EE,202AF578,extended,24040001  //li      $a0, 1           # Load Immediate
+patch=0,EE,202AF57C,extended,0C0AA310  //jal     _ZN5CFont10SetJustifyEh  # Jump And Link
+patch=0,EE,202AF580,extended,0000202D  //move    $a0, $zero
+patch=0,EE,202AF584,extended,0C0AA314  //jal     _ZN5CFont14SetOrientationEh  # Jump And Link
+patch=0,EE,202AF588,extended,0000202D  //move    $a0, $zero
+patch=0,EE,202AF58C,extended,0C0AA27C  //jal     _ZN5CFont12SetFontStyleEh  # Jump And Link
+patch=0,EE,202AF590,extended,0000202D  //move    $a0, $zero
+patch=0,EE,202AF594,extended,0C0AA2EC  //jal     _ZN5CFont7SetEdgeEa  # Jump And Link
+patch=0,EE,202AF598,extended,24040003  //li      $a0, 3           # Load Immediate
+patch=0,EE,202AF59C,extended,3C01007C  //lui     $at, 0x7C  # '|'  # Load Upper Immediate
+patch=0,EE,202AF5A0,extended,3C024F00  //lui     $v0, 0x4F00      # Load Upper Immediate
+patch=0,EE,202AF5A4,extended,C42132D8  //lwc1    $f1, _styledText3Alpha  # Load Word to FPU
+patch=0,EE,202AF5A8,extended,44820000  //mtc1    $v0, $f0         # Move to FPU
+
+//CHud::DrawSuccessFailedMessage width
+patch=0,EE,202AF0FC,extended,3C033f59	//lui     $v1, 0x3f59
+patch=0,EE,202AF100,extended,0C0AA200   //jal     _ZN5CFont8SetScaleEf  # Jump And Link
+patch=0,EE,202AF104,extended,44836000	//mtc1    $v1, $f12
+patch=0,EE,202AF108,extended,0C0AA2F4   //jal     _ZN5CFont15SetProportionalEh  # Jump And Link
+patch=0,EE,202AF10C,extended,24040001   //li      $a0, 1           # Load Immediate
+patch=0,EE,202AF110,extended,0C0AA310   //jal     _ZN5CFont10SetJustifyEh  # Jump And Link
+patch=0,EE,202AF114,extended,0000202D   //move    $a0, $zero
+patch=0,EE,202AF118,extended,0C0AA314   //jal     _ZN5CFont14SetOrientationEh  # Jump And Link
+patch=0,EE,202AF11C,extended,0000202D   //move    $a0, $zero
+patch=0,EE,202AF120,extended,2402024E   //li      $v0, 0x24E       # Load Immediate
+patch=0,EE,202AF124,extended,44820000   //mtc1    $v0, $f0         # Move to FPU
+patch=0,EE,202AF128,extended,0C0AA29C   //jal     _ZN5CFont13SetCentreSizeEf  # Jump And Link
+patch=0,EE,202AF12C,extended,46800320   //cvt.s.w $f12, $f0        # Floating-point Convert to Single Fixed-Point Format
+patch=0,EE,202AF130,extended,0C0AA27C   //jal     _ZN5CFont12SetFontStyleEh  # Jump And Link
+patch=0,EE,202AF134,extended,24040003   //li      $a0, 3           # Load Immediate
+patch=0,EE,202AF138,extended,0C0AA2EC   //jal     _ZN5CFont7SetEdgeEa  # Jump And Link
+patch=0,EE,202AF13C,extended,24040002   //li      $a0, 2           # Load Immediate
+patch=0,EE,202AF140,extended,3C01007C   //lui     $at, 0x7C  # '|'  # Load Upper Immediate
+patch=0,EE,202AF144,extended,3C024F00   //lui     $v0, 0x4F00      # Load Upper Immediate
+patch=0,EE,202AF148,extended,C42132D0   //lwc1    $f1, flt_7C32D0  # Load Word to FPU
+patch=0,EE,202AF14C,extended,44820000   //mtc1    $v0, $f0         # Move to FPU
+
+//CRadar::DrawRadarSprite width
+patch=0,EE,2026D384,extended,3C034100  //lui     $v1, 0x4100      # Load Upper Immediate
+patch=0,EE,2026D388,extended,0200102D  //move    $v0, $s0
+patch=0,EE,2026D38C,extended,44831000  //mtc1    $v1, $f2         # Move to FPU
+patch=0,EE,2026D390,extended,3C0340C6  //lui     $v1, 0x40C6
+patch=0,EE,2026D394,extended,44831800  //mtc1    $v1, $f3         # Move to FPU
+patch=0,EE,2026D398,extended,27A50050  //addiu   $a1, $sp, 0x70+var_20  # a2
+patch=0,EE,2026D39C,extended,27A6006C  //addiu   $a2, $sp, 0x70+var_4  # rgbaColor
+patch=0,EE,2026D3A0,extended,4603A801  //sub.s   $f0, $f21, $f3   # Floating-point Subtract
+patch=0,EE,2026D3A4,extended,00021880  //sll     $v1, $v0, 2      # Shift Left Logical
+patch=0,EE,2026D3A8,extended,3C020070  //li      $v0, dword_703A70  # Load Immediate
+patch=0,EE,2026D3AC,extended,24423A70  //
+patch=0,EE,2026D3B0,extended,00432021  //addu    $a0, $v0, $v1    # a1
+patch=0,EE,2026D3B4,extended,E7A00050  //swc1    $f0, 0x70+var_20($sp)  # Store Word from FPU
+patch=0,EE,2026D3B8,extended,4603A800  //add.s   $f0, $f21, $f3   # Floating-point Add
+patch=0,EE,2026D3BC,extended,E7A00058  //swc1    $f0, 0x70+var_18($sp)  # Store Word from FPU
+patch=0,EE,2026D3C0,extended,4602A041  //sub.s   $f1, $f20, $f2   # Floating-point Subtract
+patch=0,EE,2026D3C4,extended,4602A000  //add.s   $f0, $f20, $f2   # Floating-point Add
+patch=0,EE,2026D3C8,extended,E7A1005C  //swc1    $f1, 0x70+var_14($sp)  # Store Word from FPU
+patch=0,EE,2026D3CC,extended,0C0AC258  //jal     _ZN9CSprite2d4DrawERK5CRectRK5CRGBA  # Jump And Link
+patch=0,EE,2026D3D0,extended,E7A00054  //swc1    $f0, 0x70+var_1C($sp)  # Store Word from FPU
+patch=0,EE,2026D3D4,extended,0200282D  //move    $a1, $s0
+patch=0,EE,2026D3D8,extended,0C09A670  //jal     _ZN6CRadar19AddBlipToLegendListEhi  # Jump And Link
+patch=0,EE,2026D3DC,extended,0000202D  //move    $a0, $zero
+patch=0,EE,2026D3E0,extended,DFBF0040  //ld      $ra, 0x70+var_30($sp)  # Load Doubleword
+patch=0,EE,2026D3E4,extended,C7B50004  //lwc1    $f21, 0x70+var_6C($sp)  # Load Word to FPU
+patch=0,EE,2026D3E8,extended,7BB20030  //lq      $s2, 0x70+var_40($sp)  # Load Quadword
+patch=0,EE,2026D3EC,extended,C7B40000  //lwc1    $f20, 0x70+var_70($sp)  # Load Word to FPU
+patch=0,EE,2026D3F0,extended,7BB10020  //lq      $s1, 0x70+var_50($sp)  # Load Quadword
+patch=0,EE,2026D3F4,extended,7BB00010  //lq      $s0, 0x70+var_60($sp)  # Load Quadword
+patch=0,EE,2026D3F8,extended,03E00008  //jr      $ra              # Jump Register
+patch=0,EE,2026D3FC,extended,27BD0070  //addiu   $sp, 0x70        # Add Immediate Unsigned
+
+//CRadar::DrawBlips - Radar Centre
+patch=0,EE,2026863C,extended,24050006
+patch=0,EE,20268644,extended,24060008
+patch=0,EE,20268674,extended,24050006
+patch=0,EE,2026867C,extended,24060008
+
+patch=0,EE,202ADA20,extended,3c033ecc //mission timers
+patch=0,EE,202AD82C,extended,3c023f33 //Vehicle name width
+patch=0,EE,202AFCAC,extended,3c023f33 //Mission title width
+
+patch=0,EE,202AD29C,extended,c78c8384 //Area name width hook - 0x663474
+
+patch=0,EE,20663bc8,extended,3ecccccd //Money Width
+
+patch=0,EE,20663C58,extended,3ecccccd //Subtitles Width
+
+patch=0,EE,20663674,extended,3EB33333 //Help box Width
+
+patch=0,EE,202AC440,extended,C78C82BC //DrawVitalStats weekday width hook
+patch=0,EE,202AC438,extended,C78D899C //DrawVitalStats weekday height hook
+
+patch=0,EE,2023E5C4,extended,3c023f33 //CMenuManager::DrawWindow title width
+
+patch=0,EE,202ACAB4,extended,3C0341d4 //AltitudeBar width
+patch=0,EE,202ACC10,extended,3C0241e5 //AltitudeCounter width
+patch=0,EE,202ACC00,extended,3C034190 //AltitudeCounter X Pos
+
+//Set drop shadows to outline
+patch=0,EE,202A8B90,extended,3c01007c
+patch=0,EE,202A8B94,extended,a0202346
+patch=0,EE,202A8B98,extended,3c01007c
+patch=0,EE,202A8B9C,extended,a024234b
+patch=0,EE,202A8Ba8,extended,a024234c
+
+//--------------------------------------------------FOV------------------------------------------------//
+
+patch=0,EE,2021DF84,extended,0C044C2F //SetFOV Call
+patch=0,EE,20242D54,extended,0C044C2F //SetFOV Call
+patch=0,EE,2021DF84,extended,0C044C2F //SetFOV Call
+
+patch=0,EE,201130BC,extended,3C013F9D //New SetFOV
+patch=0,EE,201130C0,extended,44810000 //New SetFOV
+patch=0,EE,201130C4,extended,46006302 //New SetFOV
+patch=0,EE,201130C8,extended,03e00080 //New SetFOV
+patch=0,EE,201130CC,extended,E78C9A90 //New SetFOV
+
+patch=0,EE,2021DFE0,extended,3c0242a0 // Emergency Vehicles Fix
+
+patch=0,EE,202EE0E0,extended,3C024120 // Fix sky multitude
+patch=0,EE,202EE0E8,extended,00000000 // Fix sky multitude
+
+patch=0,EE,2020A484,extended,3C024302 // Set vehicle max FOV
+
+//-------------------------------------------------Menu------------------------------------------------//
+
+patch=0,EE,20234A44,extended,24040001 //Set Menu Text Body
+
+patch=0,EE,20234A14,extended,c78c8b68 //Hook Menu Items Width to Subtitles width
+patch=0,EE,202354F8,extended,c78c8b68 //Hook Menu Items Width to Subtitles width
+patch=0,EE,20242190,extended,3c023ecc //Set Menu Labels Width
+
+//-------------------------------------------------Debug-----------------------------------------------//
+
+//patch=0,EE,20515870,extended,00000000 //Disable radiosity
+//patch=0,EE,2039B53C,extended,24040001 //Set VSync Mode to 60 FPS
+//patch=0,EE,20245790,extended,00000000 //Skip MPEG Decoder
+//patch=0,EE,202457B0,extended,00000000 //Skip MPEG Decoder
+

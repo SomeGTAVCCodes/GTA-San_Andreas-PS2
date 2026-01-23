@@ -1,0 +1,43 @@
+Title: 	GTA PS2 Series games: In-Game (button combo) Cheats memory regions
+Info:	Notes on how i discovered the addresses and created the .pnach cheats for the in-game GTA button combo cheats. 
+
+using cheat engine as an example;
+* The buttons you press can be found by a simple search
+example: press x x circle x circle x x - then search for string xxoxoxx (which will look like X.X.O.X.O.XX when you find it) 
+
+* with this memory region visible we can find many of the cheats. they reside not far away from this region.
+
+
+For GTA SA i Used this method to find cheats in PAL;-
+* type cheat code for weapons - here is the input result (hex and then re-written in order.):
+
+44440000 4452554C 3431344C 00000033 00000000
+
+00 00 44 44 4C 55 52 44 4C 34 31 34 33 00 00 00
+
+* I then searched for that (or part of it) in VICE_CITY PAL version.
+this part was found
+44 4C 34 31 34 33 00 00 00
+
+* Now we have the same in game cheats memory region for both games.
+* activate cheats with btn combos and watch the values nearby, up or down the stack within a sensible range of this memory region, and the user will see 0 to 1 etc when the cheats are activated/ de-actviated 
+
+
+
+//---------------------- OLD MESSY NOTES ---------------
+
+
+Used to fi d cheats in PAL
+
+In SAan andreas type cheat code for weapons here is the input:
+
+44440000 4452554C 3431344C 00000033 00000000
+
+00 00 44 44 4C 55 52 44 4C 34 31 34 33 00 00 00
+
+
+search for that in PAL VICE CITY
+this part was found
+44 4C 34 31 34 33 00 00 00
+
+Now we ahave the same in game cheat smemory region for both games.

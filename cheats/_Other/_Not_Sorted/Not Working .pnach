@@ -1,0 +1,218 @@
+
+//--------------------------------------------------------------------
+//------------------- Junk, Fails, Unknown, Not tested----------------
+//--------------------------------------------------------------------
+
+// ---- NONE OF THESE WORK !?!  ----------------------------------------------
+
+//Cop Level
+//patch=1,EE,207BC762,extended,32310000
+
+//flamethrower green:	
+//patch=1,EE,2013EFB4,extended,24A578F8
+
+// Airplanes Easier Handling PAL UK/French
+// 4069681C 00080016
+// 3A900000 00000000
+// 40696824 00060016
+// 38FC0000 00000000
+// 20696BE4 3AC50000
+// 20696BEC 391E0000
+
+//Probably NTSC - Disable Motorcycle+Bicycle Damage (Crashing) -=Credit: HF*/TPCC=
+//20324510 03E00008
+//20324514 00000000
+
+//Probably NTSC - Bikes never explode
+//20693E48 48900000
+//20693E50 47300000
+//20693D68 48900000
+//20693D70 47300000
+//20694008 48900000
+//20694010 47300000
+//2032C710 03E00008
+//2032C714 00000000
+
+//jetpack height 
+//patch=1,EE,1024E3D4,extended,00003BD2
+//patch=1,EE,D0700A42,extended,0020BFFF
+//patch=1,EE,1024E3D4,extended,00003BB0
+
+Cardboard Cut-Out On Bikes: 
+2010FC98 00000000
+
+Blood Shadows: 
+2011315C 24847748
+
+Windows Turn Red When Cracked: 
+2011320C 24847748
+
+Windows Turn Black When Cracked: 
+2011320C 27849A98
+
+Super Car Xplosion: 
+2012FF78 24A57860
+
+Flamethrower Has Green Flames: 
+2013EFB4 24A578F8
+
+Flaming Spray Can: 
+2013EFD8 24A578E8
+
+Flaming Fire Extinguisher: 
+2013EFF8 24A578E8
+
+Extinguisher Has Green Flames: 
+2013EFF8 24A578F8
+
+Idiot AI-Bicycles: 
+203DB950 00000000
+
+Frozen Traffic-Bicycles: 
+203DB960 00000000
+
+100 Inch Rims: 
+20150488 10000007
+
+Dough Roller Tires: 
+00150690 00000000
+
+Low Gravity: 
+1024E2E4 00003B00
+
+Very Low Gravity: 
+1024E2E4 00003A00
+
+Idiot AI-Cops (Not Army): 
+2027C118 00000000
+
+More Train Colors: 
+202B47EC 00000000
+
+Never Lose Fat From Hunger: 
+202D2DFC 00000000
+
+Free Bombs: 
+0066BF8C 00000001
+
+Free Re-Sprays: 
+0066BF90 00000001
+
+Idiot AI-Cars: 
+2014E6D0 00000000
+
+Frozen Traffic-Cars: 
+2014E6E0 00000000
+
+Random Floating Cars: 
+2014B730 00000000
+
+Skin/Walk Through Everything: 
+20322850 03E00008
+
+More Motorcycle Colors: 
+2032309C 00000000
+
+Nitro Boost (Bikes): 
+20326CE4 00000000
+
+Idiot AI-Motorcycles: 
+20329FE8 00000000
+
+Frozen Traffic-Motorcycles: 
+20329FF8 00000000
+
+(Game Speed Modifier) 100x Game Speed: 
+2066BA28 42C80000
+
+(Game Speed Modifier) 4x Game Speed: 
+2066BA28 40800000
+
+(Game Speed Modifier) 2x Game Speed: 
+2066BA28 40000000
+
+(Game Speed Modifier) 1/2 Game Speed: 
+2066BA28 3F000000
+
+(Game Speed Modifier) 1/4 Game Speed: 
+2066BA28 3E800000
+
+//(Weather Modifier) Sunny Weather: 01 || Hazy Weather:  04 || Foggy Weather:  09 || Rainy Weather:  10 || Gray Hazy:  	20 || Orange Hazy: 	30 
+//2066BD28 00000001
+
+// ---- HUD --------------------------
+
+//Disable HUD: 
+//patch=1,EE,202471E4,extended,00000000
+
+// ---- Player --------------------------
+
+//Super Jump: 
+//patch=1,EE,104C6B38,extended,00004248
+
+//Mega Jump: 
+//patch=1,EE,104C6B38,extended,00004348
+
+//Ultra Jump: 
+//patch=1,EE,104C6B38,extended,00004420
+
+//Infinite Health
+//patch=1,EE,2106BB80,extended,42C80000
+//patch=1,EE,212B7314,extended,C0C06464
+
+//Health - by TKBS
+//1
+//patch=1,EE,202A9B38,extended,42CA0000
+//2
+//patch=1,EE,202A9B30,extended,E8E86565
+
+//Health
+//patch=1,EE,20261824,extended,E4400580
+
+//Sprint
+//patch=1,EE,00709748,extended,00000001
+
+// ----  World: --------------------------
+
+//Ghost World:
+//patch=1,EE,2010FC08,extended,00000000
+
+//water level (zero)
+//patch=1,EE,2017F800,extended,00000000
+
+// ----  Weapons: --------------------------
+
+//Molotov Has Green Flames: 
+//patch=1,EE,2012E9BC,extended,24A578F8
+
+//Teleport To Red Marker, Press L3+R3 (PAL UK/French)			- by Edison
+//patch=1,EE,2019CBAC,extended,C7A00028
+//patch=1,EE,2019CBB4,extended,E4420030
+//patch=1,EE,2024DAD4,extended,46010000
+//patch=1,EE,E002FFF9,extended,00700A42
+//patch=1,EE,2019CBAC,extended,0C030CC0
+//patch=1,EE,2024DAD4,extended,C78084E0
+//patch=1,EE,200C3300,extended,3C040070
+//patch=1,EE,200C3304,extended,24840028
+//patch=1,EE,200C3308,extended,8C852010
+//patch=1,EE,200C330C,extended,14A0FFFD
+//patch=1,EE,200C3310,extended,C4822008
+//patch=1,EE,200C3314,extended,C481200C
+//patch=1,EE,200C3318,extended,C78084E0
+//patch=1,EE,200C331C,extended,03E00008
+
+//Teleport To Red Marker, Press L3+R3  (GS/CB/AR2 NTSC)			- by Edison
+//patch=1,EE,2019CBAC,extended,C7A00028
+//patch=1,EE,2019CBB4,extended,E4420030
+//patch=1,EE,2024D9E4,extended,46010000
+//patch=1,EE,E002FFF9,extended,00700942
+//patch=1,EE,2019CBAC,extended,0C030CC0
+//patch=1,EE,2024D9E4,extended,C78084E0
+//patch=1,EE,200C3300,extended,3C040070
+//patch=1,EE,200C3304,extended,24840028
+//patch=1,EE,200C3308,extended,8C851F10
+//patch=1,EE,200C330C,extended,14A0FFFD
+//patch=1,EE,200C3310,extended,C4821F08
+//patch=1,EE,200C3314,extended,C4811F0C
+//patch=1,EE,200C3318,extended,C78084E0
+//patch=1,EE,200C331C,extended,03E00008
