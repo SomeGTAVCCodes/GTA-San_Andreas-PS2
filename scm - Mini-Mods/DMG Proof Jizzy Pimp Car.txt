@@ -1,0 +1,100 @@
+
+---- Mod - Mission: Jizzy ----
+[Example]:
+The Mission "Jizzy" (Pimp Car Missions)
+* these were a bit frustrating and repetitive, the vehicle kept getting damaged and flipping over etc, got even more annoyed then tried flying vehicles, didn't help so...
+** SO i made it damage proof by adding the code shown here;-
+
+CTRL+F  "  "HO_2_HO_"  "
+	Line 221063: custom_plate_for_next_car #BROADWAY numberplate "HO_2_HO_"
+	Line 224150: custom_plate_for_next_car #BROADWAY numberplate "HO_2_HO_"
+	Line 232044: custom_plate_for_next_car #BROADWAY numberplate "HO_2_HO_"
+
+//* This Runs first:
+	" :SYN2_3527 "
+
+[New Code Added:]
+//*Make pimp car dmg proof
+[CODE]
+Car.SetImmunities(59@, True, True, True, True, True)
+[/CODE]
+
+
+after the "car.create" for jizzy's vehicle with lciense plate "HO_2_HO" (ctrl+f to find)
+add immunites to the vehicle to make that frustrating driving mission easier.
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------------
+// ---- SYN Stuff: car immmunities, custom license plate etc. Mission: Jizzy ----
+// ------------------------------------------------------------------------------------------
+
+:SYN1_1025
+432@ = -2141.401
+433@ = -2481.575
+434@ = 29.4688
+435@ = 317.093
+clear_area 1 at 432@ 433@ 434@ radius 5.0
+custom_plate_for_next_car #BROADWAY numberplate "HO_2_HO_"
+421@ = Car.Create(#BROADWAY, 432@, 433@, 434@)
+424@ = Car.Create(#WALTON, -2235.727, -2572.873, 30.9296)
+Car.SetImmunities(421@, True, True, True, True, True)
+Car.Angle(424@) = 44.9335
+change_car_colour 421@ primary_color_to 123 secondary_color_to 5
+Car.Angle(421@) = 435@
+423@ = Actor.CreateAsDriver(PedType.CivFemale, #SHFYPRO, 421@)
+420@ = Actor.CreateAsPassenger(PedType.CivMale, #SPECIAL05, 421@, 0)
+start_playback_recorded_car 421@ to_path 193
+return
+
+:SYN2_3527
+load_char_decision_maker 0 store_to 231@
+load_char_decision_maker 2 store_to 232@
+clear_area 1 at -2623.359 1410.786 6.1629 radius 20.0
+58@ = Actor.Create(PedType.CivMale, #SPECIAL01, -2623.359, 1410.786, 6.1629)
+Actor.Angle(58@) = 192.3576
+Actor.PutAt($PLAYER_ACTOR, -2622.546, 1410.95, 6.1702)
+Actor.Angle($PLAYER_ACTOR) = 199.6292
+custom_plate_for_next_car #BROADWAY numberplate "HO_2_HO_"
+59@ = Car.Create(#BROADWAY, -2625.449, 1401.681, 6.0877)
+Car.SetImmunities(59@, True, True, True, True, True)
+Car.Angle(59@) = 188.0679
+Car.Health(59@) = 3000
+change_car_colour 59@ primary_color_to 123 secondary_color_to 5
+Car.ToggleHydraulics(59@, False)
+67@ = Actor.CreateAsPassenger(PedType.Prostitute, #HFYPRO, 59@, 0)
+set_char_get_out_upside_down_car 67@ unjackable_through_driver_seat 0
+set_char_cant_be_dragged_out 67@ locked 1
+set_char_suffers_critical_hits 67@ dismemberment_possible 0
+set_char_never_targetted 67@ untargetable 1
+set_char_decision_maker 67@ decision_maker_to 231@
+Model.Destroy(#HFYPRO)
+set_can_burst_car_tyres 59@ tires_vulnerability 0
+61@ = Marker.CreateAboveCar(59@)
+set_blip_as_friendly 61@ type_to 1
+set_near_clip 0.1
+switch_widescreen 1
+Camera.SetPosition(-2622.918, 1410.891, 7.0207, 0.0, 0.0, 0.0)
+Camera.PointAt(-2622.921, 1409.891, 6.9998, 2)
+load_scene_in_direction -2618.0 1396.0 7.0 angle 211.0
+do_fade 1 time 1000
+
+// Make Jizzy's car damage proof
+custom_plate_for_next_car #BROADWAY numberplate "HO_2_HO_"
+64@ = Car.Create(#BROADWAY, -2611.471, 1409.036, 6.1335)
+Car.SetImmunities(64@, True, True, True, True, True)
+Car.Angle(64@) = 274.4727
+change_car_colour 64@ primary_color_to 4 secondary_color_to 4
+Car.Health(64@) = 1000
+
+
+
+
+

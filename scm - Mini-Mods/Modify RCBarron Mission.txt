@@ -1,0 +1,60 @@
+//------------------------------------------------------
+---- Mod - Mission: Zero's RC Barron Missions ----
+//------------------------------------------------------Mission: 	"Supply Lines"
+Location:	...zero's shop
+Notes:
+Info:
+Mod:		Modify RC Barron Mission: "Supply Lines"
+			Set immunities & infinite fuel
+// $7422 = FUEL COUNTER
+
+[Example]: Infinite Fuel & Set Immunities
+// Note: I have not tested this because i completed the mission using "NOP" on the "30x..." address calls to the fuel decrement using CheatEngine.
+ // Modify the RC  Barron Mission: "Supply Lines"
+ // $7422 = FUEL COUNTER
+ // $7422 = 1000 //INCREASED FROM 100
+ // Car.SetImmunities(34@, True, True, True, True, True)
+//------------------------------------------------------
+
+// Modify the RC  Barron Mission: "Supply Lines"
+// * Set immunities
+// $7422 = FUEL COUNTER
+
+:ZERO2_230
+//...
+$7422 = 1000
+
+:ZERO2_3474
+if 
+  122@ == 1
+goto_if_false @ZERO2_3607
+if 
+  10 >= $7422
+goto_if_false @ZERO2_3607
+122@ = 2
+load_mission_audio 22009 as 1
+// TKBS: - Set to ### when reach 10
+$7422 = 1000
+
+:ZERO2_1079
+set_police_ignore_player $PLAYER_CHAR ignored_by_cops 1
+give_remote_controlled_model_to_player $PLAYER_CHAR in_RC_mode_at 83@ 84@ 85@ angle 40.09 RC_model #RCBARON
+34@ = Player.RC_car($PLAYER_CHAR)
+Car.Angle(34@) = 90.0
+set_enable_rc_detonate_on_contact 0
+set_enable_rc_detonate 0
+Car.Health(34@) = 9000 // increase from 900
+Car.SetImmunities(34@, True, True, True, True, True) // set immuniteis
+129@ = 0
+
+
+
+
+
+
+
+
+
+
+
+
