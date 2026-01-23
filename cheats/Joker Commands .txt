@@ -1,0 +1,206 @@
+
+Title:	JOKER COMMANDS
+Info:	The following document is scraped from online 
+	- the address for jokers (button inputs) is different for each game but there is no information online about how to make them or find them.
+
+A joker command is a button input as the value, but i do not know what the address is. Maybe it is some common assembly instruction like "jal xxxx?
+
+--- that stuff from doc online ----
+Credit: Code X
+
+Use the joker commands to enable/disable certain codes during gameplay. Use the joker command if you only want to enable/disable one code at a time, or use the master joker command to enable/disable multiple codes all at the same time.
+
+GS2v3+ (PAL) & Xploder
+
+Controller 1 (Joker Command)
+D1FABA02 0000dddd
+
+Controller 1 (Master Joker Command)
+Ennndddd 01FABA02
+
+nnn = # of codes under the command to be jokered
+dddd = joker command
+
+nnn Values:
+1 Code = 001
+2 Codes = 002
+3 Codes = 003
+4 Codes = 004
+5 Codes = 005
+6 Codes = 006
+7 Codes = 007
+8 Codes = 008
+9 Codes = 009
+10 Codes = 00A
+11 Codes = 00B
+12 Codes = 00C
+13 Codes = 00D
+14 Codes = 00E
+15 Codes = 00F
+16 Codes = 010
+17 Codes = 011
+18 Codes = 012
+19 Codes = 013
+20 Codes = 014
+21 Codes = 015
+22 Codes = 016
+23 Codes = 017
+24 Codes = 018
+25 Codes = 019
+26 Codes = 01A
+27 Codes = 01B
+28 Codes = 01C
+29 Codes = 01D
+30 Codes = 01E
+31 Codes = 01F
+32 Codes = 020
+33 Codes = 021
+34 Codes = 022
+35 Codes = 023
+36 Codes = 024
+37 Codes = 025
+38 Codes = 026
+39 Codes = 027
+40 Codes = 028
+41 Codes = 029
+42 Codes = 02A
+43 Codes = 02B
+44 Codes = 02C
+45 Codes = 02D
+46 Codes = 02E
+47 Codes = 02F
+48 Codes = 030
+49 Codes = 031
+50 Codes = 032
+
+dddd Values:
+FEFF = L2
+FDFF = R2
+FCFF = R2 + L2
+FBFF = L1
+FAFF = L1 + L2
+F9FF = L1 + R2
+F7FF = R1
+F6FF = R1 + L2
+F5FF = R1 + R2
+F3FF = R1 + L1
+EFFF = Triangle
+EEFF = Triangle + L2
+EDFF = Triangle + R2
+EBFF = Triangle + L1
+E7FF = Triangle + R1
+DFFF = Circle
+DEFF = Circle + L2
+DDFF = Circle + R2
+DBFF = Circle + L1
+D7FF = Circle + R1
+CFFF = Circle + Triangle
+BFFF = X
+BEFF = X + L2
+BDFF = X + R2
+BBFF = X + L1
+B7FF = X + R1
+AFFF = X + Triangle
+9FFF = X + Circle
+7FFF = Square
+7EFF = Square + L2
+7DFF = Square + R2
+7BFF = Square + L1
+77FF = Square + R1
+6FFF = Square + Triangle
+5FFF = Square + Circle
+3FFF = Square + X
+FFFE = Select
+FEFE = Select + L2
+FDFE = Select + R2
+FBFE = Select + L1
+F7FE = Select + R1
+EFFE = Select + Triangle
+DFFE = Select + Circle
+BFFE = Select + X
+7FFE = Select + Square
+FFFD = L3
+FEFD = L3 + L2
+FDFD = L3 + R2
+FBFD = L3 + L1
+F7FD = L3 + R1
+EFFD = L3 + Triangle
+DFFD = L3 + Circle
+BFFD = L3 + X
+7FFD = L3 + Square
+FFFC = L3 + Select
+FFFB = R3
+FEFB = R3 + L2
+FDFB = R3 + R2
+FBFB = R3 + L1
+F7FB = R3 + R1
+EFFB = R3 + Triangle
+DFFB = R3 + Circle
+BFFB = R3 + X
+7FFB = R3 + Square
+FFFA = R3 + Select
+FFF9 = R3 + L3
+FFF7 = Start
+FEF7 = Start + L2
+FDF7 = Start + R2
+FBF7 = Start + L1
+F7F7 = Start + R1
+EFF7 = Start + Triangle
+DFF7 = Start + Circle
+BFF7 = Start + X
+7FF7 = Start + Square
+FFF6 = Start + Select
+FFF5 = Start + L3
+FFF3 = Start + R3
+FFEF = Up
+FEEF = Up + L2
+FDEF = Up + R2
+FBEF = Up + L1
+F7EF = Up + R1
+EFEF = Up + Triangle
+DFEF = Up + Circle
+BFEF = Up + X
+7FEF = Up + Square
+FFEE = Up + Select
+FFED = Up + L3
+FFEB = Up + R3
+FFE7 = Up + Start
+FFDF = Right
+FEDF = Right + L2
+FDDF = Right + R2
+FBDF = Right + L1
+F7DF = Right + R1
+EFDF = Right + Triangle
+DFDF = Right + Circle
+BFDF = Right + X
+7FDF = Right + Square
+FFDE = Right + Select
+FFDD = Right + L3
+FFDB = Right + R3
+FFD7 = Right + Start
+FFBF = Down
+FEBF = Down + L2
+FDBF = Down + R2
+FBBF = Down + L1
+F7BF = Down + R1
+EFBF = Down + Triangle
+DFBF = Down + Circle
+BFBF = Down + X
+7FBF = Down + Square
+FFBE = Down + Select
+FFBD = Down + L3
+FFBB = Down + R3
+FFB7 = Down + Start
+FF7F = Left
+FE7F = Left + L2
+FD7F = Left + R2
+FB7F = Left + L1
+F77F = Left + R1
+EF7F = Left + Triangle
+DF7F = Left + Circle
+BF7F = Left + X
+7F7F = Left + Square
+FF7E = Left + Select
+FF7D = Left + L3
+FF7B = Left + R3
+FF77 = Left + Start

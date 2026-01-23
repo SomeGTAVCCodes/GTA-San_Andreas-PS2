@@ -1,0 +1,498 @@
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\Zr-350]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001DD
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\Zr-350]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001DD
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\Zr-350]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001DD
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\Zr-350]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001DD
+
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Airport Stairs)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,00000260
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Airport Stairs)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,00000260
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Airport Stairs)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,00000260
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Baggage Cart Rear 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,0000025E
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Baggage Cart Rear 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,0000025E
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Baggage Cart Rear 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,0000025E
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Baggage Cart Rear 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,0000025F
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Baggage Cart Rear 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,0000025F
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Baggage Cart Rear 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,0000025F
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Big Airliner)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,00000241
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Big Airliner)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,00000241
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Big Airliner)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,00000241
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Big Airliner)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,00000241
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Big Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001ED
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Big Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001ED
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Big Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001ED
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Big Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001ED
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,00000253
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,00000253
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,00000253
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,00000253
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Deepsea Fishing Boat 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001C5
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Deepsea Fishing Boat 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001C5
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Deepsea Fishing Boat 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001C5
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Deepsea Fishing Boat 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001C5
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Deepsea Fishing Boat 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001C6
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Deepsea Fishing Boat 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001C6
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Deepsea Fishing Boat 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001C6
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Deepsea Fishing Boat 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001C6
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Farm Combine)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,00000214
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Farm Combine)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,00000214
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Farm Combine)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,00000214
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Farm Combine)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,00000214
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Farm Equipment 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,00000262
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Farm Equipment 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,00000263
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Farm Equipment 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,00000262
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Farm Equipment 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,00000263
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Farm Equipment 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,00000262
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Farm Equipment 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,00000263
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Fishing Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001D8
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Fishing Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001D8
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Fishing Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001D8
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Fishing Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001D8
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Huge Yact)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001E4
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Huge Yact)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001E4
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Huge Yact)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001E4
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Huge Yact)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001E4
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Motor Raft)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001D9
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Motor Raft)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001D9
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Motor Raft)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001D9
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Motor Raft)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001D9
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Police Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001AE
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Police Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001AE
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Police Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001AE
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Police Boat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001AE
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001BE
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001C4
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001BE
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001C4
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001BE
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001C4
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001BE
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Speedboat)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001C4
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Tanker Rear)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,00000248
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Tanker Rear)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,00000248
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Tanker Rear)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,00000248
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Tanker Rear)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,00000248
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Tractor Trailor Rear 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001B3
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Tractor Trailor Rear 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001B3
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Tractor Trailor Rear 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001B3
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Tractor Trailor Rear 1)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001B3
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Tractor Trailor Rear 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,000001C2
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Tractor Trailor Rear 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,000001C2
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Tractor Trailor Rear 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,000001C2
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Tractor Trailor Rear 2)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,000001C2
+
+[You Must Park 1 Vehicle (Or Bike) In The Garage!\(Tractor Trailor Rear 3)]
+author=Codejunkies
+description=
+patch=1,EE,D080D8E2,extended,00100000
+patch=1,EE,1080D8E2,extended,0000024F
+
+[You Must Park 2 Vehicles (Or Bikes) In The Garage!\(Tractor Trailor Rear 3)]
+author=Codejunkies
+description=
+patch=1,EE,D080D922,extended,00100000
+patch=1,EE,1080D922,extended,0000024F
+
+[You Must Park 3 Vehicles (or Bikes) In The Garage!\(Tractor Trailor Rear 3)]
+author=Codejunkies
+description=
+patch=1,EE,D080D962,extended,00100000
+patch=1,EE,1080D962,extended,0000024F
+
+[You Must Park 4 Vehicles (or Bikes) In The Garage!\(Tractor Trailor Rear 3)]
+author=Codejunkies
+description=
+patch=1,EE,D080D9A2,extended,00100000
+patch=1,EE,1080D9A2,extended,0000024F
