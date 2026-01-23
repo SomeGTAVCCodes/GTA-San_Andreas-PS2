@@ -4,6 +4,15 @@
 * users can replicate the changes and create their own.
 * Full readme in help folder
 
+[The Aim]
+* i wanted a perfect main.scm.
+* Including; Fixes, a simple cheat menu users can replciate and modify & all PS2_kb removed except for mission skip + required skip fixes etc.
+* For PCSX2 2.0+ I wanted to have all code intact just fixed and improved as needed, with all PS2_KB and a complete .pnach cheat file  
+* For pcsx2 1.6.0 i wanted all the ps2_kb removed, becuase users cannot use it, and a prefect cleaned, fixed scm
+* Basially a perfect .scm with as much space as possible including templates for thigns liek cheat menus, all the commonly requetsed fixes and features and have it so that users cna simply copy paste examples into ti .
+
+Unfortunately there is no list + releavt fixces posted online, and those that are are often incorrect, unneccasry or cannto be replicated.
+
 [quick instructions]
 * Replace original files with modded files, rebuild iso, enjoy!
 * if you want to modify yourself or maybe learn something new just go through the full read me, docs, files, examples & information provided.
