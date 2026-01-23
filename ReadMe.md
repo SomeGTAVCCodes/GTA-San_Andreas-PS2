@@ -39,14 +39,13 @@
 * Check final main.scm/ main.txt or the cheats & debug readme IF inputs have changed.
 * use a second control to execute the following;-
 
-Open Teleport Menu	- PAD 1 SELECT + CIRCLE.	|| destinations
-Open Cheats Menu	- PAD 1 SELECT + X.			|| various options
-Open Weather Menu	- PAD 1 CIRCLE + X.			|| optional: not in final, because i use ".pnach" to set weather
-Close Menu			- PAD 1 SELECT + SQUARE.
-Spawn Explosions 	- PAD 1 CIRCLE (in vehicle).|| pseudo projectile, same as ("VCH") || you may want to change this to SQUARE, or another button./
-Skip Missions:		- PAD 2 SELECT, sometimes START has a function.
+* Open Teleport Menu	- PAD 1 SELECT + CIRCLE.	|| destinations
+* Open Cheats Menu	- PAD 1 SELECT + X.			|| various options
+* Open Weather Menu	- PAD 1 CIRCLE + X.			|| optional: not in final, because i use ".pnach" to set weather
+* Close Menu			- PAD 1 SELECT + SQUARE.
+* Spawn Explosions 	- PAD 1 CIRCLE (in vehicle).|| pseudo projectile, same as ("VCH") || you may want to change this to SQUARE, or another button./
+* Skip Missions:		- PAD 2 SELECT, sometimes START has a function.
 					* other options depend on the mission.
-
 * Users can skip the entire game (1hour+ of pressing select) but game progression may break unless the following is done;-
 DO NOT SKIP;- 
 		important phone calls.
