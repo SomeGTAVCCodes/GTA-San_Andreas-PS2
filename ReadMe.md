@@ -1,16 +1,32 @@
 
-[what is this?;-]
-* This content modifies & improves the default GTA San Andreas PS2 experience
+[what is this?];-
+* Modifies & improves the default GTA San Andreas PS2 experience
 * users can replicate the changes and create their own.
-* Full readme in help folder
+* Focus on main.scm perfection, comonly requested stuff, and .pnach cheats
 
 [The Aim] = i wanted a perfect main.scm.
-* Including; Fixes, simple cheat menus users can replicate and modify provide commonly wanted stuff, all unused code stripped etc.
-* For PCSX2 2.0+ I wanted to have all code intact just fixed and improved as needed, with all PS2_KB working and listed and a complete ".pnach cheat" file for the new non "20######" style 64bit addresses. 
+* Including; a) Fixes, b) simple cheat menus users can replicate and modify provide commonly wanted stuff, c) all unused code stripped etc.
+I realsied some things have never been done;-
 * For PCSX2 1.6.0 i wanted all the ps2_kb removed (users cannot use it), and a perfect cleaned, fixed scm + cheat menus
+* For PCSX2 2.0+ I wanted to have all code intact just fixed and improved as needed, with all PS2_KB working and a complete ".pnach cheat" file for the new non "20######" style 64bit addresses. 
 * a perfect .scm with as much space as possible including templates for cheat menus, all commonly requested fixes & features
 * importantly: have it so that users can simply copy paste examples into their own, so they can replicate, easily, fast & efficiently the whole process.
 
+[The problem]
+* There is several options and none of them do all of it!
+- PCSX2 2.0+ there is no information on anyone even using a keyboard for sanandreas with it - despite this being a really cool feature
+- PCSX2 2.0+ cheats are completely fucked becuase of the 64bitu switch shit.
+- PCSX2 1.6 cheats are awesome, and available for most versions
+- PCSX2 1.6 cannot use the keyboard
+- PS2 Console - doesn't have a perfect.scm file to begin with, most people i know from UK neevr had intenret or a keyboard for PS2 ever and definately did not know about the code being present
+- PS2 Console - simply cannot do what PCSX2, or PC can do for some things, but could have a perfect fixed game with really cool features.
+- PS2 Console - any mods that are good cannot be replciated and are stuck behind - to put it bluntly - fucking bullshit, immoral, illegal crappy scam websites. That's why they don;t share the source and instead host moronic full iso files for a 5kb text file change.
+- PC - relies only on CLEO, the only main.scm mods with decent things i wanted were incredibly extensive and cool looking but required some bullshit download i do not want.
+- PC - basically has a handful of people that can do both for PC and PS2 , but none of them have actually made that stuff available for some reason.
+- PC - in short - completely useles to us.
+- Websites- fuck me so many website have beullshti reposted and stolen mods from other authors, repetitive shit and stuff that really doesnt fuckign work.
+  ** if it is not compatible for vanilla + , all verisons, it is not required - you can gurantee it
+ 
 ** Unfortunately there is no list + relevant fixces posted online, and those that are are often incorrect, unneccasary or cannot be replicated.
 * mass focus on CLEO bullshit/ PC mods - neglecting PS2, whilst failing to provide the basic fundamentals correctly like a standardised perfect .scm comptible for all versions has caused a massive diference between PS2 & PC. Which has led to teh most basic expectations of users not being met, not met by rockstar to begin with, nor on any subsequent 1 of the 30+ re-releases, and variants, and not by any of the 20+ years of modding either.... if it had, i wouldn't be here.
  
