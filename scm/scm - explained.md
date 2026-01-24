@@ -1,13 +1,24 @@
+-----------------------------------------------------------------
+--- The .scm ----
+-----------------------------------------------------------------
+* The previous version has comments "/* // */". This can be used to see primarily where my notes are and for users to replicate if they want
+*   - Search "//" or "TKBS" & use common text edit features like compare, and jump to next compare for fast comparisons. 
 
-i wanted this to be a perfect scm (Vanilla+)
+* The latest version labelled "ZAZ_FIX" is a compiled-> decompiled version (stripped of comments),
+*   - this makes it very dificult (impossible) to compare to original - or continue working on e.g. ps2_kb removals (becuase we have lost the comments that direct use to what i needed to add or remove next and now don;t know which block was from a ps2_kb request and which was not.
 
-[step 1]
+* "CustomVariables.ini" are required for Sanny Builder 4.1. recommended, using option - "PS2 v1". Although i recommend users use this file for reference and start with a clkean decompiled main.scm NOT using custom variables at all.
+
+-----------------------------------------------------------------
+ --- i wanted this to be a perfect scm (Vanilla+) ----
+ -----------------------------------------------------------------
+[1]
 * it should have all PS2_KB removed except mission skip - and not break anything i.e. perfect changes
 
-[step 2]
+[2]
 fix pickups, add missing adrenaline, fix any issues with coords items, icons, placements etc.
 
-[step 3]
+[3]
 fix any issues like jetpack bball, bball save etc.
 
 [4]
@@ -17,7 +28,9 @@ users can copy/ paste templates into those sections e.g cheat menus.
 [5]
 with a perfect cleaned and fixed scm, and all the templates provided separately users can creat their own be-spoke main.scm, hassle free!
 
+-----------------------------------------------------------------
 [What i achieved vs what i wanted]
+-----------------------------------------------------------------
 * The only thing i could NOT achieve was the MAGIC CAR -e.e. spawn any vehicle mod, which i had working for vice city 
 * i wanted this to not be a cheat menu - but to be like VICE_CITY-Hyrbid Version 
 ** infact i am sure it can be done in less than 50 lines of code. It doesn't require an extensive menu or even the same as vice city hyrbid or liberty city stories 
@@ -37,5 +50,6 @@ it is simple, easy to udnerstand, easy to edit, and literally does everything yo
 Zaz provided an informative overview and check of the custom scripts, resulting in a 1 word removal that basically fixed everything lol!
 Orion appears to aid and support users through their, often noobie, situations. Big thanks for constant support and detailed explanations.
 Credits to respective authors for apps used or additional files/ info, unfortunately it is difficult to always ascertain whom the original ares of files that are constantly re-posted without original docvs.
+
 
 
