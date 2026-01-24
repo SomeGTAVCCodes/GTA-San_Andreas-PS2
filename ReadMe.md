@@ -2,7 +2,9 @@
 [what is this?];-
 * Modifies & improves the default GTA San Andreas PS2 experience
 * users can replicate the changes and create their own.
-* Focus on main.scm perfection, comonly requested stuff, and .pnach cheats
+* Focus on main.scm perfection, commonly requested stuff, and .pnach cheats
+* currently untested for a full 'legitimate' playthrough. A mission skip test was done that worked from start to finish, but this many versions ago.
+* assumed to be working
 
 [The Aim] = i wanted a perfect main.scm.
 * Including; a) Fixes, b) simple cheat menus users can replicate and modify provide commonly wanted stuff, c) all unused code stripped etc.
