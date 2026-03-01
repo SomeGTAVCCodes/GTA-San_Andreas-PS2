@@ -20,9 +20,14 @@ I realsied some things have never been done;-
 - PCSX2 2.0+ cheats are completely fucked becuase of the 64bitu switch shit.
 - PCSX2 1.6 cheats are awesome, and available for most versions
 - PCSX2 1.6 cannot use the keyboard
-- PS2 Console - doesn't have a perfect.scm file to begin with, most people i know from UK neevr had intenret or a keyboard for PS2 ever and definately did not know about the code being present
+- RCPS3 - Cannot use PS2Classics, fuckign dumbest shit ever it doesn;t do this since it installs HFW
+- RCPS3 - No cheats and looks completely like shit and runs liek crap comapred to pcsx2
+- PS2 Console - no perfect.scm file to begin with, most people i know from UK neevr had intenret or a keyboard for PS2 ever and definately did not know about the code being present
 - PS2 Console - simply cannot do what PCSX2, or PC can do for some things, but could have a perfect fixed game with really cool features.
 - PS2 Console - any mods that are good cannot be replciated and are stuck behind - to put it bluntly - fucking bullshit, immoral, illegal crappy scam websites. That's why they don;t share the source and instead host moronic full iso files for a 5kb text file change.
+- PS3 Console - Cannot use cheats
+- PS3 Console - Codebreaker injection is for NTSC only - as fucking usual, so like i said, cannot use cheats
+- PS3 Console - complete fucking pain in the ass to use PS2 Stuff
 - PC - relies only on CLEO, the only main.scm mods with decent things i wanted were incredibly extensive and cool looking but required some bullshit download i do not want.
 - PC - basically has a handful of people that can do both for PC and PS2 , but none of them have actually made that stuff available for some reason.
 - PC - in short - completely useles to us.
