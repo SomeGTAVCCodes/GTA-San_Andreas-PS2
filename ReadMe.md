@@ -1,4 +1,4 @@
-*Title:
+Title:
 *Author:
 *Date:
 *Game: 
