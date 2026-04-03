@@ -1,11 +1,11 @@
-Title:
-Author:
-Date:
-Game: 
-Info:
-Credits:
-Contact:
-Links:
+*Title:
+*Author:
+*Date:
+*Game: 
+*Info:
+*Credits:
+*Contact:
+*Links:
 
 
 [GTA SA PS2 Cheats]
