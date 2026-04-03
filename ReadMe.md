@@ -6,8 +6,8 @@ GTA SA PS2 Cheats
 * Custom Main.scm
 
 Apps Used/Required:
-Cheat Engine
-Sanny Builder
-IMGBurn
-PCSX2 1.6.0 
-Notepad++
+* Cheat Engine
+* Sanny Builder
+* IMGBurn
+* PCSX2 1.6.0 
+* Notepad++
