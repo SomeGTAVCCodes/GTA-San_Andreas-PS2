@@ -1,0 +1,1504 @@
+gametitle=Grrrand Theft Auto!: San Andreas (PAL-M5) (v1.03) SLES-52541 A1A3F231 | A1B3F232
+
+TITLE:		GTA SAN_ANDREAS CHEATS
+AUTHOR:	TKBS
+DATE:		2025, Updated 2026.
+GAME: 		GTA SAN_ANDREAS PAL Black (Version 1 (v1.03)) 2004 SLES-52541
+CRC:		A1B3F232 = (PALv1-50hz) - Original
+CRC:		A1A3F231 = (PALv1-60hz) - Patched .elf
+CREDITS	TKBS
+CREDITS	Respective Authors.
+Links: 		OrionSR post:	https://gtaforums.com/topic/350108-cheat-code-creation/
+Links:  		info on pnach: 	https://slymods.info/wiki/Guide:Writing_pnach_files | https://slymods.info/wiki/Guide:Writing_pnach_files#Increment_/_Decrement
+
+File Number 1/3 * See Files 2/3 & 3/3 for more
+
+Before You Begin;-
+	Users should test the game as default, then try this file, then create their own file using the resources provided.
+			There are 3 Pnach files. They should be organised as follows;-
+				File Number 1/3 the file author uses
+								codes already enabled, based on personal preference, some unique stuff.
+								an attempt to put things in alphabetical order is made
+				File Number 2/3	Should contain everything
+								organised with " ---- A ---- " --> " ---- Z ---- " headers
+								all codes should be tested and with notes.
+				File Number 3/3	contains all junk notes and crap (source) from research etc.
+								may contain useful information, but mostly crap.
+								contains all unsolved stuff or things that work in one version but not another.
+								also some random and unique stuff that remains unfinished.
+				Optional:
+						Due to the large amount of patches possible;-
+						a) the STATS should have a dedicated file {STAT, Address}, but i was unable to catelog them all.
+						b) there are 2 methods to activate/ deactivate the 91 cheats, pick 1 method to keep the file smaller, save the other to another file.
+						note: use the link for the PC list, retain ordering, add PS2 adddresses and note any differences.
+						* it would be very beneficial to ensure all 91 cheats are listed correctly and all STATS, this will show the BLANK memory regions which will be useful.
+
+IMPORTANT	* ".pnach" patches here created for PCSX2 1.6.0. - The effects of patches (for any game) differ depending on BIOS, PCSX2 Version.
+			* Use the "GTSA-Cheats_Companion_App.exe" with this ".pnach"
+
+----------------------------
+---- New Inputs;- ----
+----------------------------
+* Cheats & Debug options have been created similar to vice city hybrid ("VCH") version.
+
+"Main.scm (Modified)"
+			Show Coordinates 				Runs all the time & Includes "Spawn Explosions".
+			PAD 2 - {SELECT, START}		Skip Missions**
+			PAD 1 - {SELECT + X}			OPEN Cheat menu 1 (Cheats)
+			PAD 1 - {SELECT + L1}		OPEN Cheat menu 2 (Teleport Destinations)
+			PAD 1 - {SELECT + R1}		OPEN Cheat menu 3 (Teleport oddjobs)
+			-------Removed	------->		Open Cheat Menu 4 (Weather Menu) - Removed, set weather with ".pnach" instead.
+			PAD 1 - {SELECT + SQUARE}	CLOSE
+			PAD 1 - {CIRCLE}				Vehicles: "Spawn Explosions" a few feet in front you (When in Vehicles)
+											This is embedded in the show coordinates script, which users can disable entirely using pnach.
+											206B0774 (0,1)
+
+".pnach"
+			PAD 1 - {SQUARE }			Dynamic Jump: TAP = super jump | Hold = control gravity
+			PAD 1 - {DOWN + START}		Open Save Menu - Save (or pause) anywhere - Do Not Save During Missions!
+			PAD 1 - {L1 + R1}				Vehicles: Lock & Unlock Vehicle Doors (Hold = locked, release = unlock)
+			PAD 1 - {R2 + LEFT}			Vehicles: Vortex Fix (Work-around)
+			PAD 1 - {R1 + R2}				MAGIC_CAR - Vehicles: Spawn Vehicle Enabler
+			PAD 1 - {L1 + L2}				MAGIC_CAR - Vehicles: Spawn Vehicle Disabler (Reset)
+			PAD 1 - {R1 }					MAGIC_CAR - Vehicles: Increment Vehicle ID +1, ensuring write access for cheat companion app.
+			PAD 1 - {SELECT + LEFT}		Weapons (1)
+
+".exe" (Companion app);-
+
+			Decrement/ Increment	Vehicle ID					L2 / R2 or Numerics (+)/(-)
+			Numerics (0-9) to toggle CHEATS
+			Use Numpad to enter coordinates (x,y,z) for teleport (Use Numpad to avoid conflict with numerics.)
+			Type vehicle model name, or number,  from "vehicles.ide" or name from "american.gxt".
+
+**DO NOT SKIP;-
+	- important phone calls.
+	- maddog jump out of plane 'parachute' mission. wait until you jump out the plane.
+	- the "end of the line". causes end cutscenes to not play.
+	- there is no vigilante skip. Rockstar did not add it and i could not get it working. Use .pnach instead to auto-complete or drive around using "Spawn Explosions".
+
+----------------------------
+Features;-
+----------------------------
+		These Features are included;-
+			Teleport anywhere
+			Spawn any Vehicle
+			Music Outside Vehicle
+			Modify game Attributes and Render options
+			Dynamic Brightness HUD, Radar, Jump, Punch examples.
+			Cheat companion App
+			PAL support
+			Fixes
+			FOV++
+
+----------------------------
+Fixes:
+----------------------------
+		These Fixes are included;-
+			1. See - skimmer (vehicles.ide) & "Vortex Pay and Spray Fix" by TKBS
+			2. See - GXT typos
+			3. See - fixing where others may have gone wrong.
+
+----------------------------
+Mods;-
+----------------------------
+		These Mods are included;-
+			Main.scm 		- fix and add cheat menus.
+			.ELF 			- patch 60hz
+			occlusion Files 	- set to 0's
+			peds.Coll 		- fix loading in editor
+			vehicles.ide 	- fix skimmer
+			fileload 			- remove 2nd img dependency
+
+----------------------------
+Notes;-
+----------------------------
+			There are multiple variants for patches. The exact, or best method per-patch is debatable.
+
+----------------------------
+OFFSETS
+----------------------------
+			To Convert PAL to NTSC (v1 = +100) || (NTSC v2 = A90) aprrox. Sometimes they are same address with different values, or instructions.
+
+----------------------------
+Recommendations;-
+----------------------------
+			1. Use Save files to transfer pnach changes easily from PC to Console.
+				- Codebreaker.bin file USB method - NOT TESTED.
+			2. Use NotePad++ ".xml" for colourful ".pnach" Language styling.
+			3. Use "GTSA-Cheats(pnach_companion_app).exe" with pcsx2.exe 1.6.0.
+			4. Use ".ct" file with cheat engine.
+
+----------------------------
+Known Issues;-
+----------------------------
+			1. Codebreaker: some codes might not work when converted.
+			2. Patches not working:  Save State & Reload Emulator.
+			3. Not compatible with pcsx2 1.7+, q-t, etc.
+			4. Extended functions
+				- It is possible a later version of pcsx2 may work with more extended functions
+				- i still don't understand this E##### Stuff. My examples are based on what i tested and work, but other examples online are different.
+				- example - compare slymods info vs OrionSR's info vs Mine, vs the actual results - as shown below you cannot do both. i.e. if we use a 1 or 2 for less than or equal, we cannot also execute multiple line and they can't both be right for different functions.
+
+----------------------------
+Unsolved;-
+----------------------------
+			1. ON_MISSION flag address needed 	- would allow for much better patches.
+			2. IN_VEHICLE flag address needed 		- would allow for much better patches.
+			3. TELEPORT to properties with auto-purchase function - see Vice City Hybrid Cheats & Debug patches.
+			4. CINEMATIC flag address needed (where HUD dissappears and CJ switches to self controlled view mode.)
+			5. Red Marker coordinates address from menu map.
+			6. and many more...
+
+----------------------------
+Not Tested;-
+----------------------------
+			1. Hardware: PS2 + Keyboard / or PS3, & the native .scm ps2_kb functions.
+			2. Software: GSM or with YPOS patch on official hardware.
+			3. Software: codebreaker save file with YPOS
+			4. Hardware: PS4
+
+----------------------------
+TODO:
+----------------------------
+0. 	List all addresses for ALL Scripts. - The user can then enable and disable them.
+1.	Remove Motion Blur crap when driving fast.
+2.	true gs-aspect ratio patch not done
+		- something writes to widescreen address preventing it from being modified. (4:3 1.33 | 16:9 1.777) --> 1:888 (720x576)
+3. 	a fix for the FOV when flying at high altitude and high speed.
+4.  all stats memory regions, so that we know which are blank memory regions.
+5. 	port dynamic brightness to cheat companion app.
+
+----------------------------
+Emulator;-
+----------------------------
+	PCSX2 Q-T: DO NOT use QT, or any version above 1.6.0, but if you do, then do this...
+		* The "GameIndex.yaml" Contains shit we want to remove: 	"C:\Games\PS2\Emulator\PCSX2-qt\resources"
+		... * & has patches files here: 									"C:\Games\PS2\Emulator\PCSX2-qt\resources\patches.zip"
+		* remove patches because they are out-dated, not labelled or documented & interfere with patches creation.
+		* then use this file to re-make patches for the latest pcsx2 version.
+
+	These settings are baked in - REMOVE THEM and use this pnach instead!
+		SLES-52541:
+		name: "Grand Theft Auto - San Andreas"
+		region: "PAL-M5"
+		compat: 5
+		clampModes:
+		eeClampMode: 2 # Fixes Game freezes during "Reuniting The Families" mission.
+		gsHWFixes:
+		recommendedBlendingLevel: 2 # Fixes blocky heat haze effect.
+		halfPixelOffset: 5 # Helps align radiosity closer to native.
+		autoFlush: 1 # Fixes post-processing.
+	* None of the above settings were needed in pcsx2 1.6.0 - and i completed game without cheats and no issues occured.
+	* the gameindex.dbf doesn't do anythign in cpsx2 1.6.0 either.
+	* pcsx2 2.6.3 (latest) has noticable visual quality loss, integrated stuff that is not documented and interferes with other stuff, and is generally just a horrible experience to use.
+	* it does not offer any advantages over pcsx2 1.6.0, infact it makes things worse for gta, which is why they integrate stuff without telling the users and why people have to make patches to fix patches.
+	* the simple fact that the important info required for the end user is not present, like all current day stuff, highlights how little they give a shit.
+
+//--------------------------------------------------------------------// START TKBS //--------------------------------------------------------------------
+//--------------------------------------------------------------------// START TKBS //--------------------------------------------------------------------
+
+//--------------------------------------------------------------------
+// ---- in-Game Cheats  -----
+//--------------------------------------------------------------------
+//Weapon Set 1:	(Rocket Launcher)	R1 R2 L1 R2 ← ↓ → ↑ ← ↓ → ↑
+//Weapon Set 2:	(ROCKET_HS)			R1 R2 L1 R2 ← ↓ → ↑ ← ↓ ↓ ↓
+//Weapon Set 3: (Flame-Thrower)		R1 R2 L1 R2 ← ↓ → ↑ ← ↓ ↓ ←
+
+//--------------------------------------------------------------------
+// ---- 14###### ---- (With Joker Commands)
+//--------------------------------------------------------------------
+
+// ---- 14###### ----
+//TEST AREA  - (Select + LEFT)
+//patch=1,EE,D0700A42,extended,0000FF7E
+//patch=1,EE,206E2B48,extended,00000000 || SET 0
+//patch=1,EE,D0700A42,extended,0000FFFF
+//patch=1,EE,206E2B48,extended,14010002 || RETURN TO NORMAL
+//2056FEC8
+
+// ---- 14###### ----
+//Weapons (1) - (Always have)
+// * SET 2059D4BC to 1443000F save and reload, weapons will be added to your inventory. also any button press x 2.
+//patch=1,EE,2059D4BC,extended,1443000F // press any button x 2 will give weapons + ammo
+
+//Weapons (1) - (Select + LEFT)
+//patch=1,EE,D0700A42,extended,0000FF7E
+//patch=1,EE,2059D4BC,extended,00000000 || SET 0
+//patch=1,EE,D0700A42,extended,0000FFFF
+//patch=1,EE,2059D4BC,extended,1443003A || RETURN TO NORMAL
+
+// ---- 14###### ----
+//Lock & Unlock Vehicle Door - (L1 + R1)
+patch=1,EE,D0700A42,extended,0000F3FF
+patch=1,EE,2016BCB0,extended,00000000 || SET 0
+patch=1,EE,D0700A42,extended,0000FFFF
+patch=1,EE,2016BCB0,extended,14620004 || RETURN TO NORMAL
+
+//--------------------------------------------------------------------
+// ---- Boot (Start-up) ----
+//--------------------------------------------------------------------
+
+// ---- 60 hz (.elf) ----
+ * Use hex edit on "SLES_525.41".elf to Patch PAL -> 50/60hz.
+	[00447D40] 01 00 02 24 -->  02 00 12 24
+
+// ---- PATCH PAL 50/60hz FPS (Fixed) ----
+patch=1,EE,20547BC4,extended,24120002 	| 24020001 -> 24120002
+
+// ---- 60 hz EE (Patch EEngine 30 -> 60+) ----
+patch=1,EE,2039B62C,extended,24040001 	| 24040002 -> 24040001 	|| NTSC = 2039B53C  || or eax,0400020C --> or eax,0400010C
+
+// ---- ScreenPos ----
+// * PCSX2 2.6.0+ = Requires Overscan & Anti-blur enabled
+// * PCSX2 1.6.0  = Not required, displays perfectly already, but if you want to use it;-
+			Issue: 	hangs on BLACK SCREEN
+			Fix: 	use software mode to boot, &/or Remove and re-insert memory card, disable speed hacks, enable MPEG Skip FMV.
+// * Required on PS3 Hardware to fix YPOS but NOT TESTED
+// * Unknown IF PS2 hardware requires YPOS fix.
+// * NOT TESTED: PS3 or PS3 - "GSM.ELF" With multi-region & codebreaker method.  original hardware, old tv etc, GSM, etc etc..
+
+[ypos]
+patch=0,EE,00547F84,extended,00000010	| 24420032 	--> 00000010 or 11? | 24420010 would be better ???
+patch=0,EE,00548038,extended,00000010	| 24420048 	--> 00000010 or 11?
+
+//[xpos] | Not Required
+//patch=0,EE,10547F88,extended,000002A8	| 1x10547F88 or 0x#######? | 64A5027C --> 000002A8
+//patch=0,EE,1054803C,extended,000002A8	| 1x1054803C or 0x#######? | 64A50290 --> 000002A8
+
+[Skip FMV (Intro Movies) | MPEG Decoder]
+patch=0,EE,20245790,extended,00000000 | 0C091664 --> 00000000
+patch=0,EE,202457B0,extended,00000000 | 0C091664 --> 00000000
+
+//[480p Mode] SDTV 480p at start.  		| author=PeterDelta Note: Makes no sense coz pal is 640x512, and does not work with pcsx2 1.6.0
+//patch=1,EE,E0040001,extended,0066CC58 | execute 4 lines if = 1 ? - that will never occur in pal -- 00000002 and the next 4 lines just bump up +1 line.
+//patch=1,EE,2053B4A0,extended,34050050 | 24030002 --> 34050050
+//patch=1,EE,2053B4A4,extended,24030002 | 0000000C --> 24030002
+//patch=1,EE,2053B4A8,extended,0000000C | 03E00008 --> 0000000C
+//patch=1,EE,2053B4AC,extended,03E00008 | 00000000 --> 03E00008
+
+//[gsinterlacemode]
+//patch=1,EE,0054996C,extended,00000000 | 64420008 --> 00000000
+
+//--------------------------------------------------------------------
+// ---- Audio & Music Manager ----
+//--------------------------------------------------------------------
+// //[Music_Manager] - Listen to music outside vehicle.
+/*
+ * Enter VH, choose radio, Enable cheats, exit VH
+ * Disable for missions or game will crash...
+ This address 2056FEC8 - does something 10400009 -> F (use joker - hear static)
+*/
+//patch=1,EE,E1010005,extended,20881AA4 // 5 when leaving vehicle
+//patch=1,EE,20881AA4,extended,00000002 // 2 simulate inside VH with radio on
+//patch=1,EE,E1010007,extended,20881AA4 // then switches to 7.
+//patch=1,EE,20881AA4,extended,00000002 // 2 simulate inside VH with radio on
+//patch=1,EE,E1010004,extended,20881AA4 // enter gym etc switches to 4.
+//patch=1,EE,20881AA4,extended,00000002 // 2 simulate inside VH with radio on
+
+//--------------------------------------------------------------------
+// ---- Dynamic Brightness ----
+//--------------------------------------------------------------------
+// * IF value @ 2066B8AC (time, hrs.) == 0x00 --> Write 0x0000 -TO- 206FFA80 (brightness)
+// * there are 32 menu brightness value options, 16 up, 16 down
+// * there is a step-up, step-down menu bug that skips a bar.
+// * max value is 180(hex) 384(dec), there are 16 bars in the menu, == 24 per bar is what it should be, due to bad code it is not.
+// * Default value in .ini is 256, i recommend setting it to 192 because the game starts at 7am
+//--------------------------------------------------------------------
+
+// ---- START OF Dynamic Brightness ----	|| -- IF "Time of Day" = #hrs. mins could also be used for more seamless transitions.
+patch=1,EE,E1010000,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000000
+patch=1,EE,E1010001,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000018
+patch=1,EE,E1010002,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000030
+patch=1,EE,E1010003,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000048
+patch=1,EE,E1010004,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000060
+patch=1,EE,E1010005,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000078
+patch=1,EE,E1010006,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000090
+patch=1,EE,E1010007,extended,0066B8AC
+patch=1,EE,206FFA80,extended,000000A8
+patch=1,EE,E1010008,extended,0066B8AC
+patch=1,EE,206FFA80,extended,000000C0
+patch=1,EE,E1010009,extended,0066B8AC
+patch=1,EE,206FFA80,extended,000000D8
+patch=1,EE,E101000A,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000108
+patch=1,EE,E101000B,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000138
+patch=1,EE,E101000C,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000150
+patch=1,EE,E101000D,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000180
+patch=1,EE,E101000E,extended,0066B8AC
+patch=1,EE,206FFA80,extended,0000014E
+patch=1,EE,E101000F,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000135
+patch=1,EE,E1010010,extended,0066B8AC
+patch=1,EE,206FFA80,extended,0000011C
+patch=1,EE,E1010011,extended,0066B8AC
+patch=1,EE,206FFA80,extended,000000EA
+patch=1,EE,E1010012,extended,0066B8AC
+patch=1,EE,206FFA80,extended,000000D1
+patch=1,EE,E1010013,extended,0066B8AC
+patch=1,EE,206FFA80,extended,000000B8
+patch=1,EE,E1010014,extended,0066B8AC
+patch=1,EE,206FFA80,extended,0000009F
+patch=1,EE,E1010015,extended,0066B8AC
+patch=1,EE,206FFA80,extended,0000006D
+patch=1,EE,E1010016,extended,0066B8AC
+patch=1,EE,206FFA80,extended,00000054
+patch=1,EE,E1010017,extended,0066B8AC
+patch=1,EE,206FFA80,extended,0000003B
+// ---- END OF Dynamic Brightness ----
+
+//--------------------------------------------------------------------
+// ---- Dynamic HUD & Radar ----
+//--------------------------------------------------------------------
+// ** These can be permanently enabled but... may need some tweaks .**
+// (time, health, oxygen, armour, weapons, hud, radar)
+//Display cash money:			//2066BD7C 1
+//Display Health & armour:		//2066BD6C 00000005 --> 0 // IF Health Infinite disable this and armour
+//Display Time: 				//2066BDA0 1
+//Display Weapons/fist:			//2066BD9C 1
+
+// ---- START OF Dynamic HUD & Radar ----
+
+//Disable Black Bars (Including when subtitles enabled).
+patch=1,EE,206FE66D,extended,00000000
+
+//-- IF 2079802C = 1 (003D0001) 			|| Disable HUD & RADAR During Cutscenes
+patch=1,EE,E1010001,extended,0079802C // cutscene is active
+patch=1,EE,206FFA64,extended,00000001 // Disable HUD
+patch=1,EE,E1010001,extended,0079802C // cutscene is active
+patch=1,EE,206FFA68,extended,00000002 // Disable RADAR
+
+patch=1,EE,E1010001,extended,0079802C // cutscene is active
+patch=1,EE,2066BCF4,extended,00C75420 // Set Font GTA Header
+
+//-- IF 2079802C = 0 (003D0000) 			|| Enable HUD & RADAR when Cutscenes END
+patch=1,EE,E1010000,extended,0079802C // cutscene is NOT active
+patch=1,EE,206FFA64,extended,00000101 // Enable HUD
+patch=1,EE,E1010000,extended,0079802C // cutscene is NOT active
+patch=1,EE,206FFA68,extended,00000000 // Enable RADAR
+
+patch=1,EE,E1010000,extended,0079802C // cutscene is NOT active
+patch=1,EE,2066BCF4,extended,00C753C8 // Set Font GOTHIC
+
+//-- IF 2066BD44 = 1 (003D0001) 			|| Permanently disable HUD unless player presses L1 to show stats.
+//patch=1,EE,E1010001,extended,0066BD44 // IF Player Press L1 to Show Stats
+//patch=1,EE,206FFA64,extended,00000101 // Enable HUD
+
+//-- IF 2066BD44 = 0 (003D0000)
+//patch=1,EE,E1010000,extended,0066BD44 // IF Player NOT Press L1 to Show Stats
+//patch=1,EE,206FFA64,extended,00000001 // Disable HUD
+
+patch=1,EE,E1010000,extended,0066BD44 // IF Player NOT Press L1 to Show Stats
+patch=1,EE,2066BDA0,extended,00000000 // Hide Time
+
+patch=1,EE,E1010000,extended,0066BD44 // IF Player NOT Press L1 to Show Stats
+patch=1,EE,2066BD7C,extended,00000000 // Hide money
+
+patch=1,EE,E1010001,extended,0066BD44 // IF Player Press L1 to Show Stats
+patch=1,EE,2066BDA0,extended,00000001 // Show Time
+
+patch=1,EE,E1010001,extended,0066BD44 // IF Player Press L1 to Show Stats
+patch=1,EE,2066BD7C,extended,00000001 // Show money
+
+// ---- END OF Dynamic HUD & Radar ----
+
+//--------------------------------------------------------------------
+// ---- FIXES ----
+// * NONE of the NTSC codes are relevant - the fixes have no evidence they are needed.  - but, i have ported them here.
+// * vortex fix can be used, but the chances of ever needing it are are slim.
+// * the gxt text typo fixes can be used, but again, unlikely to ever be noticed.
+//--------------------------------------------------------------------
+
+// ---- Fixes (Misc)? ---- UNKNOWN WTF these are?
+//patch=1,EE,204A4994,extended,34630002 || Linear Filtering for License Plates 	|| ori $v1, 2 //RWLINEARFILTER		|| 34630001 --> 34630002
+//patch=1,EE,2021DFE0,extended,3c0242a0 || Emergency Vehicles Fix 				|| 3C02428C --> 3c0242|A0 || Fix what for fuck sake ??? 2x with a0
+//patch=1,EE,0021DFE0,extended,A2 		|| Emergency Vehicles Fix 				|| 3C02428C --> 3C0242|A2 || Fix what for fuck sake ??? same as above but 0x with |a2
+//^^those 2 are the same fing address just a 0x and a 2x...
+//patch=1,EE,202EE1D0,extended,3C024120 || Fix sky multitude  					|| 3C023FB3 --> 3C024120
+//patch=1,EE,202EE1D8,extended,00000000 || Fix sky multitude  					|| 34423333 --> 00000000
+
+// ---- Fixes Text & GXT Entries: ----
+//TEXT: "Help" msg boxes showing with big message (Game seems to assume they can show together).  || 144001E3 --> 00000000
+patch=1,EE,202AE490,extended,00000000
+
+//TEXT: SANDSTORM DESERT | SANDSTOR(N) 4544204E -> SANDSTOR(M) 4544204D (Weather Cheats)
+patch=1,EE,20D1C974,extended,4544204D
+
+//TEXT: Weather Cheat (Menu Title) lower case "c" -> Capitol "C" ||  61656863  ->  61656843
+patch=1,EE,20D1B1BA,extended,61656843
+
+// -- Fixes Ammo Counts ? -- (for melee weapon cheats)
+//patch=1,EE,2059D99C,extended,24060001 //li $s2 1 //knife 		|| 0000302D --> 24060001 || || 24909090 would be NOP'd
+//patch=1,EE,2059DAA8,extended,24060001 //li $s2 1 //knife
+//patch=1,EE,2059DC70,extended,24060001 //li $s2 1 //chainsaw   || -- makes no sense - instruction is "sub eax,14000030" so why change it to a bunch of add shit  "add [06000124],al"?
+//patch=1,EE,2059DD44,extended,24060001 //li $s2 1 //chainsaw
+//patch=1,EE,2059F4CC,extended,24060001 //li $s2 1 //katana
+//patch=1,EE,2059F78C,extended,24060001 //li $s2 1 //parachute
+
+// ---- Fixes Weapons ----
+//Weapons: Fixed muzzleflash not showing from last bullet
+// * DO NOT USE THIS - There is no MF issue in PAL, go into orthoganal view and use a pistol, see the MF works everytime..
+//patch=1,EE,204072E4,extended,00000000 //nop || 14830005 --> 00000000 || Note just change 5 to F shoudl be enough | add eax,00058C84 --> add eax,00058C84
+
+// ---- Fixes Vehicles ----
+//Vehicles: 014C cargen counter fix (NTSC by spaceeinstein, PAL by TKBS)
+//patch=1,EE,20295BE0,extended,2C61FFFF //slti => sltiu						|| 2861FFFF --> 2C61FFFF
+//patch=1,EE,20295BE4,extended,10000004 //beqz => b						|| 10200004 --> 10000004
+
+//Vehicles: Don't clean the car BEFORE Pay 'n Spray doors close, as it gets cleaned later again anyway!
+//patch=1,EE,202E42BC,extended,00000000 //nop								|| AC4004B8 --> 00000000
+
+//Vehicles: Vortex Fix (Work-around)
+INFO: * Fix Bug: "Game Crashes Exiting Vortex Vehicle after pay & spray" - ("skip animation" patch can also be used to avoid the crash).
+INFO: * "Enable" the code (to prevent crash), exit vehicle, "disable" the code.
+
+//Vehicles: Vortex Fix (Work-around)
+//patch=1,EE,2033F14C,extended,14400003 || 10400003 -> 14400003
+
+//Vehicles: Vortex Fix (Work-around) 	// Press R2 + Left = "Enable" 14400003 | Press R2 + Right = "Disable" 1040000
+//patch=1,EE,D0700A42,extended,0000FEDF || R2 + Left
+//patch=1,EE,2033F14C,extended,10400003 || "Disable" - BUG present
+//patch=1,EE,D0700A42,extended,0000FE7F || R2 + Right
+//patch=1,EE,2033F14C,extended,14400003 || "Enable" - Fix Bug
+
+//--------------------------------------------------------------------
+// ---- FOV ----
+//--------------------------------------------------------------------
+//* Issue: When using Flying Cars visual aritfacts on side of screen
+Values;-
+3C013F9D - original used by author (peterd?)
+3C013FAA - +
+3C013FBB - ++
+3C013FC9 - Above approximate limit - side-screen shows artefacts.
+
+// ---- FOV (1) ----
+patch=1,EE,0020A498,extended,AC //wtf is this shit ? - 3C02428C -->  3C0242AC
+patch=1,EE,0020817C,extended,AC //wtf is this shit ? - 3C03428C --> 3C0242AC
+patch=1,EE,002ECAB0,extended,40 //wtf is this shit ? - 3C044080 --> 3C044040
+patch=1,EE,002ECB00,extended,D0 //wtf is this shit ? - 3C044080 -->  3C0440D0
+
+// ---- FOV (2) ----
+patch=1,EE,2021DF84,extended,0C044C2F // SetFOV Call 		|| 0C044C30 --> 0C044C2F
+patch=1,EE,20242D54,extended,0C044C32 // SetFOV Call 		|| 0C044C30 --> 0C044C2F or 0C044C32
+patch=1,EE,201130BC,extended,3C013F98 // New SetFOV 		|| 00000000 --> 3C013F98 //probably too big -> //3C013F9D (16,285) | 3C013FC9 (16,329) or 3C01|3FBB to increase further || 4080 = upside down
+patch=1,EE,201130C0,extended,44810000 // New SetFOV 		|| 03E00008 --> 44810000
+patch=1,EE,201130C4,extended,46006302 // New SetFOV 		|| E78C9A90 --> 46006302
+patch=1,EE,201130C8,extended,03e00080 // New SetFOV 		|| 00000000 --> 03e00080
+patch=1,EE,201130CC,extended,E78C9A90 // New SetFOV 		|| 00000000 --> E78C9A90
+patch=1,EE,2020A484,extended,3C013F98 // New SetFOV vehicle max || 3C0242C8 --> 3C024302   or 3C013FBB or 3C013F98
+patch=1,EE,2020A488,extended,3C013F98 // Extra - Fix FOV++ (3) Vehicle FOV issue. || 44820000 --> 46000836 or 40000000 or 3C013F98 , anything that stops is fuckign up will do ?
+
+// ---- FOV++ (3) ----
+// * // Enable FOV (1 & 2) together && Tweak the Extra Fix for Vehicle FOV issue.
+
+// ---- FOV PAL v1 ----
+(Codebreaker v7) - Confirmed working, using NTSC conversion -> PAL, but not New "TKBS" Values above.
+07962080 80C335BD
+0FC7541D 70569E5D
+F2F2C1B6 D7568728
+D3018863 BB1058A1
+93A95099 B3F35B33
+243672DF 82035F5D
+08AA63EC 2AEEC645
+A7CE4950 F35EF20B
+
+// ---- FOV PAL v1 NEW  "TKBS" Values - Not Tested on PS2, PS3+  ----
+(Codebreaker v7)
+07962080 80C335BD
+93E8DC3A AF94B86C
+5B9C3C93 ED2CDC72
+D3018863 BB1058A1
+93A95099 B3F35B33
+243672DF 82035F5D
+08AA63EC 2AEEC645
+CC89A657 BB374040
+
+//--------------------------------------------------------------------
+//---- Game: Atrributes & Other Options 		 ---------------------
+//--------------------------------------------------------------------
+
+//Clean Streets: Set Pedestrians & Traffic density
+//patch=1,EE,206651AC,extended,00000000 PEDS || 3F800000 --> ####0000 || 3F80 = 16,256. Step up, down by 128(dec) e.g. 3F00 = 16,128  | 3E80 = 16,000
+//patch=1,EE,20665234,extended,00000000 CARS || 4280 = 17,024
+
+// ---- Gravity ----
+// HOLD SQUARE to reduce gravity (Infinite Jump)
+// * can be used to flip vehicles when stuck upside.
+// * Anything you touch wilst Pressing Square will inherit this Gravity
+// * e.g. stand near car, jump into it and hold square to LIFT the car, from then on when you press square it will lift again!
+// * Combine this with "Super Jump" to control your landing.
+//patch=1,EE,2024E3E8,extended,46001001 //SET Value at gravity address
+//patch=1,EE,E10100FF,extended,00700ACF //if value at address = FF (player is pressing SQUARE)
+//patch=1,EE,2024E3E8,extended,4600100F //SET Value at gravity address
+Values;-
+46001001 	-> 46001002 == jump forward constantly (Y-axis)
+			-> 46000803 == Jump UP constantly (Z-Axis)
+			-> 4600100F == Jump continues as you would expect (x/y*z)
+
+//[PAL & NTSC] GRAVITY: patch=1,EE,1024E3E4,extended,00003A00		|| 00001066 --> e.g. 00003A00
+
+//-------------------------
+// ---- Clock & Timers ----
+//-------------------------
+
+//Mission Timers: (Infinite) 			||  Default Value = AD230000
+//patch=1,EE,20292D9C,extended,00000000
+
+//Mission Timers: (Freeze)
+//patch=1,EE,202930F4,extended,030A4B3C || 0C0A4B3C --> 030A4B3C || "0C" so just replace 0 with 3 to freeze.
+
+//Mission Timers: (Freeze) -Byte, TKBS.
+//patch=1,EE,202930F7,byte,3C  || 202930F7 0C --> 03
+
+//Set Clock Time						|| NTSC = PAL -100 (2066B7AC)
+//patch=1,EE,2066B8AC,extended,000000## || hours
+//patch=1,EE,2066B8B0,extended,00000000 || mins
+
+//Set Clock Speed - NOTE: this might not be speed, but frequency clock is updated and weather is updated.
+//patch=1,EE,2066B89C,extended,0000C000 //
+0000C000 == 8,192 :: aproximate real time speed, bit longer maybe.
+
+//--------------------------
+// ---- Game: Speed --------
+//--------------------------
+
+//Set Game Speed (use +/- 32)
+//patch=1,EE,2066BB28,extended,3F900000 || 3F800000 --> ####0000
+Values;-
+4000 = 16,384 // faster ++++32
+3FE0 = 16,352 // faster +++32
+3FC0 = 16,320 // faster ++32
+3FA0 = 16,288 // faster +32
+3F90 = 16,272 = +16
+3F80 = 16,256 // normal speed
+3F00 = 16,128 // slower
+3E80 = 16,000 // slower --
+
+//--------------------------------------------------------------------
+// ---- HUD & RADAR ----
+//--------------------------------------------------------------------
+
+//L1 "SHOW STATS" Menu (Remove Black Background)
+patch=1,EE,20663D28,extended,439CD555 || 43D4D555 --> 439CD555
+
+// ---- Move Wanted Star pos ----
+patch=1,EE,20663D0C,extended,3F000000 //Inactive Wanted Star Height		|| 3FA1E6B9 (1.26 float)  --> 1.00
+patch=1,EE,20663D10,extended,3F000000 //Inactive Wanted Star Width		|| 3F2D7732 (0.56 float)  --> 0.50
+
+// ---- Move RADAR pos ----
+patch=1,EE,2026E190,extended,3C044280 //Move Radar Pos - Maps || ??? --? 3C044280  (Top Of Screen)
+patch=1,EE,2026AF80,extended,3C034270 //Move Radar Pos - Blips  || ??? --? 3C034270  (Top Of Screen)
+
+// ---- START OF RADAR Remove Black Border ----
+//Remove RADAR Black Border 1/4
+patch=1,EE,202ACD3C,extended,3C024280	|| 3C024280 = 0.007950425148 (float)
+patch=1,EE,202ACD40,extended,3C024280
+patch=1,EE,202ACD50,extended,3C024280 	|| Enable this line or the next line. only need 1/2
+patch=1,EE,202ACD54,extended,3C024280 	|| ...
+// 2/4
+patch=1,EE,202ACD88,extended,3C024280
+patch=1,EE,202ACD8C,extended,3C024280
+patch=1,EE,202ACD9C,extended,3C024280 	|| Enable this line or the next line. only need 1/2
+patch=1,EE,202ACDA0,extended,3C024280  	|| ...
+// 3/4
+patch=1,EE,202ACDD4,extended,3C024280
+patch=1,EE,202ACDD8,extended,3C024280
+patch=1,EE,202ACDE8,extended,3C024280 	|| Enable this line or the next line. only need 1/2
+patch=1,EE,202ACDEC,extended,3C024280  	|| ...
+// 4/4
+patch=1,EE,202ACE20,extended,3C024280
+patch=1,EE,202ACE24,extended,3C024280
+patch=1,EE,202ACE34,extended,3C024280 	|| Enable this line or the next line. only need 1/2
+patch=1,EE,202ACE38,extended,3C024280  	|| ...
+// ---- END OF RADAR Remove Black Border ----
+
+
+//-------------------------------------------------------------------------------------
+//------- In-Game Cheats & Memory regions for Cheats (button combos) ------------------
+//-------------------------------------------------------------------------------------
+
+//-------------------------------------
+// ---- ACTIVATE ANY CHEAT (Notes) ----
+//-------------------------------------
+// * Set Value ######## --> B2904560 && Press L1 x12 || Repeat to De-activate.
+// * 2064A750 = the first address - cheat 1
+// * ...+4 bytes for each cheat...
+// * 2064A8B8 = the last address.  91 cheats total.
+// TODO: All cheats.
+//-------------------------------------
+
+// ACTIVATE ANY CHEAT (Cheat #1) Press L1 x12
+//patch=1,EE,2064A750,extended,B2904560
+
+---- ACTIVATE ANY CHEAT (#1-91) - Press L1x12 ----
+2064A834 B2904560 	= Set Weather Stormy 		| E1D4D60D --> B2904560 and press L1x12.
+2064A7F4 B2904560 	= Set Beach Clothes 		| E89BF194 --> B2904560 and press L1x12.
+2064A798  	= Spawn VH 				| E6A1EEEE --> B2904560 and press L1x12.
+2064A7A0  	= Spawn VH Hotring Racer 	| B1865C87 --> B2904560 and press L1x12.
+2064A7A8  	= Romero Hearse
+2064A7B8  	= explode
+2064A7BC  	= cars invisible
+2064A8B4  	= Spawn VH Monster Truck
+2064A7AC 	= Spawn Stretch
+2064A75C 	= money +$25,000
+
+//-------------------------------------
+// ----IN-Game Cheats: Button command type cheats (0,1)  ----
+//-------------------------------------
+
+//TODO: Never Fall Off Bike
+
+//Clean Streets: Toggle Peds & Traffic (peds & vehicles)
+//patch=1,EE,206651AC,extended,00000000 PEDS -	Default Value = 3F800000 || more peds = 42800000  || NTSC v1 +100
+//patch=1,EE,20665234,extended,00000000 CARS - More Traffic = 42800000
+
+//Clock Fast:
+//patch=1,EE,2088D80B,byte,1
+
+//Clothes: (Hillbilly Gear) 		|| SQUARE, TRIANGLE, L1, CIRCLE, LEFT, RIGHT, X, CIRCLE, R1, RIGHT, L1, L1
+//patch=1,EE,2088D84B,byte,1
+
+//Clothes: (Clown pants): 			||CIRCLE, LEFT, CIRCLE, CIRCLE, TRIANGLE, UP, LEFT, TRIANGLE, R1, L1, L1, L1
+//patch=1,EE,2088D846,byte,1
+
+//Riots: 							|| L2, RIGHT, L1, TRIANGLE, RIGHT, RIGHT, R1, L1, RIGHT, L1, L1, L1
+//patch=1,EE,2088D845,byte,1
+
+//Adrenaline						|| X, X, Square, R1, L1, X, Down, Left, X
+// * Note: Pickups shown in the BRADYGAMES OFFICIAL STRATEGY GUIDE are not present in game - add them by editing the "Main.scm".
+//patch=1,EE,2088D847,byte,1
+
+//Aggressive Drivers: 				|| L2, R2, R2, RIGHT, X, L1, R1, SQUARE, R2, X, L1, L1
+//patch=1,EE,2088D81F,byte,1
+
+//Fast Clock Quick Time (0088D80B)	|| R2, DOWN, R1, L2, X, RIGHT, UP, X, CIRCLE, L1, L1
+//patch=1,EE,2088D80B,byte,1
+
+//Fun House							||
+//patch=1,EE,2088D846,byte,1
+
+//Infinite Ammo: 					|| 	L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, DOWN, L1, L1
+//patch=1,EE,2088D848,byte,1
+
+//Infinite Oxygen: 					|| 	L1, R1, CIRCLE, R1, CIRCLE, RIGHT, RIGHT, UP, LEFT, X, R2, L1
+//patch=1,EE,2088D83E,byte,1
+
+//Infinite: oxygen o2 (Air under water)	|| Default Value = 448FC000
+//patch=1,EE,20709718,extended,44900321
+
+//Infinite Health: 					||	UP, LEFT, RIGHT, X, UP, R2, DOWN, RIGHT, X, X, L1
+//patch=1,EE,2088D83D,byte,1
+
+//Infinite: Sprint: 				// ntsc
+//patch=1,EE,00709748,byte,1
+
+//Infinite: Sprint: 				// ntsc +100 = pal - test me
+//patch=1,EE,00709848,byte,1
+
+//Infinite: Sprint:
+//patch=1,EE,20709848,byte,1		|| Player: Infinite Sprint || FE000000 --> FE000001
+
+//Max Respect : 					|| R2, TRIANGLE, RIGHT, TRIANGLE, L1, DOWN, L1, SQUARE, DOWN, TRIANGLE, X, L1
+//patch=1,EE,2088D84F,byte,1
+
+//Max Sex appeal:					|| CIRCLE, TRIANGLE, TRIANGLE, UP, CIRCLE, R1, L2, UP, TRIANGLE, L1, L1, L1
+//patch=1,EE,2088D850,byte,1
+
+//Max Weapon (Hitman) Stats: 		|| DOWN, SQUARE, X, LEFT, R1, R2, LEFT, DOWN, DOWN, L1, L1, L1
+//
+
+//Max Vehicle Stats: 				|| LEFT, SQUARE, L1, CIRCLE, L2, SQUARE, RIGHT, L2, R1, TRIANGLE, L2, L1
+// * See "Set SKILL's Level Value == 1,000"
+
+//No (Never)  Hunger							|| R2, DOWN, LEFT, CIRCLE, X, SQUARE, CIRCLE, LEFT, RIGHT, L1, L1, L1
+//patch=1,EE,2088D844,byte,1
+
+//Pedestrians Have Guns:			|| LEFT, CIRCLE, X, R1, SQUARE, UP, LEFT, UP, DOWN, L1, L1, L1
+//patch=1,EE,2088D80E,byte,1
+
+//Pedestrians Have Weapons:			||  UP, UP, UP, L1, UP, UP, L2, LEFT, RIGHT, L1, L1, L1
+//patch=1,EE,2088D810,byte,1
+
+//PIMP (Hookers Pay You)			|| X, X, CIRCLE, CIRCLE, TRIANGLE, TRIANGLE, L1, TRIANGLE, CIRCLE, L2, L1, L1
+//patch=1,EE,2088D85A,byte,1
+
+//Recruit (Rocket Launchers)		|| R1, TRIANGLE, DOWN, RIGHT, L1, TRIANGLE, L1, L1, CIRCLE, RIGHT, L1, L1
+//patch=1,EE,2088D84E,byte,1
+
+//Recruit (Colts)					|| L2, X, RIGHT, L2, SQUARE, LEFT, L1, CIRCLE, UP, LEFT, L1, L1
+//patch=1,EE,2088D84C,byte,1
+
+//Suicide: 							|| Right, L2, Down, R1, Left, Left, R1, L1, L2, L1
+
+//Super Jump						|| Up, Up, Triangle, Triangle, Up, Up, Left, Right, Square, R2, R2
+//patch=1,EE,2088D83C,byte,1
+//SET 2064A840 ED0309C6 --> B2904560 and press L1x12.
+
+//Super Punch						|| RIGHT, CIRCLE, SQUARE, R1, RIGHT, R2, LEFT, RIGHT, X, CIRCLE, L1, L1
+//patch=1,EE,2088D843,byte,1
+
+//Traffic Lights Green: 			|| L2, RIGHT, R2, X, CIRCLE, UP, RIGHT, CIRCLE, LEFT, RIGHT, UP, L1
+//patch=1,EE,2088D81E,byte,1
+
+//Traffic Reduced					|| R1, SQUARE, UP, R1, CIRCLE, R1, LEFT, L2, L1, LEFT, L1, L1
+//patch=1,EE,2088D84A,byte,1
+
+//Vehicles: WORSE car handling 		|| L2, RIGHT, L1, UP, X, L1, L2, R2, R1, L1, L1, L1
+//patch=1,EE,2088D82E,byte,1
+
+//Vehicles: Hydraulics + Bunny Hop + Nitro (Taxi Bonus)			|| CIRCLE, LEFT, TRIANGLE, UP, R1, UP, R1, R2, R1, LEFT, L1, L1
+//patch=1,EE,2088D85B,byte,1
+
+//Vehicles: Improved cars "Perfect" handling 	(Jump Like Taxis  ???) 		|| Triangle, R1, R1, Left, R1, L1, R2, L1
+//patch=1,EE,2088D81C,byte,1
+
+//Vehicles: Nitro					|| LEFT, TRIANGLE, R1, L1, UP, SQUARE, TRIANGLE, DOWN, CIRCLE, L2, L1, L1
+//patch=1,EE,2088D835,byte,1
+
+//Vehicles: Infinite Nitro Boost (NTSC)	|| (Codebreaker): 5DF552A2 8385E17B
+//patch=1,EE,20159BF0,extended,00000000
+
+//Vehicles: Cars Invisible
+//patch=1,EE,2088D81B,byte,1
+
+//Vehicles: Cars pink (0088D820 or 1088D820 or 2088D820 confirmed.)
+//patch=1,EE,2088D820,byte,1
+
+//Vehicles: Cars Black
+//patch=1,EE,2088D821,byte,1
+
+//Vehicles: Cars on water
+//patch=1,EE,2088D822,byte,1
+
+//Vehicles: Boats fly
+//patch=1,EE,2088D823,byte,1
+
+//Vehicles: Cars Handling Perfect:
+//patch=1,EE,2088D82F,byte,1
+
+//Vehicles: Cars fly
+//patch=1,EE,2088D830,byte,1
+
+//Vehicles: Drive-by Aim & Shoot Whilst Driving		|| R1, L1, L1, CIRCLE, X, TRIANGLE, R2, RIGHT, L2, L1, L1, L1
+//patch=1,EE,2088D849,byte,1
+
+//Vehicles: Explode on button presss
+TODO:
+
+//Vehicles: Cars Explode on impact (Tank effect)
+//patch=1,EE,2088D834,byte,1
+
+//Vehicles: Cars Nitro Boost 							- (NTSC 0088D735) + 100 = 0088D835 PAL
+//patch=1,EE,0088D835,extended,00000001
+
+//Vehicles: Traffic is mostly Bikes
+//patch=1,EE,2088D82C,byte,1
+
+//--------------------------------------------------------------------
+// ---- Main.scm (Custom) -----
+//--------------------------------------------------------------------
+// * Some of these may be dynamic i am not sure yet.
+// * ...
+//--------------------------------------------------------------------
+
+//Script: Show Coordinates ":coords"	| show coordinates script, also PAD 1 - {CIRCLE} "Spawn Explosions" (When in Vehicles).
+//patch=1,EE,206B0774,byte,1
+
+Menu option that has been selected:			206B06F4 Option 7 "The Four Dragons Casino"
+Menu is (open, closed) 							206B06C4 | default, closed = 006E1C30 | open 006E1D5C | 006E1C7E = opening/switch (select + L1 to open)
+Script - Our custom :TPCJ Script address: 		206B06B8
+Script - Disable, Enable :TPCJ Script:			206B0694,byte,00 | (0,1)
+Script - Disable, Enable :Show_Coordinates:	206B05B4,byte,00 | (0,1)
+Script - Disable, Enable :Cheats Script:			206B04D4,byte,00 | (0,1)
+Script ":GFAGNT" 								206B0B18
+Script ":TRAINS" 								206B1058
+Script ":coords" 								206B0774
+
+//--------------------------------
+// ---- Memory Region Notes: -----
+//--------------------------------
+
+---- Main.scm ----
+// * Scripts start with
+		006B0870 006B05D0 | p.k. | _.k.
+// * if a script is running next line with have a 01 byte. - 00 = disabled.
+// * memory regions from the main.scm
+// Spawn Vehicles	2059ECE4	|| all vh spawn cheats in this memory region
+
+//--------------------------------------------------------------------
+// ----  MENU & Options ----
+//--------------------------------------------------------------------
+
+//Save (or pause) anywhere (open save menu) 	|| Also works for "Pause" Anywhere
+// * Do not Save During Misison
+patch=1,EE,D0700A42,extended,0000FFB7 // Down + Start (Joker - Optional)
+patch=1,EE,206FFAAB,extended,00000001 // open save menu
+
+// ---- Menu Options ----
+//Menu: Audio OUTPUT:
+patch=1,EE,206FFA97,byte,2 | 0,1,2 | Mono, Stereo, pro logic II
+
+//MENU: Menu Position: 				206FFAA0,00000001		|| 0-#
+//MENU: BRIEF: PAGE NUMBER: 		206FFA4C
+//MENU: MAP: Legend On, Off: 		206FFA8C 				|| 01010000 (on), 01000000 (off)
+//MENU: RADIO Station ID: 			206FFA98,##001418 		||"00-0B" '##'001418
+//Menu: Audio Options (0-5): 		206FFAA0				|| 0-5
+//Menu: RADIO Auto-Tune ON, OFF:  	206FFA94 02000100 (on) 	|| 02000000 (off)
+//Menu: RADIO EQ:  					206FFA98 0B011418 (on) 	|| 0B001418 (off)
+//Menu: RADIO & SFX Volume: 		206FFA98,0B011400 		|| 0B011400 -> 0B011440 || depends on option currently selected.
+//Menu: OUTPUT: 					206FFA94 				|| OUTPUT - STEREO = 01000100 || OUTPUT - PRO LOGIC II = 02000100
+//Menu: BRIGHTNESS					206FFA80,00000180		|| note a bug here max value displayed in menu is not max value, you can go 1 higher, because of this when you descend the 4th & 5th bar skips as 1, not 2.
+// 		* there is a bug in the brightness step down, step up, same as all gta games - vice city.
+//Menu: Subtitles  (BYTE)			206FFA88,0000000#		|| - last digit
+
+//Menu: Widescreen Toggle (BYTE)
+//patch=1,EE,206FFA8F,byte,1
+//Menu: Widescreen Toggle (ratio)
+//patch=1,EE,2066B2EC,extended,0000FF7E		|| 4:3 = 3FE38E39 (float = 1.777777791) | 16:9 = 3FAAAAAB (float = 1.333333373) || 640x576  would be 1.888888836
+
+//Menu: Radar mode 					206FFA68,0000000#		|| - 0,1,2 || 2 == off
+//Menu: HUD  						206FFA64,00000101		|| - 0,1 || 00000101 || 00000001
+//Menu: LANGUAGE  					206FFACC,00009D0#		|| - 0,1,2,3,4
+//
+// Last known X, Y POS When opening menu
+//206FFABC 44D674F3
+//206FFAC0 C4D6CAE6
+
+//--------------------------------------------------------------------
+// ----  Missions ----
+//--------------------------------------------------------------------
+
+//Mission: Supply Lines - RCBarron Fuel	| Not required if using Modified Main.scm
+//patch=1,EE,206B94E8,extended,########
+
+//---------------------------------
+// ---- Odd Jobs - Side Quests ----
+//---------------------------------
+//Ambulance: Set 0 ppl left to save - to auto level up.
+//patch=1,EE,206F3C54,byte,0
+
+//FireFighter: Level  auto level up.	|| 11 = B | Level 12 = C  || (toggle) this to "0|1" - and it will level up.
+//patch=1,EE,206F3D24,byte,C
+
+//Taxi: auto-complete, set to 49 passengers then complete 1 fare.
+//patch=1,EE,20802428,byte,31
+//patch=1,EE,206BA104,byte,31
+
+//Vigilante: AUTO COMPLETE Part 1 set level 11
+//patch=1,EE,206F3C8C,byte,B
+//Vigilante: AUTO COMPLETE Part 2 then kills criminals. - to auto level up.
+//patch=1,EE,206F3C50,byte,0
+
+//Vigilante: Set Infinite Time Outside of vehicle:		- Toggle (01|00)
+//patch=1,EE,206F3CA4,byte,0
+
+//------------------------
+// ---- Rhythm Games: ----
+//------------------------
+//Missions: Cesar vialpando's Lowrider dancing Rhythm game.
+//patch=1,EE,206B30D8,extended,0000029A //player score
+//patch=1,EE,206B30DC,extended,0000000A //opposition
+//EndGame: * set this to 0 after your score is higher than the opposition to end & win.
+//patch=1,EE,206B30D4,extended,00000000
+
+//Missions: Rhythm Games: Dance Score (4000) ### Dancing Points (999,999) = 000F423F | STATS
+//patch=1,EE,206B73AC,extended,00000FA0
+
+//--------------------------------------------------------------------
+// ---- Player (Misc) ----
+//--------------------------------------------------------------------
+
+//--------------------------
+// ---- No Fall Damage ----
+//--------------------------
+// * This is a "DYNAMIC address", hopefully the hex value (007096D4) is unique
+// * AOB Scan with Cheat Engine shows 1 result so added it to cheat companion app.
+// * also possible to remove animation (same memory region, still dynamic)
+// * "word" instead of Byte, extended still works: https://www.felixcloutier.com/x86/aam
+//--------------------------
+No Fall Damage Default value to find = 007096D4
+AoB = AOBScan("D4 96  70 00")
+writeBytes(AoB[0]=0xD4, 0x90, 0x70, 0x00)
+
+//No Fall Damage (1) - TKBS (NOP)	| AAM — ASCII Adjust AX After Multiply
+//patch=1,EE,20E70D88,word,909096D4 | 007096D4 --> 909096D4
+
+//No Fall Damage (2) - TKBS (NOP)   | Cleaner hex edit
+//patch=1,EE,20E70D88,word,007090D4 | 007096D4 --> 007090D4
+
+//No Fall Damage (3) - TKBS  		| Minimal amount of changes required.
+//patch=1,EE,20E70D89,byte,90 		| 96 --> 90 | xchg eax,esi
+//--------------------------
+
+//Dynamic Super Punch (includes npcs - might make GYM fights difficult)
+patch=1,EE,2088D843,extended,0 				//SET Super Punch OFF
+patch=1,EE,E10100FF,extended,00700ACD 		//if value at address = FF (player is pressing Circle)
+patch=1,EE,2088D843,extended,1 				//SET Super Punch ON
+
+//Dynamic Super Jump with Gravity Set, to fix falling from heights damage.
+// * The order of the On Off will make a difference.
+// * i.e. default jump is fence height and grab. 0, 1 is above fence height, 1,0 is big jump.
+// So with 1, 0 - Player can tap square = big jump, then hold square to control gravity descent.
+// 				- or press and hold square for normal jump that increases gradually as you hold. Gravity set to throw player in usual jump direction.
+patch=1,EE,2088D83C,extended,1 				//SET Super Jump (ON, OFF)
+patch=1,EE,E10100FF,extended,00700ACF 		//if value at address = FF (player is pressing SQUARE)
+patch=1,EE,2088D83C,extended,0 				//SET Super Jump (ON, OFF)
+
+patch=1,EE,2024E3E8,extended,46001001 //SET Value at gravity address Default
+patch=1,EE,E10100FF,extended,00700ACF //if value at address = FF (player is pressing SQUARE)
+patch=1,EE,2024E3E8,extended,4600100F //SET Value at gravity address
+
+// No wanted stars level (Never Wanted, in-game btn combo)
+//patch=1,EE,2088D841,byte,1
+
+// No wanted stars level (Never Wanted) (TKBS)
+//patch=1,EE,2027BFC8,extended,1460000F		|| 14600011 --> 1460000F
+
+//Never get Busted
+//patch=1,EE,2046B090,extended,03E00008
+//patch=1,EE,2046B094,extended,00000000
+
+//Loose/Keep Stuff If Wasted (0,1)
+patch=1,EE,20666D98,byte,0
+
+//Loose/Keep Stuff If Busted (0,1)
+patch=1,EE,20666D9C,byte,0
+
+//Set Money (Cash £££ $$$)
+//patch=1,EE,207097B4,extended,3B9AC9FF 	|| (3B9AC9FF = 999,999,999) || (00002710 = 10,000)
+//patch=1,EE,207097B8,extended,3B9AC9FF
+//patch=1,EE,2066BD70,extended,3B9AC9FF
+
+//Set Health Bar big (TKBS)
+//patch=1,EE,208022C0,extended,44B50000 SET MAX Health bar || Default = 440E4000 |44B00000| Max = 44B50000 - Converted from NTSC using "-A90" by TKBS
+
+//SET MAX HEALTH "UPGRADED": "Maximum Reached" 	|| game penalises player by -5 max health bar when wasted.?
+//patch=1,EE,2080245C,extended,000003E8 	| (Max 1000? = 000003E8)? | 00000001
+
+//Infinite: Health (0) not explosions	   || Codebreaker ntsc v1 -> pal v1
+//patch=1,EE,202A9C28,extended,8C610584 || 44030000 --> 8C610584
+//patch=1,EE,202A9C30,extended,AC610580 || 00031C3C --> AC610580
+//patch=1,EE,202A9C34,extended,3063FFFF || 00031C3F --> 3063FFFF
+
+//Set Armour Bar big (OrionSR)
+//patch=1,EE,2070984C,extended,010000FF  01000064 --> Set to 010000FF then set to 00000000 for inifnite onyl works in cheat engine.
+
+//not tested
+/*
+//Infinite: Health: 20261914 || Default = 00000000  - New = E4400580
+//Infinite: Armour: 202A9944 || Default = C4610588 (damaged) - New = E4610588
+*/
+
+// Set MAX SKILL's Level Value == 1,000
+//patch=1,EE,2080254C,extended,000003E8 FLYING SKILL - PILOT LICENSE OBTAINED
+//patch=1,EE,20802450,extended,000003E8 Driving SKILL - no notification
+//patch=1,EE,20802564,extended,000003E8 BIKE SKILL
+//patch=1,EE,20802568,extended,000003E8 CYCLING SKILL
+//patch=1,EE,208023A4,extended,447A0000 Gambling SKILL
+
+//Set;- ...
+//patch=1,EE,208022B4,extended,43480000 SET body fat ??? - not character model || DEFAULT 43480000 || MIN 3F800000 	|| MAX 44700000
+//patch=1,EE,208022B8,extended,00000000 SET body fat ??? - ...
+//patch=1,EE,208022B8,extended,00000000 SET stamina
+//patch=1,EE,208022BC,extended,00000000 SET muscle
+//patch=1,EE,20802554,extended,000003E8 Set MAX LUNG CAPACITY 	|| 00000000 --> 000003E8
+//patch=1,EE,20802574,extended,00000000 Set LUCK Value (STATS) 	|| 00000000 --> ???
+//patch=1,EE,208022C4,extended,44700000 Set Sex Appeal | Default = 3FBFFFFF
+
+//---------------
+// ---- LUCK ----
+//---------------
+// ---- Example of porting the Cheat table from the file "Grand Theft Auto San Andreas v1.01.ct" ----
+//LUCK:									- "+A90" from ntsc || Same Offset as cj garage.
+//patch=1,EE,20802574,extended,00000001
+//NOTE: 20B7B844 (00B7B844 is GTASA v1.01 (ntsc???)) - 20802574 = 37 92D0
+//NOTE:	20B7B824 (20B7B824 is LUNG CAPACITY from GTASA v1.01 )
+// 		20B7B824 - 3792D0 = 20802554 (== Lung capacity for PAL 2.03)
+
+//LUCK:									- "+A90" from ntsc || Same Offset as cj garage.
+//patch=1,EE,20802574,extended,########		|| Max Luck (05F5E0FF) - better to use a sensible value (1,000 = 000003E8)
+//LUCK NTSC: 20803004					- "-A90" from pal  || Same Offset as cj garage.
+//---------------
+
+//LUNG CAPACITY
+//patch=1,EE,20802554,extended,00000001
+
+//--------------------------------------------------------------------
+//------------------------ PROPERTIES 		--------------------------
+//--------------------------------------------------------------------
+
+//Set property cost: Jefferson
+//patch=1,EE,20803638,byte,1
+
+//Set property cost: Chinatown Safehouse (Default $20,000)
+//patch=1,EE,2080353C,extended,00000001
+
+//--------------------------------------------------------------------
+// ---- Render (Visuals) ----
+//--------------------------------------------------------------------
+Issues:
+		Motion Blur Crap - At high FOV, in Flying Cars (maybe planes, helis too) tehre is bleeding artifacts on side of screen.
+		None of the ntsc codes do anything and i have been unable to stop the issue. or find the address.
+
+//Motion Blur: crap when driving fast ? 	NOT WORKING
+//patch=1,EE,20220694,extended,00000000 //No Motion Blur Alpha ntsc -> pal - NO EFFECT
+//Motion Blur: shakey screen - motion blur crap AC8500A4 not working >?
+//patch=1,EE,2066C840,extended,00000001
+
+//Change Fonts: (Font 1, 2) (Issue: No Symbols)
+//patch=1,EE,2066BCF4,extended,00C75420 	|| Font ID 0 GOTHIC (default)	= 00C753C8 	|| Font ID 1 GTA HEADER = 00C75420 // Issue: No symbols on money, time.
+
+//-- Radiosity --
+// * No need for PCSX2 Lugin Settings -> Enable HW Hacks -> AutoFlush
+// * Not sure which one does what exactly but all work.
+patch=1,EE,2066865C,extended,00000000  x,y mirrored image thing. 00000280 (128)| 000001c0 (192)
+patch=1,EE,20668660,extended,00000000  x,y mirrored image thing. 00000280 (128)| 000001c0 (192)
+patch=1,EE,20668664,extended,00000000 // CPostEffects::m_RadiosityFilterPasses
+patch=1,EE,20668668,byte,0 //Radiosity (1) (toggle 0,1)
+patch=1,EE,2066C848,byte,0 //Radiosity (2) (toggle 0,1)
+patch=1,EE,20668670,extended,00000000 // Set intensity of the mirrored image thing. 00000023 (35) | * This was found by editing the "Stream.ini" file values to help find the memory region (see .ct file), but i still cannot find the actual boolean change.
+
+//Colour & effects filters (e.g. Remove Orange and other efects &&  Calls to e.g. CCTV, Film Grain effect, car speed shakey cam?)
+//patch=1,EE,2066C854,byte,1
+
+//Remove color filter (TKBS) 1 = NO ORANGE - random find.
+//patch=1,EE,20667A64,extended,00370CB8	|| 00C70CB8 --> 00070CB8 or 00370CB8
+
+//color filter (PD) = (CPostEffects::ColourFilter) - Allow other effects
+//patch=1,EE,20515658,extended,00146818 || 0C146818 --> 00146818 0r 03|..("author=Silent, PeterDelta" wrote 00000000 which is not needed and not a NOP) || can also change 0C to 3C
+
+//(CPostEffects::ColourFilter) BYTE
+patch=1,EE,2051565B,byte,00 | OC --> 00 or 03 || or al,3C --> cmp al,3C
+
+//Heat Haze Effect (Toggle) (0,1) ??
+patch=1,EE,2066C820,byte,0
+
+//heat effect - haze_effect	?	|| 3F08F5C3 to 00000000 - NOT TESTED
+//patch=1,EE,206686A4,extended,00000000
+
+//Bloom (Remove)
+patch=1,EE,2066BAE0,byte,00 || 10 (Enabled) --> 00 (Disabled)
+
+//MOON SIZE (0-7)
+//patch=1,EE,20666D4C,byte,0
+
+// Modify BRIGHTNESS or some shit - Inverse ?
+patch=1,EE,206686B8,extended,3FAAAACC //3F800000 --> 3FAAAACC is ok  still some bright sun .
+patch=1,EE,206686BC,extended,3A000000 //3F800000 --> 3A000000 is ok  still some bright sun .
+
+//Scan Lines - STRIPES Effect
+//patch=1,EE,2066C838,byte,1
+
+//Smoke and fog Effect
+//patch=1,EE,2066C83C,byte,1
+
+//Sun Flares (coronas)
+//patch=1,EE,20246FA8,extended,3C0A5C4C //0C0A5C4C --> 3C0A5C4C or  00000000 || or cl,[eax+eax] -> or bh,[eax+eax]
+
+//Set Weather System [0-255]
+//patch=1,EE,2066BE28,extended,00000000
+
+//Film Grain or cctv 1		- set various values before the last digit to activate Timer Loop = 44032E19
+//patch=1,EE,2066C80C,byte,1
+
+//Night vision goggles
+//patch=1,EE,2066C814,byte,1
+
+//Thermal vision goggles
+//patch=1,EE,2066C81C,byte,1
+
+//Darkness Effect - (Inversion = brightness) - is this just GAMMA?
+//patch=1,EE,2066C830,byte,1
+//Darkness Effect Value
+//patch=1,EE,2066C834,byte,A8 			|| default = 000000AA | range = 00 --> EF (total black after that. (0-255))
+
+// make everything invisible (except peds):
+//patch=1,EE,2066B968,byte,1
+
+//Text - Subtitles
+//patch=1,EE,202A8C84,extended,A020244B || A020244C --> Values
+//patch=1,EE,202A8C8C,extended,A020244B
+//patch=1,EE,202A8C98,extended,A020244B
+Values (text);-
+A020244B == white
+A0202346 == black border
+A024244C == black border tight
+
+//--------------------------------------------------------------------
+// ---- STATS (Misc) ----
+//--------------------------------------------------------------------
+// LIST:		https://gtamods.com/wiki/List_of_statistics_(SA)
+
+//Number of times cheated
+//patch=1,EE,208023F4,byte,0
+
+//Toggle "Warning! one or more cheats have been activated..." (Message, or maybe the actual boolean check!)
+//patch=1,EE,2066CC08,byte,0
+
+//100% stats received! & respect upgraded, rhino & hydra unlocked + CASH and stats boost
+//patch=1,EE,20802260,extended,447A0000
+
+//### Tags Sprayed (100)				|| STAT_Tags_Sprayed  == 100 || ("You Tagged the city!")
+//patch=1,EE,2066C640,byte,64
+
+//### SNAPSHOTS (50) - Photos			|| $All_Photos_Taken = 1 || print_help 'FOTO100' || "All photos taken! Weapons delivered to the San Fierro garage!"
+//patch=1,EE,2080256C,byte,32
+
+//### Oysters (50)						|| "All Oysters Collected"
+//patch=1,EE,2080259C,byte,32
+
+//### Horse-shoes (50)					|| "All Horse-shoes Collected"
+//patch=1,EE,20802594,byte,32
+
+//STATS - CRIMINAL RATING STATUS 		|| * ALSO UPGRADES - Sex Appeal 50% | LUNG CAPACITY 100% | CYCLING SKILL etc
+//patch=1,EE,20802260,extended,4E200000 || Default = 00000000 --> 48000000 ? "GODFATHER" = 4E200000
+
+//--------------------------------------------------------------------
+// ---- Teleport System -----
+//--------------------------------------------------------------------
+
+//Teleport to: "Blueberry Acres": Looks like it Set coords+ angle to 0, 0, 0, 0.
+//patch=1,EE,2066C608,byte,1
+
+// Set Re-Spawn Point
+//patch=1,EE,2019CBA4,extended,C7A10024 | 00000000 = 0,0,0,0 (Blueberry Acres)
+
+// ---- Re-Spawn Points ----
+// (hex)	== Location			|| Coordinates
+// C7A10024 == flint county
+// C7A20024 == the farm
+// C7A10010 == Blueberry acres
+// C7A10024 == flint county 	|| 0, -1260, 0
+// C7A10010 == Blueberry acres 	|| 0, 0, 3			|| difference of 14(hex) 20(dec)
+// C7A10010 - 14(hex) = C7A0FFFC  = -67.0 y axis from above to below coords.
+// C7A0FFFC == Blueberry acres 	|| 0, -67, 3
+// C7A20020 == default || jefferson hospital ? - possibly updates when you progress ?
+
+//----------------------------
+// ---- Teleport Anywhere ----
+//----------------------------
+// * Using a modified main.scm (with Cheat menu) & the cheat companion app (.exe)
+// * Set ANY x,y,z value & location name.
+// * CE = Custom Alignment 1 Byte & View as Float.
+//----------------------------
+
+// Set x, y, z - modified main.scm (Cheat menu - Option 7: "The Four Dragons Casino" --> xxxx )
+//patch=1,EE,206E1F1B,extended,44FD4000 :TPCJ_744 - X Axis 2026.0 // Set X float
+//patch=1,EE,206E1F20,extended,447C0000 :TPCJ_744 - Y Axis 1008.0 // Set Y float
+//patch=1,EE,206E1F25,extended,41200000 :TPCJ_744 - Z Axis 10.0   // Set Z float
+
+// Change Menu TEXT Label in Teleport Menu (Custom "Main.scm")
+// Change "The Four Dragons Casino" (23chars - Limit)  ---> "Modify this using pnach" (23chars)
+//patch=1,EE,20D19819,extended,69646F4D modi
+//patch=1,EE,20D1981D,extended,74207966 fy t
+//patch=1,EE,20D19821,extended,20736968 his
+//patch=1,EE,20D19825,extended,6E697375 usin
+//patch=1,EE,20D19829,extended,6E702067 g pn
+//patch=1,EE,20D1982D,extended,00686361 ach
+
+Location (x,y,z & hex) Values;- (See ".\Help\Locations - For Teleport.md")
+"The Four Dragons Casino" 	- (44FD4000, 447C0000, 41200000)
+"Start pos"					- (450BFB83, C49DBD8B, 41BF8F52)
+
+---- "Main.scm" ----
+-- code --
+	:TPCJ
+	script_name 'TPCJ'
+
+	// * ... Menu Code (create our menu etc) ...
+
+	:TPCJ_744
+	if
+	  2@ == 7
+	goto_if_false @TPCJ_782
+	Actor.PutAt($PLAYER_ACTOR, 2026.0, 1008.0, 10.0)           // The Four Dragons Casino - set manually, n0t variables.
+-- /code --
+
+//------------------------------------
+// ---- Teleport To Player Target ----
+//------------------------------------
+Info:		Teleport To Player Target (Red Marker)
+Credits:		https://gtaforums.com/topic/1005521-gtasa-ps2pcsx2-spawn-any-vehicle-teleport-system-cheat-app-exe/#elControls_1072658836_menu
+Notes:		206FF970 | 206B20F0
+
+// ---- Menu Options ----
+206FFA70 = red marker 	| (counter) e.g. 0008|002E - Marker number 8, Showing. || 0001|0000 = marker 1 is off.
+206FFAB0 = Zoom 			| Out = decrease		| In = Increase
+
+Coordinates of Grid Cross Indicator NOT Player Target
+206FFAB4 = some coords 	| Left = Increase value	| Right = Decrease value
+206FFAB8 = some coords 	| Up = Increase Value	| Down = Decrease Value
+206FFABC = X coords 		| Left = Decrease value  | Right = Increase value
+206FFAC0 = Y coords 		| Up = Increase Value	| Down = Decrease Value
+
+IF 206FFA70 == 2E(hex) - 46(dec) | Player Target is Showing
+readBytes @ grid reference X/Y coords
+set coords X,Y
+Guess Z coords. and set no fall damage or inf health ?  MapEditro show units for static mesh tallest building to get z axis ?
+
+{code}
+PT = readBytes(0x206FFA70)
+On=2E
+Off=00
+print(PT)
+
+if PT == On then
+	writeFloat(0x206E1F1B, X_coords)
+	writeFloat(0x206E1F20, Y_coords)
+	writeFloat(0x206E1F25, Z_coords)
+	print(--open Main.scm Teleport Cheat menu (Select+L1) choose Option 7)
+end
+
+// set x
+Copies a block of 0x04 bytes from source address 6FFABC to destination address 6E1F1B.
+patch=3,EE,506FFABC,extended,00000004
+patch=3,EE,006E1F1B,extended,00000000
+// set y
+Copies a block of 0x04 bytes from source address 6FFAC0 to destination address 6E1F20.
+patch=3,EE,506FFAC0,extended,00000004
+patch=3,EE,006E1F20,extended,00000000
+// set z to some shit - (100)?
+patch=3,EE,206E1F25,extended,00000064
+{/code}
+
+//--------------------------------------------------------------------
+// ---- Territory (Controls) ----
+//--------------------------------------------------------------------
+// * 3 x Cheats for territory controls.
+// 1. Spawn enemies if not present
+// 2. Auto-Complete "this hood is yours": to auto complete gang war areas when inside them.
+// 3. Prevent hood from being attacked
+// * codes should be disabled after use
+//---------------------------------------------------------------
+
+//Step 1: Trigger enemies to arrive in an area if they are not present (When inside area)
+//patch=1,EE,2066C8E0,extended,0000001
+
+//Step 2: Auto-Complete the waves (When gang war is provoked, triggered - do not enter the area! )
+// * set 0000000# to 2 = 1st wave done , 4 = 2nd wave done  , 0000006  = "this hood is yours"
+//patch=1,EE,2066C8C8,byte,6
+
+// Display territory areas:
+//patch=1,EE,2066C8A4,extended,00000001
+
+
+//--------------------------------------------------------------------
+// ---- Vehicles (Misc) ----
+//--------------------------------------------------------------------
+Monster: 		RIGHT, UP, R1, R1, R1, DOWN, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1
+Hunter: 		R2, RIGHT, R2, R1, X, DOWN, LEFT, R2, DOWN, CIRCLE, L1, L1
+Quad: 			UP, L2, L1, R1, L1, L2, LEFT, RIGHT, R2, L1, L1
+Tanker: 		R1, DOWN, R2, DOWN, X, TRIANGLE, UP, X, TRIANGLE, L2, L1, L1
+Dozer: 			R2, UP, TRIANGLE, LEFT, UP, L1, L2, R2, LEFT, L2, L1, L1
+Stunt Plane: 	R2, RIGHT, L1, R1, LEFT, UP, LEFT, SQUARE, DOWN, L2, L1, L1
+Tank: 			R2, DOWN, R2, X, TRIANGLE, R1, DOWN, X, L2, DOWN, L1, L1
+Bloodring: 		L2, CIRCLE, L2, SQUARE, TRIANGLE, X, DOWN, SQUARE, UP, DOWN, L1, L1
+Rancher: 		R2, UP, R1, RIGHT, R1, RIGHT, X, X, L2, DOWN, L1, L1
+Hotring1: 		L2, L2, L1, RIGHT, LEFT, RIGHT, L1, DOWN, UP, CIRCLE, L1, L1
+Hotring2: 		R2, UP, LEFT, R2, TRIANGLE, L2, L2, L1, RIGHT, CIRCLE, L1, L1
+Romero: 		R2, L1, R2, UP, DOWN, UP, R2, LEFT, X, CIRCLE, L1, L1
+Stretch: 		UP, R2, SQUARE, TRIANGLE, DOWN, LEFT, L1, UP, LEFT, CIRCLE, L1, L1
+Trashmaster: 	TRIANGLE, L2, UP, UP, SQUARE, TRIANGLE, DOWN, L2, CIRCLE, CIRCLE, L1, L1
+Caddy: 		DOWN, X, CIRCLE, LEFT, UP, DOWN, R1, TRIANGLE, L2, CIRCLE, L1, L1
+Hydra: 			R1, SQUARE, R2, UP, R1, SQUARE, L2, UP, LEFT, CIRCLE, L1, L1
+Vortex: 		R2, L1, X, UP, DOWN, SQUARE, SQUARE, UP, RIGHT, CIRCLE, L1, L1
+
+// --------------------------------------------
+// ---- Vehicles (Garages) ----
+// --------------------------------------------
+//Vehicles: CJ's Garage:  					||	FINAL VERSION: IGNORE EVERYTHING ELSE ONLINE.
+// * Vehicle must exist in garage before activating
+Line 1 = 	VH ID & DMG PROOF			||	e.g - 01B0|00|1F = Rhino Tank - DMF Proof
+Line 2 = 	Colours							||	e.g - 0000|01|7E = Pink with White Stripes, See "colors.dat".
+//patch=1,EE,2080D9E0,extended,01A4001F
+//patch=1,EE,2080DA02,extended,0000557E
+
+TODO: Other Garages.
+
+// --------------------------------------------
+// ---- Vehicles (Spawn) ----
+// --------------------------------------------
+
+IMPORTANT:
+	Users can change the (counter) address to one of the "STATS" addresses or a blank memory address.
+	Counter Currently uses "//Number of Times Cheated: 208023F4" address
+	'UNUSED' STATS may exist: e.g. 20802308 - ** NOT TESTED **
+
+Issues:
+	No more can be added. Example: Simply adding a second counter for decrement ID breaks everything
+	This may be a limitation of pcsx 1.6.0, ... and if ported to 2.6.0+ it might work if it supports multiple functions.
+
+---- "GTSA-Cheats.exe (Companion App)" ----
+FIX;- (ID not updating for spawn vehicle cheat in the companion app).
+	* This is normal emulator behaviour, Save & load state for changes to update. Quick Save & Reload (F1, F3).
+	But we can fix this for the entire game session by using the ".pnach" patches
+
+  * IF using the app you must execute these (3) patches once...
+  * Boot Game -> Enable ".pnach" Cheats -> Run Companion app .exe
+  * Execute (1): Press & hold R1 to increment VH ID +1, once - (Hold R1 until counter hits 60 and VH ID updates by +1).
+  * Execute (2): Press R1 + R2 to activate, once
+  * Execute (3): and use the L1 + L2 to deactivate, once.
+  * After using the codes 1 time Companion app buttons will work.
+
+---- "MAGIC_CAR" ----
+//Part 0 - Spawn Any Vehicle - (Change "CADDY" Cheat to ...something else)		|| L1, SQUARE, TRIANGLE, SQUARE, R1, RIGHT, CIRCLE, DOWN, R2, L1, L1, L1
+//patch=1,EE,2059ED14,extended,240401B0			|| 2404|01C9 caddy --> tank 2404|01B0 (repalce 2402#### with VH ID)
+
+//Part 1a - Spawn Vehicle Enabler (Activate)	|| activates spawn CADDY cheat, which we previously replaced, with Vehicle ID ###, in Part 0.
+patch=1,EE,D0700A42,extended,0000F5FF 	//// R1 + R2
+patch=1,EE,2059D4A0,extended,3C021B18 	//// SET 3C021B18
+patch=1,EE,D0700A42,extended,0000F5FF	//// R1 + R2
+patch=1,EE,2059D4B4,extended,34424F2B 	//// SET 34424F2B
+
+//Part 1b
+Once Activated Press Any Button x 2-4 to Spawn Vehicle ID from Part 0.
+Disable (Reset) after use.
+
+//Part 2 - Spawn Vehicle Disabler (Reset)
+patch=1,EE,D0700A42,extended,0000FAFF //// L1 + L2
+patch=1,EE,2059D4A0,extended,0C135894 //// RETURN TO NORMAL
+patch=1,EE,D0700A42,extended,0000FAFF //// L1 + L2
+patch=1,EE,2059D4B4,extended,00000000 //// RETURN TO NORMAL
+
+//Part 3 - Press R1 to Increment Counter +1 (until 60), then reset counter to 0 & Increment Vehicle ID +1
+IMPORTANT;-
+ * The order is important & the use of 0x0 & 2x0 addresses.
+ * The BLANK address for the counter can be changed, (currently uses "number of times cheated").
+//Part 3a
+patch=1,EE,E101003C,extended,008023F4 //if Counter value (counter address) = 60
+patch=1,EE,208023F4,extended,00000000 //Set value 0
+//Part 3b
+patch=1,EE,E10100FF,extended,00700AD1 //if value at address = FF (player is pressing R1)
+patch=1,EE,30200001,extended,008023F4 //increment counter +1
+//Part 3c
+patch=1,EE,E0020002,extended,008023F4 //if Counter value = < 2
+//patch=1,EE,E0020263,extended,2059ED14 //if Vehicle ID < 611 then +1 (Vehicle ID Limit) || *Causes issues* at 500+
+patch=1,EE,30200001,extended,2059ED14 //increment vehicle id +1
+//Part 4a - Exclusions: *Causes issues*
+//if == 610  (Vehicle ID Limit)
+//patch=1,EE,E1010262,extended,2059ED14 //if == 610
+//patch=1,EE,2059ED14,extended,24040190 //set vehicle ID to 400
+
+//if < 400 NOT WORKING *Causes issues*
+//patch=1,EE,E0020190,extended,2059ED14 //if < 400
+//patch=1,EE,2059ED14,extended,24040258 //set vehicle ID to 600
+
+//Part 5 - Visual Indicator (Show Vehicle ID)
+// See "GTASA-Cheats(Companion-App).exe"
+
+// --------------------------------------------
+// ---- Vehicles (Attributes) ----
+// --------------------------------------------
+//Vehicles: DMG Proof (No VH Collision Damage)	|| (With other VH's Only, not walls, weapons etc.)
+//patch=1,EE,20146610,extended,03E00008	|| 27BDFEE0 --> 03E00008
+//patch=1,EE,20146614,extended,00000000 || 3C033EAA --> 00000000
+
+//Vehicles: Tyres Never Pop (1) - Cars	|| ((NTSC) +100 = (PAL))
+//patch=1,EE,20162588,extended,00000000 || A0660005 -> 00000000 || Confirmed working
+
+//--------------------------------------------------------------------
+// ---- Weapons (Misc) ----
+//--------------------------------------------------------------------
+
+//Weapons: Infinite AMMO & Fast Rockets (Replenish Clip when Ammo used, no need for reload, which results in fast rockets and grenades.)
+//Note:														|| The values are 2442|FFFF = "-1". So 2442|0001 = "+1"
+patch=1,EE,20134340,extended,24420001 // Chamber 	|| 2442FFFF --> 24420001
+patch=1,EE,201343A4,extended,24420000 // CLIP		|| 2442FFFF --> 24420000
+
+//Set Weapon Skills	(See STATS)			| Hitman Level == 447A0000
+//patch=1,EE,20802374,extended,447A0000 | Pistol Skill
+//patch=1,EE,20802378,extended,447A0000 | Silenced Pistol Skill
+//patch=1,EE,2080237C,extended,447A0000 | Desert Eagle Skill
+//patch=1,EE,20802380,extended,447A0000 | Shotgun Skill
+//patch=1,EE,20802384,extended,447A0000 | Sawn-Off Shotgun Skill
+//patch=1,EE,20802388,extended,447A0000 | Combat Shotgun Skill
+//patch=1,EE,2080238C,extended,447A0000 | Machine Pistol Skill
+//patch=1,EE,20802390,extended,447A0000 | SMG Skill
+//patch=1,EE,20802394,extended,447A0000 | AK-47 Skill
+//patch=1,EE,20802398,extended,447A0000 | M4 Skill
+//patch=1,EE,2080239C,extended,447A0000 | Rifle Skill
+
+//--------------------------------------------------------------------// END TKBS //--------------------------------------------------------------------
+//--------------------------------------------------------------------// END TKBS //--------------------------------------------------------------------
+
+//--------------------------------------------------------------------
+// --- [Widescreen 16:9 + other included Patches]  ----
+//--------------------------------------------------------------------
+/*
+gsaspectratio=16:9
+author=PeterDelta
+description=Widescreen fix
+ * (poorly named, it zooms out FOV with an undocumented method - it doesn't fix widescreen which would be allowing 1:88888, or manually setting vertical, horizontal sizes like 720x576i/p etc.)
+*/
+
+// ---- MENU ----
+//patch=1,EE,006FFA8F,extended,01 //Menu: Widescreen Toggle (BYTE)
+// ---- UNKNOWN ----
+//patch=1,EE,002AD38C,word,C78C8384 //wtf is this shit ?  C78C8994 --> C78C8384
+//patch=1,EE,002AD91C,word,3C023F40 //wtf is this shit ?  3C023F80 -->  3C023F40
+//patch=1,EE,002A88F0,word,3C013F40 //wtf is this shit ?  3C01007C -->  3C013F40
+//patch=1,EE,002A88F4,word,44810000 //wtf is this shit ?  E42C2414 -->  44810000
+//patch=1,EE,002A88F8,word,46006302 //wtf is this shit ?  3C01007C -->  46006302
+//patch=1,EE,002A88FC,word,3C01007C //wtf is this shit ?  03E00008 -->  3C01007C
+//patch=1,EE,002A8900,word,E42C2414 //wtf is this shit ?  E42D2418 -->  E42C2414
+//patch=1,EE,002A8904,word,3C01007C //wtf is this shit ?  00000000 -->  3C01007C
+//patch=1,EE,002A8908,word,03E00008 //wtf is this shit ?  00000000 -->  3C01007C
+//patch=1,EE,002A890C,word,E42D2418 //wtf is this shit ?  00000000 -->  3C01007C
+// ---- RADAR (Circle - re-sized) ----
+//patch=0,EE,0026D230,word,3C023F40 //BLIP CJ's Pointer (Makes it skinny)
+//patch=0,EE,0026E12C,word,3C084280 //Radar Width
+//patch=0,EE,00269618,word,3C024280 //Radar Mask Width Unknown
+//patch=0,EE,0026E748,word,3C024280 //Radar Width plane green overlay
+//patch=0,EE,0026EDF0,word,3C024280 //Radar Mask Width
+//patch=0,EE,0026AF44,word,3C034280 //Radar Blip disc Width
+//patch=0,EE,0026EF20,word,3C034280 //Radar Mask Width
+//patch=0,EE,0026F008,word,3C034280 //Radar Mask Width
+//patch=0,EE,002AC9E8,word,3C024258 //Radar Width plane overlay
+//patch=0,EE,002ACA54,word,3C024270 //RADAR Black Border
+//patch=0,EE,002ACD88,word,3C0342C6 //RADAR Black Border
+//patch=0,EE,002ACE20,word,3C0342C6 //RADAR Black Border
+//patch=0,EE,002ACD3C,word,3C0341E3 //RADAR Black Border
+//patch=0,EE,002ACDD4,word,3C0341E3 //RADAR Black Border
+//patch=0,EE,0026E13C,word,3C064280 //Radar X Pos - Map
+//patch=0,EE,0026EF2C,word,3C044280 //Radar Mask X Pos IMG Right Piece X
+//patch=0,EE,0026F024,word,3C044280 //Radar Mask IMG Right Piece X
+//patch=0,EE,0026E764,word,3C024280 //Radar X Pos plane green overlay
+//patch=0,EE,0026EE00,word,3C024280 //Radar Mask X Pos
+//patch=0,EE,0026AF5C,word,3C034280 //Radar Blip disc X Pos
+//patch=0,EE,002AC9F0,word,3C034280 //Radar X Pos plane overlay
+//patch=0,EE,002ACD50,word,3C034280 //RADAR Black Border
+//patch=0,EE,002ACD9C,word,3C034280 //RADAR Black Border
+//patch=0,EE,002ACDE8,word,3C034280 //RADAR Black Border
+//patch=0,EE,002ACE34,word,3C034280 //RADAR Black Border
+// ---- HUD ----
+//patch=0,EE,002ACBA4,word,3C0341D4 //AltitudeBar width
+//patch=0,EE,002ACCF0,word,3C034190 //AltitudeCounter X Pos
+//patch=0,EE,002ACD00,word,3C0241E5 //AltitudeCounter width
+//patch=0,EE,002A9FE4,word,3C024210 //Fist Icon Width
+//patch=0,EE,002A9F24,word,3C024190 //Weapon Icon Width
+//patch=0,EE,002ABB30,word,2405020D //Weapon Icon Pos X
+//patch=0,EE,002ABB6C,word,2405020D //Weapon Icon Pos X - Player 2
+//patch=0,EE,00663848,word,3E800000 //Ammo Width
+//patch=0,EE,002ABB80,word,2405021F //Ammo X Pos
+//patch=0,EE,002ABBBC,word,2405021F //Ammo X Pos - Player 2
+//patch=0,EE,002A9C74,word,3C0242A8 //Health bar width
+//patch=0,EE,002A99F4,word,2404002F //Armour bar width
+//patch=0,EE,002A9AF4,word,2404002F //Oxygen Breath bar width
+//patch=0,EE,002AB60C,word,24050231 //Armour bar pos x Move || 24050222 --> 24050231 Lower is Left. Higher is Right
+//patch=0,EE,002AB650,word,24050231 //Armour bar pos x Does Nothing ???
+//patch=0,EE,002AB7A0,word,24050231 //Oxygen Breath bar pos x
+//patch=0,EE,002AB7E8,word,24050231 //Oxygen Breath bar pos x
+//--------------------------------------------------------------------
+// ---- EOF [Widescreen 16:9 + other Patches] ----
+//--------------------------------------------------------------------
+
+// ---- EOF ----

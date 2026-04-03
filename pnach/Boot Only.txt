@@ -1,0 +1,166 @@
+// ---- PATCH PAL 50/60hz FPS (Fixed) ----
+patch=1,EE,20547BC4,extended,24120002 
+
+// ---- 60 hz EE (Patch EEngine 30 -> 60+) ----
+patch=1,EE,2039B62C,extended,24040001 
+
+[ypos]
+patch=0,EE,00547F84,extended,00000010
+patch=0,EE,00548038,extended,00000010
+
+[xpos]
+patch=0,EE,10547F88,extended,000002A8
+patch=0,EE,1054803C,extended,000002A8
+
+[Skip FMV (Intro Movies) | MPEG Decoder]
+patch=0,EE,20245790,extended,00000000
+patch=0,EE,202457B0,extended,00000000
+
+//Disable Black Bars (Including when subtitles enabled).
+patch=1,EE,206FE66D,extended,00000000
+
+// ---- START OF Dynamic HUD & Radar ----
+
+//-- IF 2079802C = 1 (003D0001) 			|| Disable HUD & RADAR During Cutscenes
+patch=1,EE,E1010001,extended,0079802C // cutscene is active
+patch=1,EE,206FFA64,extended,00000001 // Disable HUD
+patch=1,EE,E1010001,extended,0079802C // cutscene is active
+patch=1,EE,206FFA68,extended,00000002 // Disable RADAR
+
+patch=1,EE,E1010001,extended,0079802C // cutscene is active
+patch=1,EE,2066BCF4,extended,00C75420 // Set Font GTA Header
+
+//-- IF 2079802C = 0 (003D0000) 			|| Enable HUD & RADAR when Cutscenes END
+patch=1,EE,E1010000,extended,0079802C // cutscene is NOT active
+patch=1,EE,206FFA64,extended,00000101 // Enable HUD
+patch=1,EE,E1010000,extended,0079802C // cutscene is NOT active
+patch=1,EE,206FFA68,extended,00000000 // Enable RADAR
+
+patch=1,EE,E1010000,extended,0079802C // cutscene is NOT active
+patch=1,EE,2066BCF4,extended,00C753C8 // Set Font GOTHIC
+
+//-- IF 2066BD44 = 1 (003D0001) 			|| Permanently disable HUD unless player presses L1 to show stats.
+//patch=1,EE,E1010001,extended,0066BD44 // IF Player Press L1 to Show Stats
+//patch=1,EE,206FFA64,extended,00000101 // Enable HUD
+
+//-- IF 2066BD44 = 0 (003D0000)
+//patch=1,EE,E1010000,extended,0066BD44 // IF Player NOT Press L1 to Show Stats
+//patch=1,EE,206FFA64,extended,00000001 // Disable HUD
+
+patch=1,EE,E1010000,extended,0066BD44 // IF Player NOT Press L1 to Show Stats
+patch=1,EE,2066BDA0,extended,00000000 // Hide Time
+
+patch=1,EE,E1010000,extended,0066BD44 // IF Player NOT Press L1 to Show Stats
+patch=1,EE,2066BD7C,extended,00000000 // Hide money
+
+patch=1,EE,E1010001,extended,0066BD44 // IF Player Press L1 to Show Stats
+patch=1,EE,2066BDA0,extended,00000001 // Show Time
+
+patch=1,EE,E1010001,extended,0066BD44 // IF Player Press L1 to Show Stats
+patch=1,EE,2066BD7C,extended,00000001 // Show money
+
+// ---- END OF Dynamic HUD & Radar ----
+
+// ---- Fixes Text & GXT Entries: ----
+//TEXT: "Help" msg boxes showing with big message (Game seems to assume they can show together).  || 144001E3 --> 00000000
+patch=1,EE,202AE490,extended,00000000
+
+//TEXT: SANDSTORM DESERT | SANDSTOR(N) 4544204E -> SANDSTOR(M) 4544204D (Weather Cheats)
+patch=1,EE,20D1C974,extended,4544204D
+
+// ---- FOV (1) ----
+patch=1,EE,0020A498,extended,AC //wtf is this shit ? - 3C02428C -->  3C0242AC
+patch=1,EE,0020817C,extended,AC //wtf is this shit ? - 3C03428C --> 3C0242AC
+patch=1,EE,002ECAB0,extended,40 //wtf is this shit ? - 3C044080 --> 3C044040
+patch=1,EE,002ECB00,extended,D0 //wtf is this shit ? - 3C044080 -->  3C0440D0
+
+// ---- FOV (2) ----
+patch=1,EE,2021DF84,extended,0C044C2F // SetFOV Call 		|| 0C044C30 --> 0C044C2F
+patch=1,EE,20242D54,extended,0C044C32 // SetFOV Call 		|| 0C044C30 --> 0C044C2F or 0C044C32
+patch=1,EE,201130BC,extended,3C013F98 // New SetFOV 		|| 00000000 --> 3C013F98 //probably too big -> //3C013F9D (16,285) | 3C013FC9 (16,329) or 3C01|3FBB to increase further || 4080 = upside down
+patch=1,EE,201130C0,extended,44810000 // New SetFOV 		|| 03E00008 --> 44810000
+patch=1,EE,201130C4,extended,46006302 // New SetFOV 		|| E78C9A90 --> 46006302
+patch=1,EE,201130C8,extended,03e00080 // New SetFOV 		|| 00000000 --> 03e00080
+patch=1,EE,201130CC,extended,E78C9A90 // New SetFOV 		|| 00000000 --> E78C9A90
+patch=1,EE,2020A484,extended,3C013F98 // New SetFOV vehicle max || 3C0242C8 --> 3C024302   or 3C013FBB or 3C013F98
+patch=1,EE,2020A488,extended,3C013F98 // Extra - Fix FOV++ (3) Vehicle FOV issue. || 44820000 --> 46000836 or 40000000 or 3C013F98 , anything that stops is fuckign up will do ?
+
+//--------------------------------------------------------------------
+// ---- HUD & RADAR ----
+//--------------------------------------------------------------------
+
+//L1 "SHOW STATS" Menu (Remove Black Background)
+patch=1,EE,20663D28,extended,439CD555 || 43D4D555 --> 439CD555
+
+// ---- Move Wanted Star pos ----
+patch=1,EE,20663D0C,extended,3F000000 //Inactive Wanted Star Height		|| 3FA1E6B9 (1.26 float)  --> 1.00
+patch=1,EE,20663D10,extended,3F000000 //Inactive Wanted Star Width		|| 3F2D7732 (0.56 float)  --> 0.50
+
+// ---- Move RADAR pos ----
+patch=1,EE,2026E190,extended,3C044280 //Move Radar Pos - Maps || ??? --? 3C044280  (Top Of Screen)
+patch=1,EE,2026AF80,extended,3C034270 //Move Radar Pos - Blips  || ??? --? 3C034270  (Top Of Screen)
+
+// ---- START OF RADAR Remove Black Border ----
+//Remove RADAR Black Border 1/4
+patch=1,EE,202ACD3C,extended,3C024280	|| 3C024280 = 0.007950425148 (float)
+patch=1,EE,202ACD40,extended,3C024280
+patch=1,EE,202ACD50,extended,3C024280 	|| Enable this line or the next line. only need 1/2
+patch=1,EE,202ACD54,extended,3C024280 	|| ...
+// 2/4
+patch=1,EE,202ACD88,extended,3C024280
+patch=1,EE,202ACD8C,extended,3C024280
+patch=1,EE,202ACD9C,extended,3C024280 	|| Enable this line or the next line. only need 1/2
+patch=1,EE,202ACDA0,extended,3C024280  	|| ...
+// 3/4
+patch=1,EE,202ACDD4,extended,3C024280
+patch=1,EE,202ACDD8,extended,3C024280
+patch=1,EE,202ACDE8,extended,3C024280 	|| Enable this line or the next line. only need 1/2
+patch=1,EE,202ACDEC,extended,3C024280  	|| ...
+// 4/4
+patch=1,EE,202ACE20,extended,3C024280
+patch=1,EE,202ACE24,extended,3C024280
+patch=1,EE,202ACE34,extended,3C024280 	|| Enable this line or the next line. only need 1/2
+patch=1,EE,202ACE38,extended,3C024280  	|| ...
+// ---- END OF RADAR Remove Black Border ----
+
+
+patch=1,EE,2066865C,extended,00000000  x,y mirrored image thing. 00000280 (128)| 000001c0 (192)
+patch=1,EE,20668660,extended,00000000  x,y mirrored image thing. 00000280 (128)| 000001c0 (192)
+patch=1,EE,20668664,extended,00000000 // CPostEffects::m_RadiosityFilterPasses
+patch=1,EE,20668668,byte,0 //Radiosity (1) (toggle 0,1)
+patch=1,EE,2066C848,byte,0 //Radiosity (2) (toggle 0,1)
+patch=1,EE,20668670,extended,00000000 // Set intensity of the mirrored image thing. 00000023 (35) | * This was found by editing the "Stream.ini" file values to help find the memory region (see .ct file), but i still cannot find the actual boolean change.
+
+
+//(CPostEffects::ColourFilter) BYTE
+patch=1,EE,2051565B,byte,00 | OC --> 00 or 03 || or al,3C --> cmp al,3C
+
+//Heat Haze Effect (Toggle) (0,1)
+patch=1,EE,2066C820,byte,0
+
+
+//Bloom (Remove)
+patch=1,EE,2066BAE0,byte,00 || 10 (Enabled) --> 00 (Disabled)
+
+
+// Modify BRIGHTNESS or some shit - Inverse ?
+patch=1,EE,206686B8,extended,3FAAAACC //3F800000 --> 3FAAAACC is ok  still some bright sun .
+patch=1,EE,206686BC,extended,3A000000 //3F800000 --> 3A000000 is ok  still some bright sun .
+
+
+// ---- MENU ----
+patch=1,EE,006FFA8F,extended,01 //Menu: Widescreen Toggle (BYTE)
+// ---- UNKNOWN ----
+patch=1,EE,002AD38C,word,C78C8384 //wtf is this shit ?  C78C8994 --> C78C8384
+patch=1,EE,002AD91C,word,3C023F40 //wtf is this shit ?  3C023F80 -->  3C023F40
+patch=1,EE,002A88F0,word,3C013F40 //wtf is this shit ?  3C01007C -->  3C013F40
+patch=1,EE,002A88F4,word,44810000 //wtf is this shit ?  E42C2414 -->  44810000
+patch=1,EE,002A88F8,word,46006302 //wtf is this shit ?  3C01007C -->  46006302
+patch=1,EE,002A88FC,word,3C01007C //wtf is this shit ?  03E00008 -->  3C01007C
+patch=1,EE,002A8900,word,E42C2414 //wtf is this shit ?  E42D2418 -->  E42C2414
+patch=1,EE,002A8904,word,3C01007C //wtf is this shit ?  00000000 -->  3C01007C
+patch=1,EE,002A8908,word,03E00008 //wtf is this shit ?  00000000 -->  3C01007C
+patch=1,EE,002A890C,word,E42D2418 //wtf is this shit ?  00000000 -->  3C01007C
+
+
+
