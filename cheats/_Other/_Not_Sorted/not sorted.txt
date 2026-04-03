@@ -1,5 +1,0 @@
-Step 1 : patch=1,EE,2067ACB4,extended,00000089 // fire truck
-	 patch=1,EE,20553388,extended,00000000 // auto complete
-
-Step 2 : patch=1,EE,2067ACB4,extended,00000092 // ambulance
-	 patch=1,EE,205531CC,extended,00000000 // auto complete
