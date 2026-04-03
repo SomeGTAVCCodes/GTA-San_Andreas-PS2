@@ -1,12 +1,12 @@
 
 [Instructions]
-0. Download the (40.0 MB) ModPack from MODDB
-https://www.moddb.com/mods/gta-san-andreas-mods/downloads/gta-san-andreas-ps2-cheats-app-pnach-companion-app
-1. Use these files (on Github) to Update the MODDB download contents.
-2. Rebuild .iso using mods provided, Add BIOS to pcsx2, edit shortcuts and boot game.
-3. create a save state with boot patches enabled
-*  * tip: load save state before loading a saved game from memory card and any dynamic addresses will be the same.
-4. run the cheat app - if it boots fine and shows a vehicle ID for the label near the spawn VH stuff then your good to go.
+* 0. Download the (40.0 MB) ModPack from MODDB
+* https://www.moddb.com/mods/gta-san-andreas-mods/downloads/gta-san-andreas-ps2-cheats-app-pnach-companion-app
+* 1. Use these files (on Github) to Update the MODDB download contents.
+* 2. Rebuild .iso using mods provided, Add BIOS to pcsx2, edit shortcuts and boot game.
+* 3. create a save state with boot patches enabled
+* *  * tip: load save state before loading a saved game from memory card and any dynamic addresses will be the same.
+* 4. run the cheat app - if it boots fine and shows a vehicle ID for the label near the spawn VH stuff then your good to go.
 * if you get a nil or an error try run as admin.
 
 [GTA SA PS2 Cheats]
