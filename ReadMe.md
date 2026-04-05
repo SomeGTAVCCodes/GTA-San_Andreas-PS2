@@ -3,18 +3,18 @@ Instructions
 
 Step 1:
 Download the (40.0 MB) ModPack from MODDB
-https://www.moddb.com/mods/gta-san-andreas-mods/downloads/gta-san-andreas-ps2-cheats-app-pnach-companion-app
+- https://www.moddb.com/mods/gta-san-andreas-mods/downloads/gta-san-andreas-ps2-cheats-app-pnach-companion-app
 
 Step 2:
-Use these files (on Github) to Update the MODDB download contents from Step 1.
+- Use these files (on Github) to Update the MODDB download contents from Step 1.
 
 Step 3:
 Make sure you have the following files;-
 1. ModPack - updated
 2. GTSA-Cheats-v6.7.32bit-dotnet.EXE 
 3. pnach_companion_app.ini
-* a ".ini" file is required to use the dynamic address cheats & this file MUST be at this location:
-................. - "C:\Games\PS2\PCSX2 1.6.0\pnach_companion_app.ini"
+- ".ini" file is required to use the dynamic address cheats & this file MUST be at this location:
+- "C:\Games\PS2\PCSX2 1.6.0\pnach_companion_app.ini"
 4. Your custom GTASA.iso: Rebuild .iso using mods provided
 5. PCSX2 1.6.0: Add BIOS to pcsx2, edit shortcuts to boot game.
 
