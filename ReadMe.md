@@ -1,35 +1,47 @@
 
 [Instructions]
-* 0. Download the (40.0 MB) ModPack from MODDB
-* https://www.moddb.com/mods/gta-san-andreas-mods/downloads/gta-san-andreas-ps2-cheats-app-pnach-companion-app
-* 1. Use these files (on Github) to Update the MODDB download contents.
-* 2. Rebuild .iso using mods provided, Add BIOS to pcsx2, edit shortcuts and boot game.
-* 3. create a save state with boot patches enabled
-* *  * tip: load save state before loading a saved game from memory card and any dynamic addresses will be the same.
-* 4. run the cheat app - if it boots fine and shows a vehicle ID for the label near the spawn VH stuff then your good to go.
-* if you get a nil or an error try run as admin.
-* an ini file is required to use the dynamic address cheats & this file MUST be at this location:
-................. - "C:\Games\PS2\PCSX2 1.6.0\pnach_companion_app.ini"
+Step 1:
+Download the (40.0 MB) ModPack from MODDB
+https://www.moddb.com/mods/gta-san-andreas-mods/downloads/gta-san-andreas-ps2-cheats-app-pnach-companion-app
 
-[GTA SA PS2 Cheats]
+Step 2:
+Use these files (on Github) to Update the MODDB download contents from Step 1.
+
+Step 3:
+Make sure you have the following files;-
+1. ModPack - updated
+2. GTSA-Cheats-v6.7.32bit-dotnet.EXE 
+3. pnach_companion_app.ini
+* a ".ini" file is required to use the dynamic address cheats & this file MUST be at this location:
+................. - "C:\Games\PS2\PCSX2 1.6.0\pnach_companion_app.ini"
+4. Your custom GTASA.iso: Rebuild .iso using mods provided
+5. PCSX2 1.6.0: Add BIOS to pcsx2, edit shortcuts to boot game.
+
+Tips:
+1. create a save state with boot patches enabled
+2. load save state before loading a saved game from memory card and any dynamic addresses will be the same.
+3. run the cheat app - if it boots fine and shows a vehicle ID for the label near the spawn VH stuff then your good to go.
+* if you get a nil or an error try run as admin.
+
+GTA SA PS2 Cheats
 * pnach companion app (.exe)
 * pnach patches
 * Cheat Table
 * Custom Main.scm
 
-[Apps Used/Required]
+Apps Used/Required
 * Cheat Engine
 * Sanny Builder
 * IMGBurn
 * PCSX2 1.6.0 
 * Notepad++
 
----- [The pnach companion app (.exe);-] ----
+---- The pnach companion app (.exe);- ----
 * Use with the pnach patches for vehicle spawning 
 * Use with the main.scm for teleporting
 * Press info button for more ino 
 
----- [The pnach cheats & patches;-] ----
+---- The pnach cheats & patches;- ----
 * Use with PCSX2 1.6.0
 * Contains a list of all new inputs for the main.scm, app.exe & .pnach patches
 
