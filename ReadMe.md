@@ -1,5 +1,6 @@
 
-[Instructions]
+Instructions
+
 Step 1:
 Download the (40.0 MB) ModPack from MODDB
 https://www.moddb.com/mods/gta-san-andreas-mods/downloads/gta-san-andreas-ps2-cheats-app-pnach-companion-app
