@@ -1,0 +1,14 @@
+
+This file must be located here:
+
+C:\Games\PS2\PCSX2 1.6.0\"pnach_companion_app.ini"
+
+Blame Cheat engine for changing stuff with LUA
+
+and blame LUA maybe because the path must be defined entirely
+.\\... does not work
+./... does not work.
+
+but the absolute path works.
+
+without the ini file present no fall damage, which is a dynamic address, will not work, for safety reasons.
