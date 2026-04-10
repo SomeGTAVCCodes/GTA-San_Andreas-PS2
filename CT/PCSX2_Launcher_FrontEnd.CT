@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries/>
+  <UserdefinedSymbols/>
+  <LuaScript>-- --------------------
+-- ---- References ----
+-- --------------------
+--[[
+    Write 4 bytes to an address (Set money == $10,000)
+    writeBytes(0x207097B4, 0x10, 0x27, 0x00, 0x00)
+
+    Read a 16-bit integer from address 0x12345678
+    local value = readSmallInteger(0x2059ED14)
+    print("Vehicle ID:", value)
+
+
+--]]
+
+-- TODO
+-- Create launcher to load PCSX2 from shortcut, with commands.
+--it may be possible to then immediately boot the cheat app, but need to ensure that app works on immediate boot.
+-- usually it is best to let the player get in game, setup and load their stuff, then they can run app.
+
+-- --------------------
+-- ---- File Check ----
+-- --------------------
+
+FileToCheck = [[C:\Games\PS2\PCSX2 1.6.0\pcsx2.exe]]
+FileToOpen = io.open (FileToCheck)
+canOpen = false
+
+function CheckPCSX2_exe()
+  if FileToOpen ~= nil
+    then
+      print('File exists')
+      canOpen = true
+      OpenPCSX2_exe()
+    else
+      print('PCSX2 Not Found')
+  end
+end
+
+-- ------------------------
+-- ---- File Open, Run ----
+-- ------------------------
+
+function OpenPCSX2_exe()
+  if canOpen == true then
+      -- does not make sense to me here
+      --this opens it
+      --createProcess("C:\\Games\\PS2\\PCSX2 1.6.0\\pcsx2.exe")
+      --local pid = getProcessIDFromProcessName("pcsx2.exe")
+      --and this opens it, so why both here?
+      --openProcess(pid)
+      Run_Shortcut()
+    else
+      -- shutdown app
+      --  t1.Destroy() --not active yet
+      --  t2.Destroy() --not active yet
+      closeCE()
+      return caFree
+  end
+  --showMessage("Opened process: " .. getOpenedProcessID() .. " (" .. process .. ")")
+end
+
+function Run_Shortcut()
+os.execute('start "" "C:\\Games\\PS2\\pcsx2.exe - Fast Boot Game.lnk"')
+end
+
+-- ------------------------
+-- ---- Execute Functions ----
+-- ------------------------
+CheckPCSX2_exe()
+
+</LuaScript>
+</CheatTable>
