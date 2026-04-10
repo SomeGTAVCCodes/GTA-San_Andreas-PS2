@@ -1,0 +1,41 @@
+;--------------------------
+; ---- GTA SAN ANDREAS ----
+;--------------------------
+; * Methods to achieve are intentionally non-disclosed
+; - although users can look at the source code and edit, modify, and craete new ones if they wish.
+; - achievements are static, defined by author.
+
+The Key to San Andreas		Unlock all trophies.
+Getting Started			Complete Big Smoke.
+Represent			Purchase a Grove St Tattoo.
+The End of the Line		Complete End of the Line.
+Hustle Some			Win a game of pool.
+A Legitimate Business 		Export all three car lists.
+The American Dream 		Purchase any house.
+Get a Pump 			Do a dumbbell curl or benchpress at any gym.
+Pay 'n' Spray 			use a Pay 'n' Spray with wanted level.
+Bike or Biker 			Complete BMX or NRG challenge.
+Beat the Cock			Win the Beat the Cock marathon.
+Metrosexual 			Spend $6,969 on clothes, hair, and tattoos.
+School's Out			Complete a vehicle school.
+Serial Offender 		Get arrested 50 times.
+Freight Date 			Take the train between cities.
+Horror of the Santa Maria	Drown.
+Assert Yourself Next Time	Fail a mission.
+What the City Needs	 	Complete 12 levels of Vigilante.
+Savior				Complete 12 levels of Paramedic.
+Rescue a Kitten Too?		Complete 12 levels of Firefighter.
+Yes I Speak English		Reach 50 fares in Taxi Mode.
+Time to Kill			Watch Credits to the end.
+What happens in Las Venturas	Complete Yay Ka-Boom-Boom.
+All Dressed Up for San Fierro	Complete The Green Sabre.
+Home Run			Achieve 'sex' with any of the girlfriends.
+What are the Odds		Win a race in Inside Track Betting.
+Double or Nothin'		Put the maximum bet on red or black and win.
+Assassin			Complete a stealth kill.
+Original Gangster		Reach maximum respect.
+The Los Santos Slayer 		Reach a total kill count of 4,000.
+Public Enemy No. 1		Reach 6 wanted stars.
+Chick Magnet 			Achieve maximum sex appeal.
+Grove Street War Lord		Capture 30 territories.
+;---- GTA SAN ANDREAS END ----
