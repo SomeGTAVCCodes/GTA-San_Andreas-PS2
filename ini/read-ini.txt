@@ -1,15 +1,18 @@
 
 This file must be located here:
-
 C:\Games\PS2\PCSX2 1.6.0\"pnach_companion_app.ini"
 
-Blame Cheat engine for changing stuff with LUA
+It has 2 purposes.
+1. for GTA SAN ANDREAS it updates based on achievements complete / incomplete status.
+2. for ANY PS2 Game the data is used for the AnyPS2Game cheats app.
 
-and blame LUA maybe because the path must be defined entirely
+Notes;-
+* an addditional function can be integrated/ added/ enabled to use the ini file for AOB scans and storing the address results.
+^^ the code is the older file, feature was removed for final version to avoid isues, it worked in CE but not as exe.
+* Blame Cheat engine for changing stuff with LUA
+* and blame LUA maybe because the path must be defined entirely
 .\\... does not work
 ./... does not work.
-
-but the absolute path works.
-and strangely enough - if you use a broken path - a new file will be generated on the desktop. no idea why.
-
-without the ini file present no fall damage, which is a dynamic address, will not work, for safety reasons.
+* but the absolute path works.
+* and strangely enough - if you use a broken path - a new file will be generated on the desktop. no idea why.
+* without the ini file present no fall damage, which is a dynamic address, will not work, for safety reasons.
