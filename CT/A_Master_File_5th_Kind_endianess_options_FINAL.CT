@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries/>
+  <UserdefinedSymbols/>
+  <LuaScript>-- TRAINER START
+
+RequiredCEVersion=7.6
+if (getCEVersion==nil) or (getCEVersion()&lt;RequiredCEVersion) then
+  messageDialog('Please install Cheat Engine '..RequiredCEVersion, mtError, mbOK)
+  closeCE()
+end
+
+local iniFilePath = "C:\\Games\\PS2\\PCSX2 1.6.0\\pnach_companion_app.ini"
+
+-- Function to read a key value from ini file
+local function getIniKey(key)
+    local file = io.open(iniFilePath, "r")
+    if not file then
+        print("Failed to open ini file for reading.")
+        return nil
+    end
+    local valueStr = nil
+    for line in file:lines() do
+        local k, v = line:match("^%s*(%S+)%s*=%s*(.+)$")
+        if k == key then
+            valueStr = v
+            break
+        end
+    end
+    file:close()
+    if valueStr then
+        -- Remove quotes if present
+        valueStr = valueStr:gsub('^"(.+)"$', '%1')
+    end
+    return valueStr
+end
+
+-- Function to get the Cheat address from ini
+local function getCheatAddress(cheatNumber)
+    local addressStr = getIniKey("Cheat"..cheatNumber.."_Address")
+    if not addressStr then
+        print("Cheat"..cheatNumber.."_Address not found in ini file.")
+        return nil
+    end
+    local addressNum = tonumber(addressStr, 16)
+    return addressNum
+end
+
+-- Function to get label and caption
+local function getCheatLabel(cheatNumber)
+    local label = getIniKey("Cheat" .. cheatNumber .. "_Label")
+    return label or "Cheat_"..cheatNumber
+end
+
+local function getCheatCaption(cheatNumber)
+    local caption = getIniKey("Cheat" .. cheatNumber .. "_Caption")
+    return caption or "Cheat_"..cheatNumber
+end
+
+-- Function to get color from ini (handles '0x' prefix)
+local function getColorFromIni(key)
+    local colorStr = getIniKey(key)
+    if not colorStr then
+        print(key .. " not found in ini file. Using default.")
+        return nil
+    end
+    if colorStr:sub(1, 2) == "0x" then
+        colorStr = colorStr:sub(3)
+    end
+    local colorNum = tonumber(colorStr, 16)
+    return colorNum
+end
+
+-- get function type (byte, or bytes) for a cheat from ini
+local function getCheatFunction(cheatNumber)
+    local funcType = getIniKey("Cheat"..cheatNumber.."_Function") or "byte"
+    return string.lower(funcType)
+end
+
+-- Load all cheats into a table
+local cheats = {}
+local index = 1
+while true do
+    local prefix = "Cheat" .. index
+    local label = getIniKey(prefix .. "_Label")
+    if not label then break end -- no more cheats
+
+    local cheat = {
+        number = index,
+        label = getIniKey(prefix .. "_Label") or "Cheat_"..index,
+        caption = getIniKey(prefix .. "_Caption") or "Cheat_"..index,
+        color1 = getColorFromIni(prefix .. "_Colour1") or 0x000000,
+        color2 = getColorFromIni(prefix .. "_Colour2") or 0xFF0000,
+        address = getCheatAddress(index),
+        functionType = getCheatFunction(index),
+        value1 = getIniKey(prefix .. "_Value1"),
+        value2 = getIniKey(prefix .. "_Value2")
+    }
+    table.insert(cheats, cheat)
+    index = index + 1
+end
+
+-- Create form dynamically based on cheat count
+local maxRowsPerColumn = 20
+local maxColumns = 5
+local verticalSpacing = 32
+local columnSpacing = 350
+local startX = 10
+local startY = 10
+local labelCheckboxSpacing = 180 -- space between label and checkbox
+
+local totalHeight = startY + maxRowsPerColumn * verticalSpacing + 50
+local form = createForm(false)
+form.Caption = "Dynamic Cheats Trainer"
+local formW = 10 + maxColumns * columnSpacing + 50
+local formH = totalHeight
+form.Width = formW
+form.Height = formH
+
+for i, cheat in ipairs(cheats) do
+    local colIdx = math.floor((i - 1) / maxRowsPerColumn)
+    local rowIdx = ((i - 1) % maxRowsPerColumn)
+
+    local labelLeft = startX + colIdx * columnSpacing
+    local labelTop = startY + rowIdx * verticalSpacing + 10
+
+    local checkboxLeft = labelLeft + labelCheckboxSpacing
+    local checkboxTop = labelTop
+
+    -- Create label
+    local labelCtrl = createLabel(form)
+    labelCtrl.Caption = getIniKey("Cheat" .. i .. "_Caption") or ("Cheat_"..i)
+    labelCtrl.Left = labelLeft
+    labelCtrl.Top = labelTop
+    labelCtrl.Width = 200
+    labelCtrl.Font.Size = 15
+    labelCtrl.Font = createFont()
+    labelCtrl.Font.Name = "Arial"
+    labelCtrl.Font.Size = 15
+    labelCtrl.Font.Quality = 'fqAntialiased'
+    -- Initialize label color to red (unchecked)
+    labelCtrl.Font.Color = 0xFF0000
+    cheat.labelCtrl = labelCtrl
+
+    -- Create checkbox
+    local checkbox = createCheckBox(form)
+    checkbox.Caption = cheat.label
+    checkbox.Left = checkboxLeft
+    checkbox.Top = checkboxTop
+    checkbox.Width = 150
+    checkbox.Font.Size = 15
+    checkbox.Font = createFont()
+    checkbox.Font.Name = "Arial"
+    checkbox.Font.Size = 15
+    checkbox.Font.Quality = 'fqAntialiased'
+    cheat.checkbox = checkbox
+
+    -- Attach handler with closure capturing cheat
+    local currentCheat = cheat
+    local prefix = "Cheat" .. cheat.number
+    checkbox.OnClick = function()
+        local isChecked = checkbox.Checked
+        -- update label color based on checkbox state
+        if isChecked then
+            -- set to color2 (green)
+            currentCheat.labelCtrl.Font.Color = getColorFromIni(prefix .. "_Colour2") or 0x00FF00
+        else
+            -- set to color1 (red)
+            currentCheat.labelCtrl.Font.Color = getColorFromIni(prefix .. "_Colour1") or 0xFF0000
+        end
+
+        -- Write cheat value
+        local valStr
+        if isChecked then
+            valStr = currentCheat.value1
+        else
+            valStr = currentCheat.value2
+        end
+        if currentCheat.address then
+            local v
+            if currentCheat.functionType == "float" then
+                v = tonumber(valStr)
+                if v then writeFloatToMemory(currentCheat.address, v, currentCheat.endianness) end
+            elseif currentCheat.functionType == "integer16" then
+                v = tonumber(valStr)
+                if v then writeSmallIntegerToMemory(currentCheat.address, v, currentCheat.endianness) end
+            elseif currentCheat.functionType == "integer32" then
+                v = tonumber(valStr)
+                if v then writeIntegerToMemory(currentCheat.address, v, currentCheat.endianness) end
+            elseif currentCheat.functionType == "byte" then
+                local hexStr = valStr
+                if hexStr:sub(1,2)=="0x" then hexStr=hexStr:sub(3) end
+                v = tonumber(hexStr, 16)
+                if v then writeByteToMemory(currentCheat.address, v) end
+            elseif currentCheat.functionType == "bytes" then
+                local hexStr = valStr
+                if hexStr:sub(1,2)=="0x" then hexStr=hexStr:sub(3) end
+                local bytes = {}
+                for j=1, #hexStr, 2 do
+                    local byteStr = hexStr:sub(j,j+1)
+                    local byteVal = tonumber(byteStr,16)
+                    if byteVal then table.insert(bytes, byteVal) else return end
+                end
+                -- reverse bytes
+                for j=1, math.floor(#bytes/2) do
+                    bytes[j], bytes[#bytes - j + 1] = bytes[#bytes - j + 1], bytes[j]
+                end
+                writeBytes(currentCheat.address, bytes)
+            else
+                -- fallback
+                local hexStr = valStr
+                if hexStr:sub(1,2)=="0x" then hexStr=hexStr:sub(3) end
+                v = tonumber(hexStr, 16)
+                if v then writeByteToMemory(currentCheat.address, v) end
+            end
+        end
+    end
+end
+
+-- After creating controls, initialize label colors on load
+local function initializeLabelsAndColors()
+    for i=1, #cheats do
+        local cheat = cheats[i]
+        local prefix = "Cheat" .. i
+        -- Set caption from ini
+        cheat.labelCtrl.Caption = getIniKey(prefix .. "_Caption") or ("Cheat_"..i)
+        -- Set initial color to red (unchecked)
+        cheat.labelCtrl.Font.Color = getColorFromIni(prefix .. "_Colour1") or 0xFF0000
+    end
+end
+
+initializeLabelsAndColors()
+
+-- Attach process
+getAutoAttachList().add("pcsx2.exe")
+gPlaySoundOnAction=false
+
+-- Show form
+form.Show()
+
+-- Update labels function if needed
+local function updateLabels()
+    for i=1, #cheats do
+        local cheat = cheats[i]
+        cheat.labelCtrl.Caption = getIniKey("Cheat" .. i .. "_Caption") or ("Cheat_"..i)
+    end
+end
+
+updateLabels()
+
+-- Refresh layout
+form.Refresh()
+
+-- Helper functions for writing
+function writeByteToMemory(address, value)
+    writeBytes(address, {value &amp; 0xFF})
+end
+
+function writeFloatToMemory(address, value, endianness)
+    writeFloat(address, value, endianness)
+end
+
+function writeIntegerToMemory(address, value, endianness)
+    writeInteger(address, value, endianness)
+end
+
+function writeSmallIntegerToMemory(address, value, endianness)
+    writeSmallInteger(address, value, endianness)
+end
+</LuaScript>
+</CheatTable>
