@@ -1,0 +1,8 @@
+for pcsx2 1.6.0 and san andreas
+code can be modified for any game so users can make custom achievements.
+
+all it does is display achievments images in a grid like pattern on a form IF they are "complete"
+ini file stores the status of the achievements.
+
+these are custom achievements, some are similar or the same as existing official GTA game achievments, some are new.
+
