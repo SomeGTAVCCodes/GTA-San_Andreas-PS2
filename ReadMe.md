@@ -4,7 +4,7 @@ Features;-
 * Cheats and mods for GTA SAN ANDREAS PS2
 * Focussed on PCSX2 1.6.0, pnach cheats.
 * Provides a cheat app, sometimes called a trainer.
-* Also includes an app that can be used to create 100 creates for any ps2 just using an ini and your pnach data.
+* Also includes an app that can be used to create 100 cheats for any ps2 just using an ini and your pnach data.
 
     
 Instructions
