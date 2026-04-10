@@ -10,5 +10,6 @@ and blame LUA maybe because the path must be defined entirely
 ./... does not work.
 
 but the absolute path works.
+and strangely enough - if you use a broken path - a new file will be generated on the desktop. no idea why.
 
 without the ini file present no fall damage, which is a dynamic address, will not work, for safety reasons.
