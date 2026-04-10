@@ -1,4 +1,4 @@
-Fetaures;-
+Features;-
 * Cheats and mods for GTA SAN ANDREAS PS2
 * Focussed on PCSX2 1.6.0, pnach cheats.
 * Provides a cheat app, sometimes called a trainer.
