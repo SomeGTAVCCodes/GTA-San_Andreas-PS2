@@ -1,6 +1,9 @@
+Fetaures;-
+* Cheats and mods for GTA SAN ANDREAS PS2
+* Focussed on PCSX2 1.6.0, pnach cheats.
+* Provides a cheat app, sometimes called a trainer.
+* Also includes an app that can be used to create 100 creates for any ps2 just using an ini and your pnach data.
 
-Notes: 
-- there will be no more content from me on github as i refuse to use 2FA
     
 Instructions
 
@@ -51,3 +54,7 @@ However;-
 PCSX2 OR windows 10 seriously behaves stupid sometimes and randomly thinks pad buttons are pressed or switches the pad ID's etc and sometimes it cna cause the vehicel ID int he app to either break or display is like 857 or something stupidly high, - unpluggin controllers and putting em back seems to work. i have not tested stuff like swapping xbox controllers to ps3/ps4/ps5 on pc or swapping everythign over to windows 7 to determine what is happening becuase i cannot get PS3 controllers workign with pcsx2 1.6.0.
 
 p.s. github's b_llsh_t with silencing and blocking profanity and the entire worlds dumbass movements towars 2FA that does abosultely nothing useful can f off 
+
+
+Notes: 
+- there will be no more content from me on github as i refuse to use 2FA
